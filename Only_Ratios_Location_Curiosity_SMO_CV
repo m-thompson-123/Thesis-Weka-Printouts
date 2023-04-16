@@ -1,0 +1,1229 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     Medium All Sites Combined Data Only Ratios for Location-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   12
+              288.24899
+              427.62112
+              670.98114
+              K/Rb
+              K/Na
+              Ti/K
+              Ca/Ti
+              Mg/Ti
+              Ca/H
+              Mg/H
+              O/Mn
+              Location
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Cooperstown, Gobabeb
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0565 * (normalized) 288.24899
+ +      -2.6481 * (normalized) 427.62112
+ +      -4.5941 * (normalized) 670.98114
+ +      -6.489  * (normalized) K/Rb
+ +       4.9382 * (normalized) K/Na
+ +      -6.9577 * (normalized) Ti/K
+ +       1.3402 * (normalized) Ca/Ti
+ +      -1.5274 * (normalized) Mg/Ti
+ +      -0.2614 * (normalized) Ca/H
+ +      11.4629 * (normalized) Mg/H
+ +      -1.2021 * (normalized) O/Mn
+ +       0.7912
+
+Number of kernel evaluations: 30278 (67.597% cached)
+
+Classifier for classes: Cooperstown, Kimberley
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.9391 * (normalized) 288.24899
+ +      -0.2404 * (normalized) 427.62112
+ +      -0.9584 * (normalized) 670.98114
+ +       1.7669 * (normalized) K/Rb
+ +       6.1161 * (normalized) K/Na
+ +      -0.5706 * (normalized) Ti/K
+ +       0.4453 * (normalized) Ca/Ti
+ +       0.2456 * (normalized) Mg/Ti
+ +       0.5162 * (normalized) Ca/H
+ +       2.0957 * (normalized) Mg/H
+ +      -0.152  * (normalized) O/Mn
+ -       2.4471
+
+Number of kernel evaluations: 10616 (67.453% cached)
+
+Classifier for classes: Cooperstown, Marias Pass
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.934  * (normalized) 288.24899
+ +      -2.6773 * (normalized) 427.62112
+ +      -2.4942 * (normalized) 670.98114
+ +      -4.0792 * (normalized) K/Rb
+ +       0.9237 * (normalized) K/Na
+ +       4.127  * (normalized) Ti/K
+ +      -2.8062 * (normalized) Ca/Ti
+ +      -4.7263 * (normalized) Mg/Ti
+ +       2.2199 * (normalized) Ca/H
+ +       5.7024 * (normalized) Mg/H
+ +       5.6859 * (normalized) O/Mn
+ -       1.3753
+
+Number of kernel evaluations: 34373 (62.515% cached)
+
+Classifier for classes: Cooperstown, Murray Buttes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.9657 * (normalized) 288.24899
+ +      -2.3334 * (normalized) 427.62112
+ +      -2.7261 * (normalized) 670.98114
+ +      -8.0598 * (normalized) K/Rb
+ +       4.868  * (normalized) K/Na
+ +      -8.1171 * (normalized) Ti/K
+ +       2.1522 * (normalized) Ca/Ti
+ +      -2.1276 * (normalized) Mg/Ti
+ +      -1.0829 * (normalized) Ca/H
+ +      11.0184 * (normalized) Mg/H
+ +       1.2467 * (normalized) O/Mn
+ +       0.1112
+
+Number of kernel evaluations: 43256 (65.375% cached)
+
+Classifier for classes: Cooperstown, Ogunquit Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4016 * (normalized) 288.24899
+ +      -2.9419 * (normalized) 427.62112
+ +       0.5681 * (normalized) 670.98114
+ +      -8.1323 * (normalized) K/Rb
+ +       7.3715 * (normalized) K/Na
+ +     -10.0855 * (normalized) Ti/K
+ +      -2.5526 * (normalized) Ca/Ti
+ +       0.0842 * (normalized) Mg/Ti
+ +      -2.1027 * (normalized) Ca/H
+ +      10.0713 * (normalized) Mg/H
+ +       0.9507 * (normalized) O/Mn
+ +       1.5534
+
+Number of kernel evaluations: 31509 (64.798% cached)
+
+Classifier for classes: Cooperstown, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.8224 * (normalized) 288.24899
+ +      -1.902  * (normalized) 427.62112
+ +      -1.1731 * (normalized) 670.98114
+ +      -4.6183 * (normalized) K/Rb
+ +      -0.0875 * (normalized) K/Na
+ +      -1.9225 * (normalized) Ti/K
+ +      -2.8433 * (normalized) Ca/Ti
+ +       1.4923 * (normalized) Mg/Ti
+ +       0.364  * (normalized) Ca/H
+ +       9.1858 * (normalized) Mg/H
+ +      -1.0693 * (normalized) O/Mn
+ -       1.1756
+
+Number of kernel evaluations: 34203 (62.754% cached)
+
+Classifier for classes: Cooperstown, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1459 * (normalized) 288.24899
+ +      -3.5791 * (normalized) 427.62112
+ +      -1.7442 * (normalized) 670.98114
+ +      -7.6183 * (normalized) K/Rb
+ +       6.9739 * (normalized) K/Na
+ +     -10.335  * (normalized) Ti/K
+ +      -3.8388 * (normalized) Ca/Ti
+ +       2.841  * (normalized) Mg/Ti
+ +      -7.6076 * (normalized) Ca/H
+ +      10.9351 * (normalized) Mg/H
+ +      -0.8793 * (normalized) O/Mn
+ +       1.9249
+
+Number of kernel evaluations: 41182 (62.985% cached)
+
+Classifier for classes: Cooperstown, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.5731 * (normalized) 288.24899
+ +      -2.4907 * (normalized) 427.62112
+ +      -8.1497 * (normalized) 670.98114
+ +      -9.5359 * (normalized) K/Rb
+ +      -0.181  * (normalized) K/Na
+ +      -3.4827 * (normalized) Ti/K
+ +      -0.0334 * (normalized) Ca/Ti
+ +      -1.0853 * (normalized) Mg/Ti
+ +      -1.0391 * (normalized) Ca/H
+ +       8.3433 * (normalized) Mg/H
+ +       1.1641 * (normalized) O/Mn
+ +       1.5667
+
+Number of kernel evaluations: 64508 (65.711% cached)
+
+Classifier for classes: Cooperstown, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0146 * (normalized) 288.24899
+ +      -3.5748 * (normalized) 427.62112
+ +      -2.2358 * (normalized) 670.98114
+ +      -6.5136 * (normalized) K/Rb
+ +       7.7476 * (normalized) K/Na
+ +      -8.3543 * (normalized) Ti/K
+ +      -3.0258 * (normalized) Ca/Ti
+ +      -1.5069 * (normalized) Mg/Ti
+ +      -0.9764 * (normalized) Ca/H
+ +      14.0311 * (normalized) Mg/H
+ +       0.0602 * (normalized) O/Mn
+ +       0.8965
+
+Number of kernel evaluations: 38982 (63.791% cached)
+
+Classifier for classes: Cooperstown, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -3.8913 * (normalized) 288.24899
+ +       2.0767 * (normalized) 427.62112
+ +      -1.7612 * (normalized) 670.98114
+ +      -4.1747 * (normalized) K/Rb
+ +      -3.3279 * (normalized) K/Na
+ +      -1.3704 * (normalized) Ti/K
+ +       0.0785 * (normalized) Ca/Ti
+ +       1.7552 * (normalized) Mg/Ti
+ +       2.5649 * (normalized) Ca/H
+ +       8.5306 * (normalized) Mg/H
+ +       0.7957 * (normalized) O/Mn
+ +       0.5062
+
+Number of kernel evaluations: 21641 (65.294% cached)
+
+Classifier for classes: Gobabeb, Kimberley
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6275 * (normalized) 288.24899
+ +       0.8406 * (normalized) 427.62112
+ +       0.664  * (normalized) 670.98114
+ +       5.8483 * (normalized) K/Rb
+ +       4.1514 * (normalized) K/Na
+ +      -0.5613 * (normalized) Ti/K
+ +       1.4237 * (normalized) Ca/Ti
+ +       1.4259 * (normalized) Mg/Ti
+ +       0.5832 * (normalized) Ca/H
+ +      -3.6696 * (normalized) Mg/H
+ +       0.0696 * (normalized) O/Mn
+ -       2.606 
+
+Number of kernel evaluations: 5457 (69.959% cached)
+
+Classifier for classes: Gobabeb, Marias Pass
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.1513 * (normalized) 288.24899
+ +       1.1777 * (normalized) 427.62112
+ +       3.109  * (normalized) 670.98114
+ +       0.4541 * (normalized) K/Rb
+ +      -3.1529 * (normalized) K/Na
+ +      10.503  * (normalized) Ti/K
+ +      -0.901  * (normalized) Ca/Ti
+ +      -3.9045 * (normalized) Mg/Ti
+ +       3.0445 * (normalized) Ca/H
+ +      -4.7588 * (normalized) Mg/H
+ +       6.4715 * (normalized) O/Mn
+ -       2.1122
+
+Number of kernel evaluations: 22763 (68.385% cached)
+
+Classifier for classes: Gobabeb, Murray Buttes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         5.3453 * (normalized) 288.24899
+ +       1.8176 * (normalized) 427.62112
+ +       3.5935 * (normalized) 670.98114
+ +      -3.4146 * (normalized) K/Rb
+ +       0.4608 * (normalized) K/Na
+ +      -3.6535 * (normalized) Ti/K
+ +       2.8181 * (normalized) Ca/Ti
+ +       1.4199 * (normalized) Mg/Ti
+ +      -1.313  * (normalized) Ca/H
+ +      -0.5186 * (normalized) Mg/H
+ +       3.8415 * (normalized) O/Mn
+ -       1.8113
+
+Number of kernel evaluations: 24071 (64.309% cached)
+
+Classifier for classes: Gobabeb, Ogunquit Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5197 * (normalized) 288.24899
+ +      -1.9103 * (normalized) 427.62112
+ +      10.9546 * (normalized) 670.98114
+ +      -1.2793 * (normalized) K/Rb
+ +       1.9183 * (normalized) K/Na
+ +      -2.1637 * (normalized) Ti/K
+ +      -3.6738 * (normalized) Ca/Ti
+ +       2.4926 * (normalized) Mg/Ti
+ +      -5.3709 * (normalized) Ca/H
+ +      -0.6551 * (normalized) Mg/H
+ +       2.0004 * (normalized) O/Mn
+ +       1.3343
+
+Number of kernel evaluations: 21536 (66.433% cached)
+
+Classifier for classes: Gobabeb, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         4.0253 * (normalized) 288.24899
+ +       2.8469 * (normalized) 427.62112
+ +       5.1916 * (normalized) 670.98114
+ +      -0.8356 * (normalized) K/Rb
+ +      -4.4083 * (normalized) K/Na
+ +       2.4941 * (normalized) Ti/K
+ +       0.9136 * (normalized) Ca/Ti
+ +       3.1596 * (normalized) Mg/Ti
+ +       2.2063 * (normalized) Ca/H
+ +      -2.37   * (normalized) Mg/H
+ +       0.7268 * (normalized) O/Mn
+ -       2.4032
+
+Number of kernel evaluations: 21481 (60.812% cached)
+
+Classifier for classes: Gobabeb, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0763 * (normalized) 288.24899
+ +      -2.3095 * (normalized) 427.62112
+ +       5.3084 * (normalized) 670.98114
+ +      -1.141  * (normalized) K/Rb
+ +       2.1153 * (normalized) K/Na
+ +      -3.3279 * (normalized) Ti/K
+ +      -2.7347 * (normalized) Ca/Ti
+ +       4.5199 * (normalized) Mg/Ti
+ +     -10.278  * (normalized) Ca/H
+ +       1.2491 * (normalized) Mg/H
+ +      -0.6425 * (normalized) O/Mn
+ +       1.4171
+
+Number of kernel evaluations: 34662 (63.748% cached)
+
+Classifier for classes: Gobabeb, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6906 * (normalized) 288.24899
+ +       0.893  * (normalized) 427.62112
+ +      -0.3408 * (normalized) 670.98114
+ +      -0.2182 * (normalized) K/Rb
+ +      -2.6727 * (normalized) K/Na
+ +       0.9054 * (normalized) Ti/K
+ +      -0.0521 * (normalized) Ca/Ti
+ +       0.6988 * (normalized) Mg/Ti
+ +      -0.4587 * (normalized) Ca/H
+ +      -0.3448 * (normalized) Mg/H
+ +       1.525  * (normalized) O/Mn
+ +       0.7013
+
+Number of kernel evaluations: 45396 (73.549% cached)
+
+Classifier for classes: Gobabeb, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1865 * (normalized) 288.24899
+ +      -0.0923 * (normalized) 427.62112
+ +       0.5411 * (normalized) 670.98114
+ +      -0.0844 * (normalized) K/Rb
+ +       1.931  * (normalized) K/Na
+ +      -1.2431 * (normalized) Ti/K
+ +      -4.0371 * (normalized) Ca/Ti
+ +      -0.699  * (normalized) Mg/Ti
+ +      -0.8772 * (normalized) Ca/H
+ +       0.4137 * (normalized) Mg/H
+ +      -0.173  * (normalized) O/Mn
+ +       1.043 
+
+Number of kernel evaluations: 50852 (73.367% cached)
+
+Classifier for classes: Gobabeb, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -6.2884 * (normalized) 288.24899
+ +       9.2481 * (normalized) 427.62112
+ +       0.5883 * (normalized) 670.98114
+ +      -1.653  * (normalized) K/Rb
+ +      -4.0297 * (normalized) K/Na
+ +       6.1421 * (normalized) Ti/K
+ +      -2.0267 * (normalized) Ca/Ti
+ +       1.9978 * (normalized) Mg/Ti
+ +       0.3658 * (normalized) Ca/H
+ +       3.8658 * (normalized) Mg/H
+ +       0.6954 * (normalized) O/Mn
+ -       0.612 
+
+Number of kernel evaluations: 18382 (64.25% cached)
+
+Classifier for classes: Kimberley, Marias Pass
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5677 * (normalized) 288.24899
+ +      -0.5719 * (normalized) 427.62112
+ +      -0.9063 * (normalized) 670.98114
+ +      -4.2577 * (normalized) K/Rb
+ +      -4.0813 * (normalized) K/Na
+ +       2.5744 * (normalized) Ti/K
+ +      -2.3881 * (normalized) Ca/Ti
+ +      -2.2075 * (normalized) Mg/Ti
+ +      -0.1754 * (normalized) Ca/H
+ +      -0.2595 * (normalized) Mg/H
+ +       1.1591 * (normalized) O/Mn
+ +       2.4656
+
+Number of kernel evaluations: 7985 (62.363% cached)
+
+Classifier for classes: Kimberley, Murray Buttes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.4887 * (normalized) 288.24899
+ +       0.469  * (normalized) 427.62112
+ +       0.79   * (normalized) 670.98114
+ +      -6.7576 * (normalized) K/Rb
+ +      -3.5861 * (normalized) K/Na
+ +      -0.0782 * (normalized) Ti/K
+ +      -1.1895 * (normalized) Ca/Ti
+ +      -0.9127 * (normalized) Mg/Ti
+ +      -1.7923 * (normalized) Ca/H
+ +       2.0121 * (normalized) Mg/H
+ +       0.4218 * (normalized) O/Mn
+ +       2.2402
+
+Number of kernel evaluations: 12317 (68.289% cached)
+
+Classifier for classes: Kimberley, Ogunquit Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.7147 * (normalized) 288.24899
+ +      -0.3801 * (normalized) 427.62112
+ +       2.5169 * (normalized) 670.98114
+ +      -6.0598 * (normalized) K/Rb
+ +      -3.9573 * (normalized) K/Na
+ +       0.5343 * (normalized) Ti/K
+ +      -1.7239 * (normalized) Ca/Ti
+ +      -0.9639 * (normalized) Mg/Ti
+ +      -1.6769 * (normalized) Ca/H
+ +       2.9939 * (normalized) Mg/H
+ +       0.5189 * (normalized) O/Mn
+ +       2.583 
+
+Number of kernel evaluations: 9868 (70.038% cached)
+
+Classifier for classes: Kimberley, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.282  * (normalized) 288.24899
+ +      -0.2828 * (normalized) 427.62112
+ +       1.0187 * (normalized) 670.98114
+ +      -3.6459 * (normalized) K/Rb
+ +      -5.4262 * (normalized) K/Na
+ +       0.573  * (normalized) Ti/K
+ +      -0.9223 * (normalized) Ca/Ti
+ +       1.4956 * (normalized) Mg/Ti
+ +       0.1852 * (normalized) Ca/H
+ +       1.7931 * (normalized) Mg/H
+ +      -0.0595 * (normalized) O/Mn
+ +       1.6922
+
+Number of kernel evaluations: 15745 (67.024% cached)
+
+Classifier for classes: Kimberley, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3792 * (normalized) 288.24899
+ +      -1.7015 * (normalized) 427.62112
+ +       1.2468 * (normalized) 670.98114
+ +      -5.3553 * (normalized) K/Rb
+ +      -3.3541 * (normalized) K/Na
+ +      -0.2252 * (normalized) Ti/K
+ +      -1.8746 * (normalized) Ca/Ti
+ +       0.0251 * (normalized) Mg/Ti
+ +      -3.7342 * (normalized) Ca/H
+ +       2.9202 * (normalized) Mg/H
+ +       0.3562 * (normalized) O/Mn
+ +       2.7542
+
+Number of kernel evaluations: 6838 (67.092% cached)
+
+Classifier for classes: Kimberley, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1937 * (normalized) 288.24899
+ +       0.0463 * (normalized) 427.62112
+ +      -0.8435 * (normalized) 670.98114
+ +      -4.5967 * (normalized) K/Rb
+ +      -4.7095 * (normalized) K/Na
+ +       0.2044 * (normalized) Ti/K
+ +      -1.1708 * (normalized) Ca/Ti
+ +      -1.0769 * (normalized) Mg/Ti
+ +      -0.732  * (normalized) Ca/H
+ +       1.6969 * (normalized) Mg/H
+ +       0.5998 * (normalized) O/Mn
+ +       2.2609
+
+Number of kernel evaluations: 8566 (64.686% cached)
+
+Classifier for classes: Kimberley, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.8809 * (normalized) 288.24899
+ +      -0.4089 * (normalized) 427.62112
+ +      -0.7173 * (normalized) 670.98114
+ +      -5.7287 * (normalized) K/Rb
+ +      -3.3501 * (normalized) K/Na
+ +       0.5429 * (normalized) Ti/K
+ +      -1.4051 * (normalized) Ca/Ti
+ +      -1.2446 * (normalized) Mg/Ti
+ +      -1.4436 * (normalized) Ca/H
+ +       3.8344 * (normalized) Mg/H
+ +      -0.1399 * (normalized) O/Mn
+ +       2.7523
+
+Number of kernel evaluations: 8206 (65.467% cached)
+
+Classifier for classes: Kimberley, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -3.1824 * (normalized) 288.24899
+ +       2.3697 * (normalized) 427.62112
+ +      -0.2301 * (normalized) 670.98114
+ +      -3.4574 * (normalized) K/Rb
+ +      -5.0889 * (normalized) K/Na
+ +       1.4822 * (normalized) Ti/K
+ +      -0.6262 * (normalized) Ca/Ti
+ +      -0.2686 * (normalized) Mg/Ti
+ +       0.3907 * (normalized) Ca/H
+ +       0.7609 * (normalized) Mg/H
+ +       0.477  * (normalized) O/Mn
+ +       2.1302
+
+Number of kernel evaluations: 6182 (68.511% cached)
+
+Classifier for classes: Marias Pass, Murray Buttes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1055 * (normalized) 288.24899
+ +       1.7651 * (normalized) 427.62112
+ +      -0.696  * (normalized) 670.98114
+ +      -1.6039 * (normalized) K/Rb
+ +       3.2245 * (normalized) K/Na
+ +     -14.7543 * (normalized) Ti/K
+ +       4.2492 * (normalized) Ca/Ti
+ +       5.4655 * (normalized) Mg/Ti
+ +      -2.8439 * (normalized) Ca/H
+ +       6.2812 * (normalized) Mg/H
+ +      -4.51   * (normalized) O/Mn
+ +       0.3713
+
+Number of kernel evaluations: 36060 (65.629% cached)
+
+Classifier for classes: Marias Pass, Ogunquit Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -3.1485 * (normalized) 288.24899
+ +      -0.5138 * (normalized) 427.62112
+ +       4.3337 * (normalized) 670.98114
+ +      -1.16   * (normalized) K/Rb
+ +       3.7737 * (normalized) K/Na
+ +     -12.3748 * (normalized) Ti/K
+ +       0.2624 * (normalized) Ca/Ti
+ +       5.929  * (normalized) Mg/Ti
+ +      -5.4231 * (normalized) Ca/H
+ +       3.2081 * (normalized) Mg/H
+ +      -5.2699 * (normalized) O/Mn
+ +       2.2347
+
+Number of kernel evaluations: 29140 (65.569% cached)
+
+Classifier for classes: Marias Pass, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.7176 * (normalized) 288.24899
+ +       2.0673 * (normalized) 427.62112
+ +       1.5699 * (normalized) 670.98114
+ +      -1.1636 * (normalized) K/Rb
+ +      -0.2986 * (normalized) K/Na
+ +      -9.2174 * (normalized) Ti/K
+ +       1.9675 * (normalized) Ca/Ti
+ +       5.4323 * (normalized) Mg/Ti
+ +       0.0585 * (normalized) Ca/H
+ +       4.7175 * (normalized) Mg/H
+ +      -5.8437 * (normalized) O/Mn
+ -       0.4453
+
+Number of kernel evaluations: 28881 (66.704% cached)
+
+Classifier for classes: Marias Pass, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.6146 * (normalized) 288.24899
+ +      -0.9579 * (normalized) 427.62112
+ +       0.6003 * (normalized) 670.98114
+ +      -1.3508 * (normalized) K/Rb
+ +       3.4364 * (normalized) K/Na
+ +     -11.8607 * (normalized) Ti/K
+ +       0.2146 * (normalized) Ca/Ti
+ +       6.9377 * (normalized) Mg/Ti
+ +      -8.8275 * (normalized) Ca/H
+ +       5.0377 * (normalized) Mg/H
+ +      -6.4175 * (normalized) O/Mn
+ +       2.1235
+
+Number of kernel evaluations: 46594 (67.13% cached)
+
+Classifier for classes: Marias Pass, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1651 * (normalized) 288.24899
+ +       0.5083 * (normalized) 427.62112
+ +      -3.3017 * (normalized) 670.98114
+ +      -1.7384 * (normalized) K/Rb
+ +      -3.1133 * (normalized) K/Na
+ +      -3.2315 * (normalized) Ti/K
+ +       0.073  * (normalized) Ca/Ti
+ +       2.4333 * (normalized) Mg/Ti
+ +      -1.27   * (normalized) Ca/H
+ +       1.3561 * (normalized) Mg/H
+ +      -0.998  * (normalized) O/Mn
+ +       1.5736
+
+Number of kernel evaluations: 57269 (75.503% cached)
+
+Classifier for classes: Marias Pass, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -3.4191 * (normalized) 288.24899
+ +      -0.8809 * (normalized) 427.62112
+ +      -0.3009 * (normalized) 670.98114
+ +       0.3162 * (normalized) K/Rb
+ +       5.3756 * (normalized) K/Na
+ +     -11.1327 * (normalized) Ti/K
+ +      -0.7385 * (normalized) Ca/Ti
+ +       2.7379 * (normalized) Mg/Ti
+ +      -3.4327 * (normalized) Ca/H
+ +       6.6216 * (normalized) Mg/H
+ +      -5.7057 * (normalized) O/Mn
+ +       1.8391
+
+Number of kernel evaluations: 46177 (66.328% cached)
+
+Classifier for classes: Marias Pass, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -5.6028 * (normalized) 288.24899
+ +       3.4465 * (normalized) 427.62112
+ +      -2.6842 * (normalized) 670.98114
+ +      -1.7365 * (normalized) K/Rb
+ +      -0.8396 * (normalized) K/Na
+ +      -3.5375 * (normalized) Ti/K
+ +      -1.0987 * (normalized) Ca/Ti
+ +       3.531  * (normalized) Mg/Ti
+ +      -1.0699 * (normalized) Ca/H
+ +       3.7688 * (normalized) Mg/H
+ +      -3.541  * (normalized) O/Mn
+ +       1.7362
+
+Number of kernel evaluations: 23605 (67.11% cached)
+
+Classifier for classes: Murray Buttes, Ogunquit Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -5.0527 * (normalized) 288.24899
+ +      -4.6526 * (normalized) 427.62112
+ +      10.0588 * (normalized) 670.98114
+ +       1.4177 * (normalized) K/Rb
+ +       1.9053 * (normalized) K/Na
+ +       1.4036 * (normalized) Ti/K
+ +      -5.5043 * (normalized) Ca/Ti
+ +      -0.1626 * (normalized) Mg/Ti
+ +      -2.4266 * (normalized) Ca/H
+ +       1.7562 * (normalized) Mg/H
+ +      -0.766  * (normalized) O/Mn
+ +       2.4795
+
+Number of kernel evaluations: 21957 (59.305% cached)
+
+Classifier for classes: Murray Buttes, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.9206 * (normalized) 288.24899
+ +       3.084  * (normalized) 427.62112
+ +       3.4546 * (normalized) 670.98114
+ +      -0.2154 * (normalized) K/Rb
+ +      -6.6056 * (normalized) K/Na
+ +       6.725  * (normalized) Ti/K
+ +       0.1488 * (normalized) Ca/Ti
+ +       1.8606 * (normalized) Mg/Ti
+ +       5.7397 * (normalized) Ca/H
+ +      -2.4746 * (normalized) Mg/H
+ +      -3.08   * (normalized) O/Mn
+ -       2.0022
+
+Number of kernel evaluations: 19458 (63.36% cached)
+
+Classifier for classes: Murray Buttes, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -4.005  * (normalized) 288.24899
+ +      -6.8167 * (normalized) 427.62112
+ +       3.068  * (normalized) 670.98114
+ +       3.0106 * (normalized) K/Rb
+ +       2.1371 * (normalized) K/Na
+ +      -0.9436 * (normalized) Ti/K
+ +      -4.4066 * (normalized) Ca/Ti
+ +       3.6136 * (normalized) Mg/Ti
+ +      -9.5273 * (normalized) Ca/H
+ +       1.5345 * (normalized) Mg/H
+ +      -3.2597 * (normalized) O/Mn
+ +       2.8984
+
+Number of kernel evaluations: 25639 (63.158% cached)
+
+Classifier for classes: Murray Buttes, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0763 * (normalized) 288.24899
+ +       0.2732 * (normalized) 427.62112
+ +      -4.2116 * (normalized) 670.98114
+ +       1.0917 * (normalized) K/Rb
+ +      -4.0455 * (normalized) K/Na
+ +       1.7767 * (normalized) Ti/K
+ +      -2.9387 * (normalized) Ca/Ti
+ +       0.6264 * (normalized) Mg/Ti
+ +       1.4398 * (normalized) Ca/H
+ +      -0.7255 * (normalized) Mg/H
+ +      -0.2115 * (normalized) O/Mn
+ +       1.0184
+
+Number of kernel evaluations: 102772 (72.87% cached)
+
+Classifier for classes: Murray Buttes, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -6.62   * (normalized) 288.24899
+ +      -1.571  * (normalized) 427.62112
+ +      -0.2605 * (normalized) 670.98114
+ +       6.0711 * (normalized) K/Rb
+ +       3.9568 * (normalized) K/Na
+ +       2.0631 * (normalized) Ti/K
+ +      -4.4302 * (normalized) Ca/Ti
+ +      -3.1399 * (normalized) Mg/Ti
+ +      -0.0097 * (normalized) Ca/H
+ +       5.9437 * (normalized) Mg/H
+ +      -3.1401 * (normalized) O/Mn
+ +       1.5073
+
+Number of kernel evaluations: 23916 (62.624% cached)
+
+Classifier for classes: Murray Buttes, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -7.058  * (normalized) 288.24899
+ +       6.4164 * (normalized) 427.62112
+ +      -0.0336 * (normalized) 670.98114
+ +      -0.141  * (normalized) K/Rb
+ +      -4.1295 * (normalized) K/Na
+ +       6.9767 * (normalized) Ti/K
+ +      -4.0314 * (normalized) Ca/Ti
+ +       0.5004 * (normalized) Mg/Ti
+ +       0.8722 * (normalized) Ca/H
+ +       2.3223 * (normalized) Mg/H
+ +      -1.5691 * (normalized) O/Mn
+ +       0.5417
+
+Number of kernel evaluations: 20848 (62.91% cached)
+
+Classifier for classes: Ogunquit Beach, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.3065 * (normalized) 288.24899
+ +       4.526  * (normalized) 427.62112
+ +      -5.1478 * (normalized) 670.98114
+ +       0.7296 * (normalized) K/Rb
+ +      -6.2287 * (normalized) K/Na
+ +       4.5236 * (normalized) Ti/K
+ +       2.4311 * (normalized) Ca/Ti
+ +       1.7397 * (normalized) Mg/Ti
+ +       5.7049 * (normalized) Ca/H
+ +      -2.4305 * (normalized) Mg/H
+ +      -1.9935 * (normalized) O/Mn
+ -       2.5912
+
+Number of kernel evaluations: 22291 (66.229% cached)
+
+Classifier for classes: Ogunquit Beach, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5285 * (normalized) 288.24899
+ +      -1.0798 * (normalized) 427.62112
+ +      -6.2126 * (normalized) 670.98114
+ +       0.4857 * (normalized) K/Rb
+ +       0.5019 * (normalized) K/Na
+ +      -1.5655 * (normalized) Ti/K
+ +      -0.5451 * (normalized) Ca/Ti
+ +       3.3456 * (normalized) Mg/Ti
+ +      -8.1442 * (normalized) Ca/H
+ +       1.3323 * (normalized) Mg/H
+ +      -2.8858 * (normalized) O/Mn
+ +       1.0308
+
+Number of kernel evaluations: 35616 (67.081% cached)
+
+Classifier for classes: Ogunquit Beach, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.0317 * (normalized) 288.24899
+ +       4.6693 * (normalized) 427.62112
+ +     -15.6638 * (normalized) 670.98114
+ +      -1.205  * (normalized) K/Rb
+ +      -8.8581 * (normalized) K/Na
+ +       5.9075 * (normalized) Ti/K
+ +       1.9897 * (normalized) Ca/Ti
+ +      -0.1748 * (normalized) Mg/Ti
+ +       5.1828 * (normalized) Ca/H
+ +      -2.5818 * (normalized) Mg/H
+ +       0.491  * (normalized) O/Mn
+ -       0.88  
+
+Number of kernel evaluations: 30967 (61.537% cached)
+
+Classifier for classes: Ogunquit Beach, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.7317 * (normalized) 288.24899
+ +       1.6497 * (normalized) 427.62112
+ +     -10.7985 * (normalized) 670.98114
+ +       2.9259 * (normalized) K/Rb
+ +       1.2088 * (normalized) K/Na
+ +       1.4529 * (normalized) Ti/K
+ +      -1.8744 * (normalized) Ca/Ti
+ +      -4.7661 * (normalized) Mg/Ti
+ +       3.282  * (normalized) Ca/H
+ +       3.0471 * (normalized) Mg/H
+ +      -2.5057 * (normalized) O/Mn
+ +       0.2785
+
+Number of kernel evaluations: 22639 (61.383% cached)
+
+Classifier for classes: Ogunquit Beach, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -5.2387 * (normalized) 288.24899
+ +       7.995  * (normalized) 427.62112
+ +      -2.2928 * (normalized) 670.98114
+ +      -1.3417 * (normalized) K/Rb
+ +      -4.5678 * (normalized) K/Na
+ +       6.9141 * (normalized) Ti/K
+ +      -0.3619 * (normalized) Ca/Ti
+ +       0.5626 * (normalized) Mg/Ti
+ +       3.3252 * (normalized) Ca/H
+ +       3.9295 * (normalized) Mg/H
+ +      -0.8741 * (normalized) O/Mn
+ -       0.803 
+
+Number of kernel evaluations: 17793 (62.828% cached)
+
+Classifier for classes: Pahrump Hills, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.5314 * (normalized) 288.24899
+ +      -4.9079 * (normalized) 427.62112
+ +       0.8423 * (normalized) 670.98114
+ +      -0.5128 * (normalized) K/Rb
+ +       5.8773 * (normalized) K/Na
+ +      -5.836  * (normalized) Ti/K
+ +      -1.7639 * (normalized) Ca/Ti
+ +      -0.1587 * (normalized) Mg/Ti
+ +     -10.3515 * (normalized) Ca/H
+ +       3.1246 * (normalized) Mg/H
+ +       0.127  * (normalized) O/Mn
+ +       2.7069
+
+Number of kernel evaluations: 28137 (66.99% cached)
+
+Classifier for classes: Pahrump Hills, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.0833 * (normalized) 288.24899
+ +       0.0612 * (normalized) 427.62112
+ +      -7.7318 * (normalized) 670.98114
+ +      -1.04   * (normalized) K/Rb
+ +      -0.7014 * (normalized) K/Na
+ +      -0.4046 * (normalized) Ti/K
+ +      -0.8366 * (normalized) Ca/Ti
+ +      -1.6447 * (normalized) Mg/Ti
+ +      -1.3451 * (normalized) Ca/H
+ +       1.4517 * (normalized) Mg/H
+ +       2.3677 * (normalized) O/Mn
+ +       1.8101
+
+Number of kernel evaluations: 45160 (75.823% cached)
+
+Classifier for classes: Pahrump Hills, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -4.4879 * (normalized) 288.24899
+ +      -2.7345 * (normalized) 427.62112
+ +      -1.0722 * (normalized) 670.98114
+ +       2.0145 * (normalized) K/Rb
+ +       7.9871 * (normalized) K/Na
+ +      -4.1065 * (normalized) Ti/K
+ +      -2.3346 * (normalized) Ca/Ti
+ +      -3.627  * (normalized) Mg/Ti
+ +      -3.3619 * (normalized) Ca/H
+ +       5.5208 * (normalized) Mg/H
+ +       0.5286 * (normalized) O/Mn
+ +       2.0093
+
+Number of kernel evaluations: 21354 (64.685% cached)
+
+Classifier for classes: Pahrump Hills, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -7.7486 * (normalized) 288.24899
+ +       5.9607 * (normalized) 427.62112
+ +      -1.7796 * (normalized) 670.98114
+ +      -2.1305 * (normalized) K/Rb
+ +      -1.3609 * (normalized) K/Na
+ +       1.581  * (normalized) Ti/K
+ +      -0.9705 * (normalized) Ca/Ti
+ +       0.8974 * (normalized) Mg/Ti
+ +       0.7559 * (normalized) Ca/H
+ +       3.1196 * (normalized) Mg/H
+ +       0.1591 * (normalized) O/Mn
+ +       1.3533
+
+Number of kernel evaluations: 16365 (65.535% cached)
+
+Classifier for classes: Mary Anning, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.828  * (normalized) 288.24899
+ +       6.4043 * (normalized) 427.62112
+ +      -7.9726 * (normalized) 670.98114
+ +      -0.4083 * (normalized) K/Rb
+ +      -8.8623 * (normalized) K/Na
+ +       8.6797 * (normalized) Ti/K
+ +       2.2611 * (normalized) Ca/Ti
+ +      -5.16   * (normalized) Mg/Ti
+ +      12.9603 * (normalized) Ca/H
+ +      -4.0404 * (normalized) Mg/H
+ +       4.7598 * (normalized) O/Mn
+ -       2.0492
+
+Number of kernel evaluations: 54129 (63.921% cached)
+
+Classifier for classes: Mary Anning, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.959  * (normalized) 288.24899
+ +       6.5315 * (normalized) 427.62112
+ +      -4.5228 * (normalized) 670.98114
+ +       4.1592 * (normalized) K/Rb
+ +       1.1785 * (normalized) K/Na
+ +       4.0271 * (normalized) Ti/K
+ +      -0.2307 * (normalized) Ca/Ti
+ +     -10.4695 * (normalized) Mg/Ti
+ +      13.9682 * (normalized) Ca/H
+ +       3.5919 * (normalized) Mg/H
+ +       0.0583 * (normalized) O/Mn
+ -       1.821 
+
+Number of kernel evaluations: 30917 (59.037% cached)
+
+Classifier for classes: Mary Anning, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -4.6911 * (normalized) 288.24899
+ +       8.0171 * (normalized) 427.62112
+ +      -1.0523 * (normalized) 670.98114
+ +       0.8218 * (normalized) K/Rb
+ +      -4.7334 * (normalized) K/Na
+ +       7.8203 * (normalized) Ti/K
+ +      -0.5736 * (normalized) Ca/Ti
+ +      -0.6232 * (normalized) Mg/Ti
+ +       6.0677 * (normalized) Ca/H
+ +       1.522  * (normalized) Mg/H
+ +       0.7289 * (normalized) O/Mn
+ -       1.2444
+
+Number of kernel evaluations: 24695 (61.735% cached)
+
+Classifier for classes: Naukluft Plateau, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -4.2951 * (normalized) 288.24899
+ +      -4.4071 * (normalized) 427.62112
+ +       1.2463 * (normalized) 670.98114
+ +       5.5403 * (normalized) K/Rb
+ +      12.09   * (normalized) K/Na
+ +      -5.5573 * (normalized) Ti/K
+ +      -2.2174 * (normalized) Ca/Ti
+ +      -3.6149 * (normalized) Mg/Ti
+ +      -3.5803 * (normalized) Ca/H
+ +       6.0316 * (normalized) Mg/H
+ +      -2.6897 * (normalized) O/Mn
+ +       0.7587
+
+Number of kernel evaluations: 29721 (60.84% cached)
+
+Classifier for classes: Naukluft Plateau, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -7.669  * (normalized) 288.24899
+ +       5.9662 * (normalized) 427.62112
+ +       0.1291 * (normalized) 670.98114
+ +       1.6559 * (normalized) K/Rb
+ +      -0.1632 * (normalized) K/Na
+ +       1.8214 * (normalized) Ti/K
+ +      -2.2774 * (normalized) Ca/Ti
+ +       1.0802 * (normalized) Mg/Ti
+ +       1.5423 * (normalized) Ca/H
+ +       3.5489 * (normalized) Mg/H
+ +      -0.358  * (normalized) O/Mn
+ -       0.2609
+
+Number of kernel evaluations: 36233 (62.024% cached)
+
+Classifier for classes: Vera Rubin Ridge, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -6.0721 * (normalized) 288.24899
+ +       8.5944 * (normalized) 427.62112
+ +      -0.7765 * (normalized) 670.98114
+ +      -2.8292 * (normalized) K/Rb
+ +      -6.4302 * (normalized) K/Na
+ +       7.5112 * (normalized) Ti/K
+ +       0.1607 * (normalized) Ca/Ti
+ +       2.2762 * (normalized) Mg/Ti
+ +       2.098  * (normalized) Ca/H
+ +       1.8197 * (normalized) Mg/H
+ +      -0.024  * (normalized) O/Mn
+ -       0.2003
+
+Number of kernel evaluations: 22363 (60.924% cached)
+
+
+
+Time taken to build model: 0.67 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3018               39.2866 %
+Incorrectly Classified Instances      4664               60.7134 %
+Kappa statistic                          0.2969
+Mean absolute error                      0.1548
+Root mean squared error                  0.2746
+Relative absolute error                 95.3992 %
+Root relative squared error             96.4079 %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.416    0.041    0.491      0.416    0.450      0.404    0.878     0.398     Cooperstown
+                 0.013    0.001    0.438      0.013    0.026      0.067    0.668     0.130     Gobabeb
+                 0.344    0.001    0.849      0.344    0.489      0.536    0.866     0.479     Kimberley
+                 0.014    0.001    0.471      0.014    0.027      0.071    0.828     0.359     Marias Pass
+                 0.083    0.014    0.347      0.083    0.134      0.137    0.740     0.202     Murray Buttes
+                 0.026    0.007    0.273      0.026    0.048      0.060    0.754     0.194     Ogunquit Beach
+                 0.007    0.001    0.308      0.007    0.014      0.038    0.706     0.268     Pahrump Hills
+                 0.855    0.229    0.399      0.855    0.544      0.479    0.849     0.386     Mary Anning
+                 0.650    0.270    0.316      0.650    0.425      0.297    0.735     0.285     Naukluft Plateau
+                 0.556    0.104    0.427      0.556    0.483      0.404    0.820     0.338     Vera Rubin Ridge
+                 0.491    0.037    0.523      0.491    0.507      0.468    0.903     0.430     Yellowknife Bay
+Weighted Avg.    0.393    0.099    0.400      0.393    0.316      0.279    0.793     0.310     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   <-- classified as
+ 278   0   1   3   4   9   2  84 184  16  88 |   a = Cooperstown
+  32   7   0   0  20   5   0 149 133 176   2 |   b = Gobabeb
+  39   0  45   0   0   0   2  13   9  22   1 |   c = Kimberley
+  64   0   2   8   5  11   0  30 383  12  61 |   d = Marias Pass
+   2   8   0   0  51   4   3 181 295  66   6 |   e = Murray Buttes
+   8   0   0   1  12  18   1 444  58 135  13 |   f = Ogunquit Beach
+  25   0   4   2   4   0   4  61 394  40  18 |   g = Pahrump Hills
+   1   1   0   0  13   7   0 992  47  96   3 |   h = Mary Anning
+  37   0   0   3  28   5   1 164 805 131  65 |   i = Naukluft Plateau
+   5   0   0   0   4   5   0 296 103 523   5 |   j = Vera Rubin Ridge
+  75   0   1   0   6   2   0  70 135   8 287 |   k = Yellowknife Bay
+

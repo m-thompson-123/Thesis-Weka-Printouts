@@ -1,0 +1,82 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Medium All Sites Combined Data with Ratios-weka.filters.unsupervised.attribute.Remove-R22-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   21
+              279.64499
+              288.24899
+              294.96301
+              334.991
+              393.50943
+              427.62112
+              589.16156
+              656.41418
+              670.98114
+              766.65668
+              777.5863
+              795.21838
+              K/Rb
+              K/Na
+              Ti/K
+              Ca/Ti
+              Mg/Ti
+              Ca/H
+              Mg/H
+              O/Mn
+              Location
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 9.7 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5785               75.3059 %
+Incorrectly Classified Instances      1897               24.6941 %
+Kappa statistic                          0.7224
+Mean absolute error                      0.0813
+Root mean squared error                  0.1844
+Relative absolute error                 50.1113 %
+Root relative squared error             64.736  %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.804    0.026    0.744      0.804    0.773      0.751    0.979     0.834     Cooperstown
+                 0.546    0.019    0.678      0.546    0.605      0.583    0.954     0.675     Gobabeb
+                 0.687    0.002    0.833      0.687    0.753      0.753    0.978     0.809     Kimberley
+                 0.667    0.011    0.831      0.667    0.740      0.726    0.973     0.846     Marias Pass
+                 0.606    0.023    0.693      0.606    0.646      0.620    0.947     0.724     Murray Buttes
+                 0.797    0.016    0.830      0.797    0.813      0.795    0.982     0.886     Ogunquit Beach
+                 0.687    0.018    0.746      0.687    0.715      0.695    0.959     0.787     Pahrump Hills
+                 0.911    0.030    0.844      0.911    0.876      0.854    0.988     0.948     Mary Anning
+                 0.738    0.064    0.689      0.738    0.713      0.656    0.939     0.794     Naukluft Plateau
+                 0.841    0.046    0.720      0.841    0.775      0.744    0.971     0.859     Vera Rubin Ridge
+                 0.724    0.022    0.729      0.724    0.727      0.704    0.972     0.819     Yellowknife Bay
+Weighted Avg.    0.753    0.031    0.753      0.753    0.751      0.723    0.966     0.829     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k   <-- classified as
+  538    1    4    5    0    1   35   14   31    4   36 |    a = Cooperstown
+    7  286    0    7   24   14    9   15   59   99    4 |    b = Gobabeb
+   27    0   90    1    1    0    5    0    1    4    2 |    c = Kimberley
+   17    8    2  384    2    0    6    2   95   13   47 |    d = Marias Pass
+    2   16    2    1  373   23   17   47   70   62    3 |    e = Murray Buttes
+    2    6    0    3   26  550    2   54   10   35    2 |    f = Ogunquit Beach
+   50    9    5    4   12    3  379    7   55    8   20 |    g = Pahrump Hills
+    3    8    0    0   13   33    3 1057    5   36    2 |    h = Mary Anning
+   29   57    2   34   57    4   29   33  914   42   38 |    i = Naukluft Plateau
+    3   27    1    9   25   35    3   16   28  791    3 |    j = Vera Rubin Ridge
+   45    4    2   14    5    0   20    8   58    5  423 |    k = Yellowknife Bay
+

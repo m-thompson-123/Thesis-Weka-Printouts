@@ -1,0 +1,413 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     Medium All Sites Combined Data Only Ratios for Location-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   12
+              288.24899
+              427.62112
+              670.98114
+              K/Rb
+              K/Na
+              Ti/K
+              Ca/Ti
+              Mg/Ti
+              Ca/H
+              Mg/H
+              O/Mn
+              Location
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -5.746844353002359
+    Node 11    -3.4205692734079807
+    Node 12    0.09355306332491746
+    Node 13    0.012618913466020724
+    Node 14    9.995477640044301
+    Node 15    0.7851681948295844
+    Node 16    1.7602681704869918
+    Node 17    1.4112980885530308
+    Node 18    5.004675072696686
+    Node 19    -3.501269674224145
+    Node 20    -4.41352631426654
+    Node 21    1.868489789663866
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.6755661608657388
+    Node 11    1.008050859161504
+    Node 12    -3.025967000302514
+    Node 13    -2.4156420943765657
+    Node 14    -3.660692868052001
+    Node 15    -3.9433777838938204
+    Node 16    1.3210305024526037
+    Node 17    -0.881104610197475
+    Node 18    -2.7705434716815738
+    Node 19    0.403224156174335
+    Node 20    -13.285604889616033
+    Node 21    0.7274092668268983
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -6.4104232918272395
+    Node 11    -3.388558776078641
+    Node 12    -5.646138437154497
+    Node 13    -0.41096362836022776
+    Node 14    0.0714323621922721
+    Node 15    1.6115094515303487
+    Node 16    -2.7620026483110944
+    Node 17    -5.216783364329377
+    Node 18    3.890544704221675
+    Node 19    -2.313984134546003
+    Node 20    14.566977913837064
+    Node 21    3.240367878405502
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -9.502632704129553
+    Node 11    2.888320856053676
+    Node 12    -0.6304560042167571
+    Node 13    -1.624546312017362
+    Node 14    -0.4335241912421211
+    Node 15    5.301563404806622
+    Node 16    1.9322716642943574
+    Node 17    2.3774344289200773
+    Node 18    -0.7947990407892506
+    Node 19    0.08531747264537748
+    Node 20    -20.41374001033003
+    Node 21    3.9144332407540077
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    0.6066317346301543
+    Node 11    -1.1407114214701495
+    Node 12    -4.077706093749872
+    Node 13    0.11716387635040876
+    Node 14    -9.759563260421181
+    Node 15    -3.2479496249684483
+    Node 16    -0.8357903558744052
+    Node 17    0.8280186493259317
+    Node 18    -31.160746720756357
+    Node 19    1.7572002345991795
+    Node 20    0.6782656100720296
+    Node 21    -4.188141843431232
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -6.997668772593803
+    Node 11    -6.762953522283895
+    Node 12    3.6461820915496848
+    Node 13    4.9959146924944795
+    Node 14    -6.316921485226878
+    Node 15    -0.046948087045184016
+    Node 16    -1.98430113162053
+    Node 17    0.5016434856797857
+    Node 18    -15.300172907240704
+    Node 19    2.3378631834421224
+    Node 20    -6.328070345106019
+    Node 21    0.4556479350831309
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -10.299494381311252
+    Node 11    2.8413119953657455
+    Node 12    -5.20096362262512
+    Node 13    5.009954850478388
+    Node 14    -4.82988735292567
+    Node 15    0.03424289727439315
+    Node 16    -2.9510453622476462
+    Node 17    6.72929709024867
+    Node 18    -1.3217815346742627
+    Node 19    2.006552109254736
+    Node 20    -2.918100319942473
+    Node 21    -2.3445628558750617
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.4261540244055158
+    Node 11    -5.314529382177408
+    Node 12    4.430631650834173
+    Node 13    -6.697386433174344
+    Node 14    -4.862538612901258
+    Node 15    -20.174136622488742
+    Node 16    -3.87582122794959
+    Node 17    0.2739866132764653
+    Node 18    1.2796946436971892
+    Node 19    -1.116382586012948
+    Node 20    -1.6400227440943436
+    Node 21    -3.4874209701967898
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -0.6701296783010098
+    Node 11    2.7158884867474122
+    Node 12    -1.5105372387768168
+    Node 13    0.22236325999164555
+    Node 14    -2.8871482465784264
+    Node 15    -0.6932865979917832
+    Node 16    -1.3594058865494492
+    Node 17    -2.7158487256317763
+    Node 18    -0.6816342768254399
+    Node 19    -2.0931772885171114
+    Node 20    -0.5686224280303946
+    Node 21    -0.11038306331002427
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    0.0794656735961292
+    Node 11    -3.767395069776713
+    Node 12    -4.084646247786329
+    Node 13    0.5632060061902705
+    Node 14    -9.69280106781549
+    Node 15    -10.742888844060161
+    Node 16    -2.5982308349593013
+    Node 17    -0.13916476898182176
+    Node 18    -3.3252439420779023
+    Node 19    -0.8758195958011091
+    Node 20    -5.338580223269181
+    Node 21    3.350229103834408
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -5.694197602565217
+    Node 11    2.808681259866581
+    Node 12    0.16983570682845145
+    Node 13    -4.24183516098898
+    Node 14    -5.545162565505379
+    Node 15    -3.482275861651986
+    Node 16    1.7390159429486702
+    Node 17    -2.9296757661556425
+    Node 18    3.852402363098509
+    Node 19    2.0756592970300147
+    Node 20    -1.800243336238694
+    Node 21    -0.8113723384453535
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -9.515846579867414
+    Attrib 288.24899    7.221511535467868
+    Attrib 427.62112    2.914263074712693
+    Attrib 670.98114    -58.78911846151194
+    Attrib K/Rb    17.679227296020205
+    Attrib K/Na    -70.9045370347794
+    Attrib Ti/K    13.107461929410904
+    Attrib Ca/Ti    5.396963519753212
+    Attrib Mg/Ti    31.96694997928891
+    Attrib Ca/H    12.343780194643395
+    Attrib Mg/H    0.03630898249754508
+    Attrib O/Mn    36.543127703105725
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    28.17439196613031
+    Attrib 288.24899    -4.249194642826182
+    Attrib 427.62112    -15.642481361433212
+    Attrib 670.98114    79.03797702569273
+    Attrib K/Rb    -4.535626859858896
+    Attrib K/Na    3.2776705869860154
+    Attrib Ti/K    -26.220341956111483
+    Attrib Ca/Ti    -7.539354656438924
+    Attrib Mg/Ti    44.257645401499154
+    Attrib Ca/H    -16.998438013893576
+    Attrib Mg/H    1.8192778169450212
+    Attrib O/Mn    -30.128127221402323
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    6.175383542656246
+    Attrib 288.24899    -3.3856242457940398
+    Attrib 427.62112    -4.0952098151882605
+    Attrib 670.98114    95.63091981263233
+    Attrib K/Rb    -9.071763944773673
+    Attrib K/Na    -31.99180999875485
+    Attrib Ti/K    -24.84905247697668
+    Attrib Ca/Ti    -0.8713070412217391
+    Attrib Mg/Ti    -43.33680455467418
+    Attrib Ca/H    17.123815722190553
+    Attrib Mg/H    -2.980854360432999
+    Attrib O/Mn    4.561360008781019
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -8.906394332950203
+    Attrib 288.24899    2.1224229335874614
+    Attrib 427.62112    -13.740090807159605
+    Attrib 670.98114    28.55362974808393
+    Attrib K/Rb    12.26915933292215
+    Attrib K/Na    -34.333768974593355
+    Attrib Ti/K    -7.0986487830683895
+    Attrib Ca/Ti    -2.2424324522016637
+    Attrib Mg/Ti    16.339359961396543
+    Attrib Ca/H    10.179698716693629
+    Attrib Mg/H    -17.676215404359414
+    Attrib O/Mn    -2.202708599766191
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -3.495188623284999
+    Attrib 288.24899    11.115723177191429
+    Attrib 427.62112    -0.27318581206232334
+    Attrib 670.98114    2.4383307070925726
+    Attrib K/Rb    -0.15748240962597057
+    Attrib K/Na    -34.147610175775135
+    Attrib Ti/K    34.912437700310846
+    Attrib Ca/Ti    -3.915167677666107
+    Attrib Mg/Ti    -12.716132372232561
+    Attrib Ca/H    23.36179040254843
+    Attrib Mg/H    -25.580680240076937
+    Attrib O/Mn    11.652147662557523
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -1.1042925782357649
+    Attrib 288.24899    -15.63529823539206
+    Attrib 427.62112    18.866481353702493
+    Attrib 670.98114    1.465081922643066
+    Attrib K/Rb    18.41137463428439
+    Attrib K/Na    0.3607307669300241
+    Attrib Ti/K    -0.07962041584251028
+    Attrib Ca/Ti    16.993893614339417
+    Attrib Mg/Ti    0.8945687669752076
+    Attrib Ca/H    -2.1586638059718375
+    Attrib Mg/H    -35.32617028394612
+    Attrib O/Mn    -4.55128106996481
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -5.096499112069738
+    Attrib 288.24899    4.449775987079167
+    Attrib 427.62112    -4.412027905787577
+    Attrib 670.98114    40.88615983275125
+    Attrib K/Rb    1.0382844806539877
+    Attrib K/Na    36.883005358696906
+    Attrib Ti/K    2.4907458915965974
+    Attrib Ca/Ti    -14.503134310397787
+    Attrib Mg/Ti    -36.93748550445806
+    Attrib Ca/H    -5.622905491694183
+    Attrib Mg/H    2.352910251238444
+    Attrib O/Mn    -26.43402603646935
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -10.301410384246042
+    Attrib 288.24899    -6.110969907913334
+    Attrib 427.62112    10.253960015072842
+    Attrib 670.98114    0.36607558880300667
+    Attrib K/Rb    3.2349030708673054
+    Attrib K/Na    -10.307115143534942
+    Attrib Ti/K    29.808955693525263
+    Attrib Ca/Ti    -10.75478039128063
+    Attrib Mg/Ti    1.4660753991074489
+    Attrib Ca/H    6.712211165814978
+    Attrib Mg/H    1.1034443891785262
+    Attrib O/Mn    -30.481645560451245
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    10.292336201782605
+    Attrib 288.24899    -16.00795505319172
+    Attrib 427.62112    0.8275005250964683
+    Attrib 670.98114    6.2304749772253665
+    Attrib K/Rb    -9.563967938654038
+    Attrib K/Na    -2.4319104877389126
+    Attrib Ti/K    -14.19933376777512
+    Attrib Ca/Ti    -7.334058686004182
+    Attrib Mg/Ti    8.099139003649066
+    Attrib Ca/H    13.845763787591574
+    Attrib Mg/H    17.2566336867905
+    Attrib O/Mn    4.726058122600155
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    12.53474695362019
+    Attrib 288.24899    2.4328310546606264
+    Attrib 427.62112    2.571414245328564
+    Attrib 670.98114    9.629578181302218
+    Attrib K/Rb    7.428994631237401
+    Attrib K/Na    24.353113234036716
+    Attrib Ti/K    -19.397521938693984
+    Attrib Ca/Ti    3.95765464877302
+    Attrib Mg/Ti    1.862194649132712
+    Attrib Ca/H    6.76697504809511
+    Attrib Mg/H    -4.971481532690719
+    Attrib O/Mn    -9.220035034649564
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -24.956807793404167
+    Attrib 288.24899    -3.268327236668933
+    Attrib 427.62112    -5.945558360113756
+    Attrib 670.98114    -15.5555779631322
+    Attrib K/Rb    -1.9625404355578984
+    Attrib K/Na    51.74420136617252
+    Attrib Ti/K    -3.4560138045570366
+    Attrib Ca/Ti    -4.829094037693221
+    Attrib Mg/Ti    -65.17440725820703
+    Attrib Ca/H    6.537147247559927
+    Attrib Mg/H    9.81617069366882
+    Attrib O/Mn    8.727027331338258
+Class Cooperstown
+    Input
+    Node 0
+Class Gobabeb
+    Input
+    Node 1
+Class Kimberley
+    Input
+    Node 2
+Class Marias Pass
+    Input
+    Node 3
+Class Murray Buttes
+    Input
+    Node 4
+Class Ogunquit Beach
+    Input
+    Node 5
+Class Pahrump Hills
+    Input
+    Node 6
+Class Mary Anning
+    Input
+    Node 7
+Class Naukluft Plateau
+    Input
+    Node 8
+Class Vera Rubin Ridge
+    Input
+    Node 9
+Class Yellowknife Bay
+    Input
+    Node 10
+
+
+Time taken to build model: 15.27 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         885               57.6172 %
+Incorrectly Classified Instances       651               42.3828 %
+Kappa statistic                          0.5259
+Mean absolute error                      0.0967
+Root mean squared error                  0.2302
+Relative absolute error                 59.5085 %
+Root relative squared error             80.7203 %
+Total Number of Instances             1536     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.582    0.034    0.624      0.582    0.602      0.566    0.930     0.639     Cooperstown
+                 0.369    0.062    0.318      0.369    0.342      0.287    0.854     0.315     Gobabeb
+                 0.563    0.007    0.643      0.563    0.600      0.593    0.779     0.548     Kimberley
+                 0.431    0.014    0.726      0.431    0.541      0.532    0.824     0.626     Marias Pass
+                 0.393    0.040    0.486      0.393    0.434      0.389    0.854     0.463     Murray Buttes
+                 0.775    0.054    0.568      0.775    0.656      0.628    0.913     0.590     Ogunquit Beach
+                 0.467    0.016    0.681      0.467    0.554      0.538    0.830     0.535     Pahrump Hills
+                 0.809    0.035    0.795      0.809    0.802      0.768    0.956     0.831     Mary Anning
+                 0.474    0.105    0.469      0.474    0.471      0.367    0.822     0.531     Naukluft Plateau
+                 0.619    0.045    0.641      0.619    0.630      0.583    0.887     0.638     Vera Rubin Ridge
+                 0.725    0.063    0.494      0.725    0.588      0.558    0.922     0.549     Yellowknife Bay
+Weighted Avg.    0.576    0.050    0.588      0.576    0.574      0.529    0.878     0.589     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   <-- classified as
+  78   3   2   3   0   4   2   4  13   1  24 |   a = Cooperstown
+   2  41   1   0   9   8   1   2  15  27   5 |   b = Gobabeb
+   9   0  18   0   1   0   1   0   0   3   0 |   c = Kimberley
+   6   7   0  53   0   2   2   1  30   5  17 |   d = Marias Pass
+   1  12   1   1  53  13   8  14  15  15   2 |   e = Murray Buttes
+   1   0   2   0   3 100   1  10   9   1   2 |   f = Ogunquit Beach
+  12   3   0   0   8   8  49   2  19   0   4 |   g = Pahrump Hills
+   1   4   0   0   3  19   0 178  10   3   2 |   h = Mary Anning
+   9  28   1  13  26   5   6   6 119   6  32 |   i = Naukluft Plateau
+   0  29   2   0   6  16   1   7   5 109   1 |   j = Vera Rubin Ridge
+   6   2   1   3   0   1   1   0  19   0  87 |   k = Yellowknife Bay
+

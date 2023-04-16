@@ -1,0 +1,1285 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     Medium All Sites Combined Data Fixed-weka.filters.unsupervised.attribute.Remove-R14-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   13
+              ﻿279.64499
+              288.24899
+              294.96301
+              334.991
+              393.50943
+              427.62112
+              589.16156
+              656.41418
+              670.98114
+              766.65668
+              777.5863
+              795.21838
+              Location
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Cooperstown, Gobabeb
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         5.2331 * (normalized) ﻿279.64499
+ +       1.3261 * (normalized) 288.24899
+ +      -5.9202 * (normalized) 294.96301
+ +      -3.4302 * (normalized) 334.991
+ +      -1.7909 * (normalized) 393.50943
+ +      -4.6428 * (normalized) 427.62112
+ +      -7.8858 * (normalized) 589.16156
+ +      -4.7471 * (normalized) 656.41418
+ +      -3.8754 * (normalized) 670.98114
+ +      -0.9176 * (normalized) 766.65668
+ +       5.3068 * (normalized) 777.5863
+ +       0.68   * (normalized) 795.21838
+ +       0.4567
+
+Number of kernel evaluations: 43033 (68.754% cached)
+
+Classifier for classes: Cooperstown, Kimberley
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.4854 * (normalized) ﻿279.64499
+ +      -0.5628 * (normalized) 288.24899
+ +      -0.3463 * (normalized) 294.96301
+ +      -1.7691 * (normalized) 334.991
+ +       0.7943 * (normalized) 393.50943
+ +      -0.7552 * (normalized) 427.62112
+ +      -2.516  * (normalized) 589.16156
+ +      -1.5617 * (normalized) 656.41418
+ +      -1.1279 * (normalized) 670.98114
+ +       6.283  * (normalized) 766.65668
+ +       0.2994 * (normalized) 777.5863
+ +       0.6432 * (normalized) 795.21838
+ -       1.1624
+
+Number of kernel evaluations: 24934 (68.596% cached)
+
+Classifier for classes: Cooperstown, Marias Pass
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.9821 * (normalized) ﻿279.64499
+ +       4.6274 * (normalized) 288.24899
+ +      -8.4137 * (normalized) 294.96301
+ +       2.9949 * (normalized) 334.991
+ +      -1.2849 * (normalized) 393.50943
+ +       0.2757 * (normalized) 427.62112
+ +      -7.8935 * (normalized) 589.16156
+ +      -3.8322 * (normalized) 656.41418
+ +       0.2487 * (normalized) 670.98114
+ +      -5.7624 * (normalized) 766.65668
+ +       4.6885 * (normalized) 777.5863
+ +      -0.151  * (normalized) 795.21838
+ -       0.1574
+
+Number of kernel evaluations: 61655 (65.976% cached)
+
+Classifier for classes: Cooperstown, Murray Buttes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.105  * (normalized) ﻿279.64499
+ +      -0.5865 * (normalized) 288.24899
+ +      -7.4455 * (normalized) 294.96301
+ +      -3.0222 * (normalized) 334.991
+ +      -3.3944 * (normalized) 393.50943
+ +      -2.5702 * (normalized) 427.62112
+ +      -4.9042 * (normalized) 589.16156
+ +      -6.5395 * (normalized) 656.41418
+ +      -2.3145 * (normalized) 670.98114
+ +      -1.9565 * (normalized) 766.65668
+ +       6.5075 * (normalized) 777.5863
+ +       3.6753 * (normalized) 795.21838
+ -       0.5029
+
+Number of kernel evaluations: 67975 (71.797% cached)
+
+Classifier for classes: Cooperstown, Ogunquit Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         6.2652 * (normalized) ﻿279.64499
+ +      -0.8987 * (normalized) 288.24899
+ +      -7.9757 * (normalized) 294.96301
+ +      -3.4094 * (normalized) 334.991
+ +      -2.8747 * (normalized) 393.50943
+ +      -4.4411 * (normalized) 427.62112
+ +      -6.3861 * (normalized) 589.16156
+ +      -3.3137 * (normalized) 656.41418
+ +       0.2973 * (normalized) 670.98114
+ +      -0.7969 * (normalized) 766.65668
+ +       7.803  * (normalized) 777.5863
+ +      -1.4329 * (normalized) 795.21838
+ +       0.3901
+
+Number of kernel evaluations: 68545 (69.344% cached)
+
+Classifier for classes: Cooperstown, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         4.1095 * (normalized) ﻿279.64499
+ +       3.4265 * (normalized) 288.24899
+ +      -4.9804 * (normalized) 294.96301
+ +      -1.0308 * (normalized) 334.991
+ +      -3.7727 * (normalized) 393.50943
+ +      -2.6732 * (normalized) 427.62112
+ +      -5.1084 * (normalized) 589.16156
+ +      -3.3478 * (normalized) 656.41418
+ +      -0.798  * (normalized) 670.98114
+ +      -3.4434 * (normalized) 766.65668
+ +       4.3398 * (normalized) 777.5863
+ +       1.4639 * (normalized) 795.21838
+ -       1.0015
+
+Number of kernel evaluations: 71208 (71.003% cached)
+
+Classifier for classes: Cooperstown, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         5.5243 * (normalized) ﻿279.64499
+ +      -0.4108 * (normalized) 288.24899
+ +      -1.7046 * (normalized) 294.96301
+ +      -5.6273 * (normalized) 334.991
+ +      -5.1124 * (normalized) 393.50943
+ +      -4.9426 * (normalized) 427.62112
+ +      -7.7499 * (normalized) 589.16156
+ +      -5.4307 * (normalized) 656.41418
+ +      -0.8357 * (normalized) 670.98114
+ +      -1.5933 * (normalized) 766.65668
+ +       6.4522 * (normalized) 777.5863
+ +       1.0402 * (normalized) 795.21838
+ +       0.7656
+
+Number of kernel evaluations: 70801 (68.695% cached)
+
+Classifier for classes: Cooperstown, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         4.2488 * (normalized) ﻿279.64499
+ +       2.4134 * (normalized) 288.24899
+ +      -7.5882 * (normalized) 294.96301
+ +      -3.4693 * (normalized) 334.991
+ +      -2.2035 * (normalized) 393.50943
+ +      -1.462  * (normalized) 427.62112
+ +      -5.8579 * (normalized) 589.16156
+ +      -4.5184 * (normalized) 656.41418
+ +      -4.881  * (normalized) 670.98114
+ +      -5.726  * (normalized) 766.65668
+ +       8.6232 * (normalized) 777.5863
+ +      -3.2929 * (normalized) 795.21838
+ +       0.6871
+
+Number of kernel evaluations: 87678 (68.488% cached)
+
+Classifier for classes: Cooperstown, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.3528 * (normalized) ﻿279.64499
+ +       0.3918 * (normalized) 288.24899
+ +      -6.6967 * (normalized) 294.96301
+ +      -3.0315 * (normalized) 334.991
+ +      -4.2372 * (normalized) 393.50943
+ +      -4.0111 * (normalized) 427.62112
+ +      -8.9036 * (normalized) 589.16156
+ +      -7.3271 * (normalized) 656.41418
+ +      -1.5729 * (normalized) 670.98114
+ +       0.1286 * (normalized) 766.65668
+ +       3.0361 * (normalized) 777.5863
+ +       5.2418 * (normalized) 795.21838
+ +       1.0824
+
+Number of kernel evaluations: 67654 (68.689% cached)
+
+Classifier for classes: Cooperstown, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.4331 * (normalized) ﻿279.64499
+ +      -0.4555 * (normalized) 288.24899
+ +      -7.0767 * (normalized) 294.96301
+ +      -2.7274 * (normalized) 334.991
+ +       1.1384 * (normalized) 393.50943
+ +       3.5511 * (normalized) 427.62112
+ +      -2.4081 * (normalized) 589.16156
+ +      -3.6481 * (normalized) 656.41418
+ +      -1.0086 * (normalized) 670.98114
+ +      -6.1434 * (normalized) 766.65668
+ +       3.4584 * (normalized) 777.5863
+ +      -6.1143 * (normalized) 795.21838
+ +       1.203 
+
+Number of kernel evaluations: 55109 (66.974% cached)
+
+Classifier for classes: Gobabeb, Kimberley
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.8474 * (normalized) ﻿279.64499
+ +      -1.2337 * (normalized) 288.24899
+ +       1.9094 * (normalized) 294.96301
+ +      -0.0592 * (normalized) 334.991
+ +       1.6404 * (normalized) 393.50943
+ +       0.0682 * (normalized) 427.62112
+ +       0.7436 * (normalized) 589.16156
+ +       1.5662 * (normalized) 656.41418
+ +       0.5047 * (normalized) 670.98114
+ +       8.6571 * (normalized) 766.65668
+ +      -0.844  * (normalized) 777.5863
+ +      -0.7939 * (normalized) 795.21838
+ -       1.6289
+
+Number of kernel evaluations: 16199 (73.146% cached)
+
+Classifier for classes: Gobabeb, Marias Pass
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -5.0245 * (normalized) ﻿279.64499
+ +       4.656  * (normalized) 288.24899
+ +      -4.3245 * (normalized) 294.96301
+ +       6.2957 * (normalized) 334.991
+ +       1.6269 * (normalized) 393.50943
+ +       3.6993 * (normalized) 427.62112
+ +      -0.1224 * (normalized) 589.16156
+ +      -0.9482 * (normalized) 656.41418
+ +       2.0955 * (normalized) 670.98114
+ +      -6.5226 * (normalized) 766.65668
+ +       0.1841 * (normalized) 777.5863
+ +      -3.6353 * (normalized) 795.21838
+ -       0.1097
+
+Number of kernel evaluations: 36070 (67.837% cached)
+
+Classifier for classes: Gobabeb, Murray Buttes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.4069 * (normalized) ﻿279.64499
+ +      -0.546  * (normalized) 288.24899
+ +      -6.0748 * (normalized) 294.96301
+ +      -2.8258 * (normalized) 334.991
+ +      -2.4659 * (normalized) 393.50943
+ +       0.6777 * (normalized) 427.62112
+ +       0.6293 * (normalized) 589.16156
+ +      -1.8785 * (normalized) 656.41418
+ +       2.242  * (normalized) 670.98114
+ +      -1.9702 * (normalized) 766.65668
+ +       7.1166 * (normalized) 777.5863
+ +       1.7806 * (normalized) 795.21838
+ -       1.9524
+
+Number of kernel evaluations: 26623 (69.864% cached)
+
+Classifier for classes: Gobabeb, Ogunquit Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.9861 * (normalized) ﻿279.64499
+ +      -2.8658 * (normalized) 288.24899
+ +      -6.2157 * (normalized) 294.96301
+ +      -2.3604 * (normalized) 334.991
+ +      -4.5427 * (normalized) 393.50943
+ +      -3.0607 * (normalized) 427.62112
+ +      -2.8185 * (normalized) 589.16156
+ +       1.044  * (normalized) 656.41418
+ +      10.8025 * (normalized) 670.98114
+ +       0.2862 * (normalized) 766.65668
+ +       5.7589 * (normalized) 777.5863
+ +      -0.1021 * (normalized) 795.21838
+ -       0.0215
+
+Number of kernel evaluations: 31178 (63.537% cached)
+
+Classifier for classes: Gobabeb, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.4119 * (normalized) ﻿279.64499
+ +       1.9562 * (normalized) 288.24899
+ +       1.0529 * (normalized) 294.96301
+ +       0.5726 * (normalized) 334.991
+ +       1.5405 * (normalized) 393.50943
+ +       2.101  * (normalized) 427.62112
+ +       6.169  * (normalized) 589.16156
+ +       2.5356 * (normalized) 656.41418
+ +       4.9011 * (normalized) 670.98114
+ +      -3.0915 * (normalized) 766.65668
+ +       0.8546 * (normalized) 777.5863
+ +      -0.6264 * (normalized) 795.21838
+ -       2.8909
+
+Number of kernel evaluations: 33648 (65.708% cached)
+
+Classifier for classes: Gobabeb, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         5.5472 * (normalized) ﻿279.64499
+ +      -3.8234 * (normalized) 288.24899
+ +       0.9148 * (normalized) 294.96301
+ +      -5.4321 * (normalized) 334.991
+ +      -9.5505 * (normalized) 393.50943
+ +      -3.571  * (normalized) 427.62112
+ +      -4.945  * (normalized) 589.16156
+ +      -3.4953 * (normalized) 656.41418
+ +       4.6083 * (normalized) 670.98114
+ +      -0.1029 * (normalized) 766.65668
+ +       6.0606 * (normalized) 777.5863
+ +      -0.5203 * (normalized) 795.21838
+ +       1.4053
+
+Number of kernel evaluations: 41339 (64.632% cached)
+
+Classifier for classes: Gobabeb, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2155 * (normalized) ﻿279.64499
+ +       0.4995 * (normalized) 288.24899
+ +      -0.7801 * (normalized) 294.96301
+ +      -0.6168 * (normalized) 334.991
+ +      -0.8107 * (normalized) 393.50943
+ +       1.4138 * (normalized) 427.62112
+ +       0.9354 * (normalized) 589.16156
+ +       0.3207 * (normalized) 656.41418
+ +      -0.3415 * (normalized) 670.98114
+ +      -2.9114 * (normalized) 766.65668
+ +       3.3967 * (normalized) 777.5863
+ +      -2.7404 * (normalized) 795.21838
+ +       0.7152
+
+Number of kernel evaluations: 59208 (75.185% cached)
+
+Classifier for classes: Gobabeb, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.4024 * (normalized) ﻿279.64499
+ +      -0.276  * (normalized) 288.24899
+ +      -1.5746 * (normalized) 294.96301
+ +       0.7524 * (normalized) 334.991
+ +      -4.7872 * (normalized) 393.50943
+ +       0.1103 * (normalized) 427.62112
+ +      -1.3968 * (normalized) 589.16156
+ +      -3.7801 * (normalized) 656.41418
+ +       0.5813 * (normalized) 670.98114
+ +       2.6816 * (normalized) 766.65668
+ +      -1.1282 * (normalized) 777.5863
+ +       3.0539 * (normalized) 795.21838
+ +       1.3614
+
+Number of kernel evaluations: 56337 (70.63% cached)
+
+Classifier for classes: Gobabeb, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.1144 * (normalized) ﻿279.64499
+ +      -2.8685 * (normalized) 288.24899
+ +      -1.7985 * (normalized) 294.96301
+ +      -0.5079 * (normalized) 334.991
+ +       0.5332 * (normalized) 393.50943
+ +       8.6824 * (normalized) 427.62112
+ +       0.1561 * (normalized) 589.16156
+ +      -4.3634 * (normalized) 656.41418
+ +       0.6508 * (normalized) 670.98114
+ +      -6.1909 * (normalized) 766.65668
+ +      -0.1047 * (normalized) 777.5863
+ +      -5.6936 * (normalized) 795.21838
+ +       0.7942
+
+Number of kernel evaluations: 22277 (65.797% cached)
+
+Classifier for classes: Kimberley, Marias Pass
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.6657 * (normalized) ﻿279.64499
+ +       1.4488 * (normalized) 288.24899
+ +      -2.956  * (normalized) 294.96301
+ +       2.1595 * (normalized) 334.991
+ +      -0.9738 * (normalized) 393.50943
+ +       0.6506 * (normalized) 427.62112
+ +      -0.6085 * (normalized) 589.16156
+ +      -0.9881 * (normalized) 656.41418
+ +      -0.397  * (normalized) 670.98114
+ +      -7.5655 * (normalized) 766.65668
+ +       1.1954 * (normalized) 777.5863
+ +      -0.9685 * (normalized) 795.21838
+ +       1.5055
+
+Number of kernel evaluations: 16385 (69.154% cached)
+
+Classifier for classes: Kimberley, Murray Buttes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.1536 * (normalized) ﻿279.64499
+ +       0.6493 * (normalized) 288.24899
+ +      -3.5926 * (normalized) 294.96301
+ +      -0.6744 * (normalized) 334.991
+ +      -1.9527 * (normalized) 393.50943
+ +       0.2502 * (normalized) 427.62112
+ +      -0.5577 * (normalized) 589.16156
+ +      -1.5857 * (normalized) 656.41418
+ +       0.2852 * (normalized) 670.98114
+ +      -8.2883 * (normalized) 766.65668
+ +       2.7683 * (normalized) 777.5863
+ +       0.658  * (normalized) 795.21838
+ +       1.0455
+
+Number of kernel evaluations: 19856 (73.763% cached)
+
+Classifier for classes: Kimberley, Ogunquit Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6911 * (normalized) ﻿279.64499
+ +       0.2749 * (normalized) 288.24899
+ +      -3.6274 * (normalized) 294.96301
+ +       0.1489 * (normalized) 334.991
+ +      -1.7477 * (normalized) 393.50943
+ +       0.3131 * (normalized) 427.62112
+ +      -0.7889 * (normalized) 589.16156
+ +      -0.8575 * (normalized) 656.41418
+ +       2.1915 * (normalized) 670.98114
+ +      -7.9005 * (normalized) 766.65668
+ +       2.3541 * (normalized) 777.5863
+ +       0.2952 * (normalized) 795.21838
+ +       1.3632
+
+Number of kernel evaluations: 25226 (76.27% cached)
+
+Classifier for classes: Kimberley, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5863 * (normalized) ﻿279.64499
+ +       1.3366 * (normalized) 288.24899
+ +      -1.5717 * (normalized) 294.96301
+ +       0.4226 * (normalized) 334.991
+ +      -1.6151 * (normalized) 393.50943
+ +      -0.0666 * (normalized) 427.62112
+ +       0.8218 * (normalized) 589.16156
+ +      -0.5695 * (normalized) 656.41418
+ +       1.0708 * (normalized) 670.98114
+ +      -8.3637 * (normalized) 766.65668
+ +       1.5141 * (normalized) 777.5863
+ +       0.0881 * (normalized) 795.21838
+ +       1.0635
+
+Number of kernel evaluations: 23836 (73.78% cached)
+
+Classifier for classes: Kimberley, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.7766 * (normalized) ﻿279.64499
+ +       0.6549 * (normalized) 288.24899
+ +      -1.7415 * (normalized) 294.96301
+ +      -1.0146 * (normalized) 334.991
+ +      -3.2592 * (normalized) 393.50943
+ +      -1.507  * (normalized) 427.62112
+ +      -1.5105 * (normalized) 589.16156
+ +      -1.5933 * (normalized) 656.41418
+ +       0.8549 * (normalized) 670.98114
+ +      -7.1723 * (normalized) 766.65668
+ +       2.609  * (normalized) 777.5863
+ +      -0.4491 * (normalized) 795.21838
+ +       1.7113
+
+Number of kernel evaluations: 14463 (70.141% cached)
+
+Classifier for classes: Kimberley, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5274 * (normalized) ﻿279.64499
+ +       0.9467 * (normalized) 288.24899
+ +      -2.0368 * (normalized) 294.96301
+ +      -0.0235 * (normalized) 334.991
+ +      -1.9326 * (normalized) 393.50943
+ +       0.8213 * (normalized) 427.62112
+ +      -0.1434 * (normalized) 589.16156
+ +      -1.2618 * (normalized) 656.41418
+ +      -1.0249 * (normalized) 670.98114
+ +      -8.1057 * (normalized) 766.65668
+ +       2.587  * (normalized) 777.5863
+ +      -0.6171 * (normalized) 795.21838
+ +       1.4675
+
+Number of kernel evaluations: 23105 (69.782% cached)
+
+Classifier for classes: Kimberley, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5608 * (normalized) ﻿279.64499
+ +       1.1245 * (normalized) 288.24899
+ +      -1.7441 * (normalized) 294.96301
+ +       0.4775 * (normalized) 334.991
+ +      -2.3118 * (normalized) 393.50943
+ +      -0.4118 * (normalized) 427.62112
+ +      -1.4867 * (normalized) 589.16156
+ +      -3.4097 * (normalized) 656.41418
+ +      -0.5662 * (normalized) 670.98114
+ +      -7.7143 * (normalized) 766.65668
+ +       0.2571 * (normalized) 777.5863
+ +       1.3677 * (normalized) 795.21838
+ +       2.1134
+
+Number of kernel evaluations: 17102 (70.266% cached)
+
+Classifier for classes: Kimberley, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3788 * (normalized) ﻿279.64499
+ +       0.1216 * (normalized) 288.24899
+ +      -2.0857 * (normalized) 294.96301
+ +       0.2184 * (normalized) 334.991
+ +       0.6379 * (normalized) 393.50943
+ +       2.6495 * (normalized) 427.62112
+ +       0.1869 * (normalized) 589.16156
+ +       0.1632 * (normalized) 656.41418
+ +       0.0104 * (normalized) 670.98114
+ +      -6.9636 * (normalized) 766.65668
+ +       0.9523 * (normalized) 777.5863
+ +      -2.7164 * (normalized) 795.21838
+ +       1.2298
+
+Number of kernel evaluations: 16178 (76.892% cached)
+
+Classifier for classes: Marias Pass, Murray Buttes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         4.5611 * (normalized) ﻿279.64499
+ +      -4.5023 * (normalized) 288.24899
+ +       1.1114 * (normalized) 294.96301
+ +      -6.9791 * (normalized) 334.991
+ +      -2.3023 * (normalized) 393.50943
+ +      -2.2769 * (normalized) 427.62112
+ +       0.2305 * (normalized) 589.16156
+ +      -2.8656 * (normalized) 656.41418
+ +      -0.7945 * (normalized) 670.98114
+ +       3.6322 * (normalized) 766.65668
+ +       3.488  * (normalized) 777.5863
+ +       4.7876 * (normalized) 795.21838
+ -       1.1318
+
+Number of kernel evaluations: 38477 (68.951% cached)
+
+Classifier for classes: Marias Pass, Ogunquit Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         6.0838 * (normalized) ﻿279.64499
+ +      -4.875  * (normalized) 288.24899
+ +       1.087  * (normalized) 294.96301
+ +      -5.409  * (normalized) 334.991
+ +      -2.5718 * (normalized) 393.50943
+ +      -3.7862 * (normalized) 427.62112
+ +      -0.7865 * (normalized) 589.16156
+ +       0.8911 * (normalized) 656.41418
+ +       0.4504 * (normalized) 670.98114
+ +       5.5282 * (normalized) 766.65668
+ +       2.049  * (normalized) 777.5863
+ +       3.0198 * (normalized) 795.21838
+ -       0.2838
+
+Number of kernel evaluations: 39092 (67.923% cached)
+
+Classifier for classes: Marias Pass, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         4.6223 * (normalized) ﻿279.64499
+ +      -2.0697 * (normalized) 288.24899
+ +       5.4795 * (normalized) 294.96301
+ +      -5.2618 * (normalized) 334.991
+ +       0.2192 * (normalized) 393.50943
+ +      -2.0327 * (normalized) 427.62112
+ +       4.2053 * (normalized) 589.16156
+ +       1.5308 * (normalized) 656.41418
+ +       0.2508 * (normalized) 670.98114
+ +       3.3692 * (normalized) 766.65668
+ +      -0.6618 * (normalized) 777.5863
+ +       2.1557 * (normalized) 795.21838
+ -       1.8587
+
+Number of kernel evaluations: 42647 (67.911% cached)
+
+Classifier for classes: Marias Pass, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         5.7398 * (normalized) ﻿279.64499
+ +      -5.0786 * (normalized) 288.24899
+ +       2.6938 * (normalized) 294.96301
+ +      -5.9099 * (normalized) 334.991
+ +      -5.1581 * (normalized) 393.50943
+ +      -3.9832 * (normalized) 427.62112
+ +      -1.4903 * (normalized) 589.16156
+ +      -0.1821 * (normalized) 656.41418
+ +      -1.4916 * (normalized) 670.98114
+ +       4.6116 * (normalized) 766.65668
+ +       1.9014 * (normalized) 777.5863
+ +       2.8923 * (normalized) 795.21838
+ +       0.5522
+
+Number of kernel evaluations: 48413 (64.17% cached)
+
+Classifier for classes: Marias Pass, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.5613 * (normalized) ﻿279.64499
+ +      -0.2686 * (normalized) 288.24899
+ +       3.4049 * (normalized) 294.96301
+ +     -11.6566 * (normalized) 334.991
+ +      -0.0609 * (normalized) 393.50943
+ +       0.3538 * (normalized) 427.62112
+ +       2.1487 * (normalized) 589.16156
+ +       1.0263 * (normalized) 656.41418
+ +      -3.2084 * (normalized) 670.98114
+ +      -2.198  * (normalized) 766.65668
+ +       2.4323 * (normalized) 777.5863
+ +      -1.7228 * (normalized) 795.21838
+ +       0.6707
+
+Number of kernel evaluations: 67487 (68.859% cached)
+
+Classifier for classes: Marias Pass, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         5.3339 * (normalized) ﻿279.64499
+ +      -6.0821 * (normalized) 288.24899
+ +       1.4268 * (normalized) 294.96301
+ +      -6.0319 * (normalized) 334.991
+ +      -3.9117 * (normalized) 393.50943
+ +      -3.2803 * (normalized) 427.62112
+ +      -0.2831 * (normalized) 589.16156
+ +      -0.7768 * (normalized) 656.41418
+ +      -1.1501 * (normalized) 670.98114
+ +       7.669  * (normalized) 766.65668
+ +      -1.143  * (normalized) 777.5863
+ +       5.3429 * (normalized) 795.21838
+ +       0.9014
+
+Number of kernel evaluations: 51067 (65.612% cached)
+
+Classifier for classes: Marias Pass, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         5.233  * (normalized) ﻿279.64499
+ +      -5.4452 * (normalized) 288.24899
+ +       1.5962 * (normalized) 294.96301
+ +      -2.3925 * (normalized) 334.991
+ +       0.6131 * (normalized) 393.50943
+ +       2.0596 * (normalized) 427.62112
+ +       2.4631 * (normalized) 589.16156
+ +       0.2759 * (normalized) 656.41418
+ +      -1.868  * (normalized) 670.98114
+ +       0.5962 * (normalized) 766.65668
+ +      -0.6794 * (normalized) 777.5863
+ +      -2.9852 * (normalized) 795.21838
+ +       0.873 
+
+Number of kernel evaluations: 38604 (70.084% cached)
+
+Classifier for classes: Murray Buttes, Ogunquit Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.9886 * (normalized) ﻿279.64499
+ +      -0.9669 * (normalized) 288.24899
+ +       0.0023 * (normalized) 294.96301
+ +       1.1176 * (normalized) 334.991
+ +      -1.9622 * (normalized) 393.50943
+ +      -3.1446 * (normalized) 427.62112
+ +      -3.0204 * (normalized) 589.16156
+ +       1.0564 * (normalized) 656.41418
+ +      11.1756 * (normalized) 670.98114
+ +       1.4546 * (normalized) 766.65668
+ +      -2.598  * (normalized) 777.5863
+ +      -2.2481 * (normalized) 795.21838
+ +       2.5712
+
+Number of kernel evaluations: 39999 (63.396% cached)
+
+Classifier for classes: Murray Buttes, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.2488 * (normalized) ﻿279.64499
+ +       2.9696 * (normalized) 288.24899
+ +       7.6041 * (normalized) 294.96301
+ +       2.9408 * (normalized) 334.991
+ +       4.0293 * (normalized) 393.50943
+ +       3.3585 * (normalized) 427.62112
+ +       6.5175 * (normalized) 589.16156
+ +       4.9044 * (normalized) 656.41418
+ +       3.0462 * (normalized) 670.98114
+ +      -3.2882 * (normalized) 766.65668
+ +      -5.1425 * (normalized) 777.5863
+ +      -2.6765 * (normalized) 795.21838
+ -       1.4251
+
+Number of kernel evaluations: 52659 (66.354% cached)
+
+Classifier for classes: Murray Buttes, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         5.9523 * (normalized) ﻿279.64499
+ +      -2.1968 * (normalized) 288.24899
+ +       3.3556 * (normalized) 294.96301
+ +      -3.6246 * (normalized) 334.991
+ +      -5.8144 * (normalized) 393.50943
+ +      -4.2075 * (normalized) 427.62112
+ +      -5.0072 * (normalized) 589.16156
+ +       1.7921 * (normalized) 656.41418
+ +       3.5204 * (normalized) 670.98114
+ +       1.9573 * (normalized) 766.65668
+ +      -0.3881 * (normalized) 777.5863
+ +      -3.9886 * (normalized) 795.21838
+ +       3.0326
+
+Number of kernel evaluations: 39290 (64.06% cached)
+
+Classifier for classes: Murray Buttes, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.3052 * (normalized) ﻿279.64499
+ +       2.5664 * (normalized) 288.24899
+ +       5.4689 * (normalized) 294.96301
+ +       1.5072 * (normalized) 334.991
+ +       2.4555 * (normalized) 393.50943
+ +       3.1215 * (normalized) 427.62112
+ +       2.1051 * (normalized) 589.16156
+ +       2.4538 * (normalized) 656.41418
+ +      -4.1925 * (normalized) 670.98114
+ +      -4.6519 * (normalized) 766.65668
+ +      -0.6393 * (normalized) 777.5863
+ +      -8.0915 * (normalized) 795.21838
+ +       1.8179
+
+Number of kernel evaluations: 73733 (66.25% cached)
+
+Classifier for classes: Murray Buttes, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.5136 * (normalized) ﻿279.64499
+ +      -0.0427 * (normalized) 288.24899
+ +       4.178  * (normalized) 294.96301
+ +       5.2931 * (normalized) 334.991
+ +      -1.1602 * (normalized) 393.50943
+ +       1.0921 * (normalized) 427.62112
+ +      -2.5538 * (normalized) 589.16156
+ +      -4.4875 * (normalized) 656.41418
+ +      -0.6136 * (normalized) 670.98114
+ +       4.0088 * (normalized) 766.65668
+ +      -9.354  * (normalized) 777.5863
+ +       1.1687 * (normalized) 795.21838
+ +       3.8749
+
+Number of kernel evaluations: 43414 (64.983% cached)
+
+Classifier for classes: Murray Buttes, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.5381 * (normalized) ﻿279.64499
+ +      -1.4394 * (normalized) 288.24899
+ +       0.1307 * (normalized) 294.96301
+ +       1.2901 * (normalized) 334.991
+ +       2.1156 * (normalized) 393.50943
+ +       6.4649 * (normalized) 427.62112
+ +      -0.2685 * (normalized) 589.16156
+ +       1.4688 * (normalized) 656.41418
+ +       0.6679 * (normalized) 670.98114
+ +      -4.1296 * (normalized) 766.65668
+ +      -2.6295 * (normalized) 777.5863
+ +      -6.7727 * (normalized) 795.21838
+ +       1.2661
+
+Number of kernel evaluations: 30183 (67.388% cached)
+
+Classifier for classes: Ogunquit Beach, Pahrump Hills
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.9088 * (normalized) ﻿279.64499
+ +       3.3223 * (normalized) 288.24899
+ +       6.1565 * (normalized) 294.96301
+ +       1.6264 * (normalized) 334.991
+ +       3.3549 * (normalized) 393.50943
+ +       3.359  * (normalized) 427.62112
+ +       7.6695 * (normalized) 589.16156
+ +       1.6823 * (normalized) 656.41418
+ +      -3.5328 * (normalized) 670.98114
+ +      -2.7148 * (normalized) 766.65668
+ +      -4.7112 * (normalized) 777.5863
+ +       0.854  * (normalized) 795.21838
+ -       2.4663
+
+Number of kernel evaluations: 57594 (68.051% cached)
+
+Classifier for classes: Ogunquit Beach, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         4.3886 * (normalized) ﻿279.64499
+ +      -2.0451 * (normalized) 288.24899
+ +       4.3496 * (normalized) 294.96301
+ +      -4.8397 * (normalized) 334.991
+ +      -6.4832 * (normalized) 393.50943
+ +      -1.4672 * (normalized) 427.62112
+ +      -3.608  * (normalized) 589.16156
+ +      -5.2674 * (normalized) 656.41418
+ +      -5.3079 * (normalized) 670.98114
+ +       1.6352 * (normalized) 766.65668
+ +       2.4715 * (normalized) 777.5863
+ +      -0.6679 * (normalized) 795.21838
+ +       1.3772
+
+Number of kernel evaluations: 58002 (63.167% cached)
+
+Classifier for classes: Ogunquit Beach, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.6203 * (normalized) ﻿279.64499
+ +       3.3435 * (normalized) 288.24899
+ +       5.0796 * (normalized) 294.96301
+ +       0.2349 * (normalized) 334.991
+ +       3.9093 * (normalized) 393.50943
+ +       5.6154 * (normalized) 427.62112
+ +       4.7612 * (normalized) 589.16156
+ +       0.8414 * (normalized) 656.41418
+ +     -14.1349 * (normalized) 670.98114
+ +      -6.6051 * (normalized) 766.65668
+ +       0.1776 * (normalized) 777.5863
+ +      -4.5969 * (normalized) 795.21838
+ -       0.3172
+
+Number of kernel evaluations: 66606 (65.492% cached)
+
+Classifier for classes: Ogunquit Beach, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -6.4969 * (normalized) ﻿279.64499
+ +       2.3298 * (normalized) 288.24899
+ +       4.2014 * (normalized) 294.96301
+ +       4.1537 * (normalized) 334.991
+ +       0.5056 * (normalized) 393.50943
+ +       3.5083 * (normalized) 427.62112
+ +       0.7394 * (normalized) 589.16156
+ +      -4.2194 * (normalized) 656.41418
+ +      -8.7114 * (normalized) 670.98114
+ +       2.3854 * (normalized) 766.65668
+ +      -8.6113 * (normalized) 777.5863
+ +       4.0755 * (normalized) 795.21838
+ +       1.8529
+
+Number of kernel evaluations: 45063 (63.848% cached)
+
+Classifier for classes: Ogunquit Beach, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.6564 * (normalized) ﻿279.64499
+ +      -1.2594 * (normalized) 288.24899
+ +       0.0937 * (normalized) 294.96301
+ +      -0.2531 * (normalized) 334.991
+ +       2.4664 * (normalized) 393.50943
+ +       8.1454 * (normalized) 427.62112
+ +       0.9034 * (normalized) 589.16156
+ +      -4.4958 * (normalized) 656.41418
+ +      -1.7891 * (normalized) 670.98114
+ +      -5.5171 * (normalized) 766.65668
+ +      -2.4819 * (normalized) 777.5863
+ +      -5.5067 * (normalized) 795.21838
+ +       1.0235
+
+Number of kernel evaluations: 34666 (66.573% cached)
+
+Classifier for classes: Pahrump Hills, Mary Anning
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.7956 * (normalized) ﻿279.64499
+ +      -2.3156 * (normalized) 288.24899
+ +       0.1998 * (normalized) 294.96301
+ +      -4.0096 * (normalized) 334.991
+ +      -7.1081 * (normalized) 393.50943
+ +      -3.3575 * (normalized) 427.62112
+ +      -8.0376 * (normalized) 589.16156
+ +      -3.6033 * (normalized) 656.41418
+ +       0.7182 * (normalized) 670.98114
+ +       1.9349 * (normalized) 766.65668
+ +       4.1907 * (normalized) 777.5863
+ +      -0.1323 * (normalized) 795.21838
+ +       2.224 
+
+Number of kernel evaluations: 65758 (67.525% cached)
+
+Classifier for classes: Pahrump Hills, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.9962 * (normalized) ﻿279.64499
+ +      -1.1031 * (normalized) 288.24899
+ +      -3.3026 * (normalized) 294.96301
+ +      -1.6307 * (normalized) 334.991
+ +      -1.6255 * (normalized) 393.50943
+ +       1.0145 * (normalized) 427.62112
+ +      -2.6224 * (normalized) 589.16156
+ +      -2.5127 * (normalized) 656.41418
+ +      -8.1024 * (normalized) 670.98114
+ +      -2.6272 * (normalized) 766.65668
+ +       5.1571 * (normalized) 777.5863
+ +      -5.7613 * (normalized) 795.21838
+ +       3.1543
+
+Number of kernel evaluations: 84431 (66.079% cached)
+
+Classifier for classes: Pahrump Hills, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.6602 * (normalized) ﻿279.64499
+ +      -2.3685 * (normalized) 288.24899
+ +      -3.0406 * (normalized) 294.96301
+ +       0.1085 * (normalized) 334.991
+ +      -4.5076 * (normalized) 393.50943
+ +      -1.5941 * (normalized) 427.62112
+ +      -8.4013 * (normalized) 589.16156
+ +      -4.9718 * (normalized) 656.41418
+ +      -0.7292 * (normalized) 670.98114
+ +       4.8057 * (normalized) 766.65668
+ +      -1.3229 * (normalized) 777.5863
+ +       4.6457 * (normalized) 795.21838
+ +       3.2124
+
+Number of kernel evaluations: 53492 (66.044% cached)
+
+Classifier for classes: Pahrump Hills, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         3.3035 * (normalized) ﻿279.64499
+ +      -3.1042 * (normalized) 288.24899
+ +      -2.4199 * (normalized) 294.96301
+ +      -0.6579 * (normalized) 334.991
+ +       1.9047 * (normalized) 393.50943
+ +       6.3963 * (normalized) 427.62112
+ +      -2.6328 * (normalized) 589.16156
+ +      -2.0921 * (normalized) 656.41418
+ +      -1.3728 * (normalized) 670.98114
+ +      -3.4869 * (normalized) 766.65668
+ +      -0.1144 * (normalized) 777.5863
+ +      -6.1643 * (normalized) 795.21838
+ +       1.6302
+
+Number of kernel evaluations: 29246 (67.321% cached)
+
+Classifier for classes: Mary Anning, Naukluft Plateau
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -4.9542 * (normalized) ﻿279.64499
+ +       4.6292 * (normalized) 288.24899
+ +      -3.022  * (normalized) 294.96301
+ +       4.0953 * (normalized) 334.991
+ +       9.5307 * (normalized) 393.50943
+ +       6.3927 * (normalized) 427.62112
+ +       7.4884 * (normalized) 589.16156
+ +       3.763  * (normalized) 656.41418
+ +      -5.7343 * (normalized) 670.98114
+ +      -5.2028 * (normalized) 766.65668
+ +      -2.2993 * (normalized) 777.5863
+ +      -3.5196 * (normalized) 795.21838
+ -       1.5958
+
+Number of kernel evaluations: 89195 (64.29% cached)
+
+Classifier for classes: Mary Anning, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+       -13.0036 * (normalized) ﻿279.64499
+ +       3.7634 * (normalized) 288.24899
+ +      -0.6583 * (normalized) 294.96301
+ +       8.8097 * (normalized) 334.991
+ +       5.4354 * (normalized) 393.50943
+ +       4.9836 * (normalized) 427.62112
+ +       4.4107 * (normalized) 589.16156
+ +      -2.6523 * (normalized) 656.41418
+ +      -2.8467 * (normalized) 670.98114
+ +       2.4312 * (normalized) 766.65668
+ +      -8.1545 * (normalized) 777.5863
+ +       6.4935 * (normalized) 795.21838
+ +       0.2644
+
+Number of kernel evaluations: 57096 (62.895% cached)
+
+Classifier for classes: Mary Anning, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.3021 * (normalized) ﻿279.64499
+ +      -0.8575 * (normalized) 288.24899
+ +      -3.6619 * (normalized) 294.96301
+ +       1.6795 * (normalized) 334.991
+ +       5.8559 * (normalized) 393.50943
+ +       8.2097 * (normalized) 427.62112
+ +       3.5745 * (normalized) 589.16156
+ +       1.9094 * (normalized) 656.41418
+ +      -0.9014 * (normalized) 670.98114
+ +      -5.2397 * (normalized) 766.65668
+ +      -3.5275 * (normalized) 777.5863
+ +      -7.4569 * (normalized) 795.21838
+ +       0.38  
+
+Number of kernel evaluations: 41388 (62.591% cached)
+
+Classifier for classes: Naukluft Plateau, Vera Rubin Ridge
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1748 * (normalized) ﻿279.64499
+ +      -4.4839 * (normalized) 288.24899
+ +      -1.0623 * (normalized) 294.96301
+ +       2.2575 * (normalized) 334.991
+ +      -5.0284 * (normalized) 393.50943
+ +      -3.1956 * (normalized) 427.62112
+ +      -4.1843 * (normalized) 589.16156
+ +      -5.4738 * (normalized) 656.41418
+ +       2.1922 * (normalized) 670.98114
+ +       9.5799 * (normalized) 766.65668
+ +      -8.3511 * (normalized) 777.5863
+ +      11.1901 * (normalized) 795.21838
+ +       1.7398
+
+Number of kernel evaluations: 83344 (66.499% cached)
+
+Classifier for classes: Naukluft Plateau, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.9944 * (normalized) ﻿279.64499
+ +      -5.3032 * (normalized) 288.24899
+ +      -1.6587 * (normalized) 294.96301
+ +       2.2161 * (normalized) 334.991
+ +       1.2156 * (normalized) 393.50943
+ +       6.0497 * (normalized) 427.62112
+ +      -2.5291 * (normalized) 589.16156
+ +      -3.1752 * (normalized) 656.41418
+ +       0.4996 * (normalized) 670.98114
+ +       0.201  * (normalized) 766.65668
+ +      -2.7692 * (normalized) 777.5863
+ +      -3.3572 * (normalized) 795.21838
+ +       1.2057
+
+Number of kernel evaluations: 45961 (63.815% cached)
+
+Classifier for classes: Vera Rubin Ridge, Yellowknife Bay
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         4.5105 * (normalized) ﻿279.64499
+ +      -2.5939 * (normalized) 288.24899
+ +      -0.2874 * (normalized) 294.96301
+ +      -0.3497 * (normalized) 334.991
+ +       3.4018 * (normalized) 393.50943
+ +       7.4693 * (normalized) 427.62112
+ +       1.4555 * (normalized) 589.16156
+ +       0.9848 * (normalized) 656.41418
+ +      -0.4942 * (normalized) 670.98114
+ +      -6.5383 * (normalized) 766.65668
+ +      -0.2334 * (normalized) 777.5863
+ +      -8.4132 * (normalized) 795.21838
+ +       0.2699
+
+Number of kernel evaluations: 35889 (65.629% cached)
+
+
+
+Time taken to build model: 0.87 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3989               51.9266 %
+Incorrectly Classified Instances      3693               48.0734 %
+Kappa statistic                          0.4535
+Mean absolute error                      0.1533
+Root mean squared error                  0.2718
+Relative absolute error                 94.4481 %
+Root relative squared error             95.4182 %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.589    0.044    0.563      0.589    0.576      0.534    0.909     0.478     Cooperstown
+                 0.004    0.001    0.250      0.004    0.008      0.023    0.725     0.139     Gobabeb
+                 0.359    0.001    0.825      0.359    0.500      0.539    0.918     0.584     Kimberley
+                 0.455    0.008    0.826      0.455    0.587      0.592    0.875     0.547     Marias Pass
+                 0.450    0.047    0.455      0.450    0.452      0.405    0.815     0.321     Murray Buttes
+                 0.032    0.011    0.222      0.032    0.056      0.053    0.804     0.225     Ogunquit Beach
+                 0.330    0.009    0.734      0.330    0.455      0.468    0.784     0.400     Pahrump Hills
+                 0.827    0.086    0.632      0.827    0.716      0.666    0.921     0.595     Mary Anning
+                 0.577    0.161    0.408      0.577    0.478      0.365    0.779     0.347     Naukluft Plateau
+                 0.790    0.115    0.490      0.790    0.605      0.556    0.858     0.435     Vera Rubin Ridge
+                 0.661    0.066    0.451      0.661    0.536      0.501    0.925     0.413     Yellowknife Bay
+Weighted Avg.    0.519    0.068    0.507      0.519    0.477      0.438    0.844     0.407     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   f   g   h   i   j   k   <-- classified as
+ 394   0   5   2   1   4  23  13  72  34 121 |   a = Cooperstown
+  23   2   0   1  42   9   3  50 161 207  26 |   b = Gobabeb
+  44   1  47   1   4   1   1  11   2  14   5 |   c = Kimberley
+  11   1   2 262   7  17   0  10 142  16 108 |   d = Marias Pass
+  16   0   0   0 277   8  19  79  92 111  14 |   e = Murray Buttes
+  22   1   0   2 110  22   3 217 141 150  22 |   f = Ogunquit Beach
+  71   0   2   8  41   6 182  27 158  32  25 |   g = Pahrump Hills
+   0   0   0   0  13  12   1 959  61  92  22 |   h = Mary Anning
+  74   2   1  40  93  10   8  84 715 112 100 |   i = Naukluft Plateau
+  13   1   0   1  19   7   1  48  81 743  27 |   j = Vera Rubin Ridge
+  32   0   0   0   2   3   7  20 128   6 386 |   k = Yellowknife Bay
+

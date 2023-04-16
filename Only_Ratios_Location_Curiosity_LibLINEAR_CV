@@ -1,0 +1,238 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibLINEAR -S 7 -C 1.0 -E 0.001 -B 1.0 -L 0.1 -I 1000
+Relation:     Medium All Sites Combined Data Only Ratios for Location-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   12
+              288.24899
+              427.62112
+              670.98114
+              K/Rb
+              K/Na
+              Ti/K
+              Ca/Ti
+              Mg/Ti
+              Ca/H
+              Mg/H
+              O/Mn
+              Location
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LibLINEAR wrapper
+
+Model bias=1.0 nr_class=11 nr_feature=12 solverType=L2R_LR_DUAL
+
+Model for class Cooperstown
+
+-        1.86 * 288.24899
++        3.17 * 427.62112
++        2.41 * 670.98114
++        7.63 * K/Rb
+-        4.42 * K/Na
++        3.22 * Ti/K
++        0.39 * Ca/Ti
++        0.21 * Mg/Ti
++        1.25 * Ca/H
+-       11.72 * Mg/H
+-        1.08 * O/Mn
+-        2.59 * 1.0
+
+Model for class Gobabeb
+
+-        1.4  * 288.24899
+-        1.79 * 427.62112
+-        3.35 * 670.98114
+-        0.83 * K/Rb
++        0.54 * K/Na
+-        2.41 * Ti/K
++        0.96 * Ca/Ti
+-        1.81 * Mg/Ti
++        1.73 * Ca/H
++        0.89 * Mg/H
+-        2.6  * O/Mn
+-        1.52 * 1.0
+
+Model for class Kimberley
+
+         1.02 * 288.24899
++        0.62 * 427.62112
++        0.08 * 670.98114
++        8.33 * K/Rb
++        5.27 * K/Na
+-        2.11 * Ti/K
++        1.33 * Ca/Ti
+-        0.33 * Mg/Ti
++        1.89 * Ca/H
+-        1.33 * Mg/H
+-        0.4  * O/Mn
+-        6.61 * 1.0
+
+Model for class Marias Pass
+
+         3.17 * 288.24899
+-        1.99 * 427.62112
++        0.21 * 670.98114
+-        0.48 * K/Rb
+-        0.77 * K/Na
++        7.98 * Ti/K
+-        1.65 * Ca/Ti
+-        6    * Mg/Ti
++        2.85 * Ca/H
+-        5.3  * Mg/H
++        4.23 * O/Mn
+-        3.33 * 1.0
+
+Model for class Murray Buttes
+
+         2.35 * 288.24899
++        0.64 * 427.62112
+-        0.24 * 670.98114
+-        3.24 * K/Rb
++        1.61 * K/Na
+-        6.44 * Ti/K
++        3.42 * Ca/Ti
+-        0.07 * Mg/Ti
+-        0.38 * Ca/H
++        1.47 * Mg/H
++        0.68 * O/Mn
+-        2.98 * 1.0
+
+Model for class Ogunquit Beach
+
+-        1.1  * 288.24899
+-        2.58 * 427.62112
++        2.73 * 670.98114
+-        1.89 * K/Rb
++        2.89 * K/Na
+-        5.3  * Ti/K
+-        1.56 * Ca/Ti
++        0.03 * Mg/Ti
+-        3.35 * Ca/H
++        2.59 * Mg/H
++        0.26 * O/Mn
+-        1.11 * 1.0
+
+Model for class Pahrump Hills
+
+         4.58 * 288.24899
++        1.49 * 427.62112
++        1.93 * 670.98114
+-        1.23 * K/Rb
+-        3.8  * K/Na
+-        0.57 * Ti/K
++        1.21 * Ca/Ti
++        2.19 * Mg/Ti
++        3.84 * Ca/H
+-        0.67 * Mg/H
+-        3.25 * O/Mn
+-        4.66 * 1.0
+
+Model for class Mary Anning
+
+-        0.86 * 288.24899
+-        6.03 * 427.62112
++        0.94 * 670.98114
+-        3.53 * K/Rb
++        4.63 * K/Na
+-       10.47 * Ti/K
+-        3.44 * Ca/Ti
++        5.06 * Mg/Ti
+-       13.41 * Ca/H
++        4.48 * Mg/H
+-        4.1  * O/Mn
++        0.71 * 1.0
+
+Model for class Naukluft Plateau
+
+         2.87 * 288.24899
++        0.22 * 427.62112
+-        6.9  * 670.98114
+-        5.63 * K/Rb
+-        8.33 * K/Na
++        1.61 * Ti/K
+-        0.47 * Ca/Ti
+-        1.34 * Mg/Ti
++        2.36 * Ca/H
+-        0.72 * Mg/H
++        2.37 * O/Mn
+-        1.36 * 1.0
+
+Model for class Vera Rubin Ridge
+
+-        1.66 * 288.24899
+-        2.35 * 427.62112
+-        2.01 * 670.98114
++        0.31 * K/Rb
++        5.1  * K/Na
+-        5.98 * Ti/K
+-        2.52 * Ca/Ti
+-        4.98 * Mg/Ti
+-        1.46 * Ca/H
++        5.11 * Mg/H
+-        2.27 * O/Mn
+-        1.11 * 1.0
+
+Model for class Yellowknife Bay
+
+-        8.44 * 288.24899
++        6.78 * 427.62112
+-        1.66 * 670.98114
+-        2.05 * K/Rb
+-        4.79 * K/Na
++        2.76 * Ti/K
+-        2.75 * Ca/Ti
++        0.52 * Mg/Ti
++        2.69 * Ca/H
++        4.47 * Mg/H
+-        0.93 * O/Mn
+-        1.29 * 1.0
+
+
+
+Time taken to build model: 0.17 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        3010               39.1825 %
+Incorrectly Classified Instances      4672               60.8175 %
+Kappa statistic                          0.2953
+Mean absolute error                      0.1106
+Root mean squared error                  0.3325
+Relative absolute error                 68.1339 %
+Root relative squared error            116.7355 %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.275    0.023    0.529      0.275    0.362      0.341    0.626     0.209     Cooperstown
+                 0.010    0.001    0.556      0.010    0.019      0.066    0.504     0.073     Gobabeb
+                 0.168    0.001    0.846      0.168    0.280      0.373    0.584     0.156     Kimberley
+                 0.163    0.004    0.758      0.163    0.269      0.332    0.579     0.186     Marias Pass
+                 0.052    0.010    0.305      0.052    0.089      0.097    0.521     0.092     Murray Buttes
+                 0.004    0.003    0.115      0.004    0.008      0.005    0.501     0.090     Ogunquit Beach
+                 0.226    0.015    0.534      0.226    0.318      0.317    0.606     0.177     Pahrump Hills
+                 0.918    0.284    0.365      0.918    0.522      0.468    0.817     0.348     Mary Anning
+                 0.650    0.250    0.333      0.650    0.440      0.317    0.700     0.273     Naukluft Plateau
+                 0.411    0.076    0.431      0.411    0.421      0.342    0.668     0.249     Vera Rubin Ridge
+                 0.493    0.041    0.497      0.493    0.495      0.454    0.726     0.284     Yellowknife Bay
+Weighted Avg.    0.392    0.100    0.428      0.392    0.328      0.295    0.646     0.217     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f    g    h    i    j    k   <-- classified as
+  184    0    0    7    6    3   17  117  184   29  122 |    a = Cooperstown
+    2    5    0    0   18    2    4  198  155  136    4 |    b = Gobabeb
+   31    0   22    1    2    0    9   21    5   40    0 |    c = Kimberley
+   42    0    1   94    3    9    0   42  316    8   61 |    d = Marias Pass
+    4    0    0    0   32    0   41  226  275   34    4 |    e = Murray Buttes
+    2    1    0    0    5    3   15  506   74   71   13 |    f = Ogunquit Beach
+   14    0    2    3    3    0  125   71  279   37   18 |    g = Pahrump Hills
+    1    3    0    0    6    2    3 1065   41   35    4 |    h = Mary Anning
+   25    0    0   19   23    0   15  180  805  111   61 |    i = Naukluft Plateau
+    2    0    0    0    3    5    1  420  119  387    4 |    j = Vera Rubin Ridge
+   41    0    1    0    4    2    4   71  163   10  288 |    k = Yellowknife Bay
+
