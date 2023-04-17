@@ -1,0 +1,193 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     Medium All Sites Combined Data-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   13
+              279.64499
+              288.24899
+              294.96301
+              334.991
+              393.50943
+              427.62112
+              589.16156
+              656.41418
+              670.98114
+              766.65668
+              777.5863
+              795.21838
+              Type
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Shoreline, Dunes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         4.8092 * (normalized) 279.64499
+ +       1.4186 * (normalized) 288.24899
+ +      -0.7051 * (normalized) 294.96301
+ +     -11.5644 * (normalized) 334.991
+ +      -1.2466 * (normalized) 393.50943
+ +      -2.8286 * (normalized) 427.62112
+ +      -4.5512 * (normalized) 589.16156
+ +      -2.8152 * (normalized) 656.41418
+ +      -5.7149 * (normalized) 670.98114
+ +      -1.1533 * (normalized) 766.65668
+ +       7.1856 * (normalized) 777.5863
+ +      -0.3994 * (normalized) 795.21838
+ -       0.6397
+
+Number of kernel evaluations: 300721 (66.664% cached)
+
+Classifier for classes: Shoreline, Sediment Deposit
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         4.0936 * (normalized) 279.64499
+ +      -2.8343 * (normalized) 288.24899
+ +      -1.9262 * (normalized) 294.96301
+ +      -7.429  * (normalized) 334.991
+ +      -2.0186 * (normalized) 393.50943
+ +      -3.499  * (normalized) 427.62112
+ +      -1.887  * (normalized) 589.16156
+ +      -3.2223 * (normalized) 656.41418
+ +      -0.6392 * (normalized) 670.98114
+ +       5.7308 * (normalized) 766.65668
+ +       2.4924 * (normalized) 777.5863
+ +       6.0538 * (normalized) 795.21838
+ -       1.434 
+
+Number of kernel evaluations: 275507 (67.279% cached)
+
+Classifier for classes: Shoreline, Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         7.1835 * (normalized) 279.64499
+ +      -4.7833 * (normalized) 288.24899
+ +      -3.0286 * (normalized) 294.96301
+ +      -8.2337 * (normalized) 334.991
+ +      -5.2527 * (normalized) 393.50943
+ +      -6.7679 * (normalized) 427.62112
+ +      -5.9602 * (normalized) 589.16156
+ +      -4.4136 * (normalized) 656.41418
+ +      -1.1879 * (normalized) 670.98114
+ +       9.2161 * (normalized) 766.65668
+ +       2.7969 * (normalized) 777.5863
+ +       6.1806 * (normalized) 795.21838
+ +       0.3657
+
+Number of kernel evaluations: 322144 (66.465% cached)
+
+Classifier for classes: Dunes, Sediment Deposit
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.1905 * (normalized) 279.64499
+ +      -1.6297 * (normalized) 288.24899
+ +      -2.2979 * (normalized) 294.96301
+ +       0.0926 * (normalized) 334.991
+ +      -0.7105 * (normalized) 393.50943
+ +      -1.5792 * (normalized) 427.62112
+ +       0.7739 * (normalized) 589.16156
+ +       0.9688 * (normalized) 656.41418
+ +       9.8361 * (normalized) 670.98114
+ +       6.3537 * (normalized) 766.65668
+ +      -1.725  * (normalized) 777.5863
+ +       6.9494 * (normalized) 795.21838
+ -       2.4653
+
+Number of kernel evaluations: 214492 (64.508% cached)
+
+Classifier for classes: Dunes, Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.5119 * (normalized) 279.64499
+ +      -5.612  * (normalized) 288.24899
+ +       0.0814 * (normalized) 294.96301
+ +      -0.9841 * (normalized) 334.991
+ +      -6.8565 * (normalized) 393.50943
+ +      -4.737  * (normalized) 427.62112
+ +      -6.4112 * (normalized) 589.16156
+ +      -2.6069 * (normalized) 656.41418
+ +       8.5962 * (normalized) 670.98114
+ +      10.0586 * (normalized) 766.65668
+ +      -1.0166 * (normalized) 777.5863
+ +       6.2613 * (normalized) 795.21838
+ +       1.769 
+
+Number of kernel evaluations: 258050 (67.063% cached)
+
+Classifier for classes: Sediment Deposit, Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.5655 * (normalized) 279.64499
+ +      -1.2202 * (normalized) 288.24899
+ +      -0.118  * (normalized) 294.96301
+ +       1.0578 * (normalized) 334.991
+ +      -5.3176 * (normalized) 393.50943
+ +      -3.0207 * (normalized) 427.62112
+ +      -6.083  * (normalized) 589.16156
+ +      -2.649  * (normalized) 656.41418
+ +       0.9139 * (normalized) 670.98114
+ +      -0.3709 * (normalized) 766.65668
+ +      -0.4231 * (normalized) 777.5863
+ +      -0.1298 * (normalized) 795.21838
+ +       3.328 
+
+Number of kernel evaluations: 285991 (65.322% cached)
+
+
+
+Time taken to build model: 0.63 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4704               61.2341 %
+Incorrectly Classified Instances      2978               38.7659 %
+Kappa statistic                          0.4567
+Mean absolute error                      0.301 
+Root mean squared error                  0.3847
+Relative absolute error                 82.4545 %
+Root relative squared error             90.0432 %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.687    0.156    0.580      0.687    0.629      0.503    0.832     0.525     Shoreline
+                 0.365    0.101    0.519      0.365    0.428      0.302    0.674     0.359     Dunes
+                 0.363    0.049    0.601      0.363    0.453      0.389    0.733     0.385     Sediment Deposit
+                 0.836    0.237    0.668      0.836    0.743      0.579    0.820     0.637     Beach
+Weighted Avg.    0.612    0.154    0.602      0.612    0.594      0.465    0.775     0.504     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1256  312   89  172 |    a = Shoreline
+  467  643  136  517 |    b = Dunes
+  200  159  472  468 |    c = Sediment Deposit
+  244  125   89 2333 |    d = Beach
+

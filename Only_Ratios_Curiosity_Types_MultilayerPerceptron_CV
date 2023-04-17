@@ -1,0 +1,205 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     Medium All Sites Combined Data Only Ratios for Type-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   12
+              288.24899
+              427.62112
+              670.98114
+              K/Rb
+              K/Na
+              Ti/K
+              Ca/Ti
+              Mg/Ti
+              Ca/H
+              Mg/H
+              O/Mn
+              Type
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -2.670367339098618
+    Node 4    4.629516404728295
+    Node 5    -4.470101640008059
+    Node 6    -5.195482465468878
+    Node 7    2.94396016777601
+    Node 8    -0.9871162610481887
+    Node 9    2.7980078550613188
+    Node 10    0.28912270255304606
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.7493924706641975
+    Node 4    -3.073075198848852
+    Node 5    -16.928206574796654
+    Node 6    -1.525772203867617
+    Node 7    -1.8194641282779724
+    Node 8    -3.2191100223572913
+    Node 9    -1.4668021179410178
+    Node 10    1.609834564913439
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -5.544538167528925
+    Node 4    -2.5918641078617766
+    Node 5    1.0994802443102156
+    Node 6    6.803290493867652
+    Node 7    -2.1189427710553805
+    Node 8    3.5446420342887692
+    Node 9    -0.9998632577638322
+    Node 10    3.7644175042193755
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    1.609292584648814
+    Node 4    -4.1076293049741155
+    Node 5    1.9804622445725664
+    Node 6    -5.527975627293608
+    Node 7    -6.120784211653439
+    Node 8    0.6673900217956115
+    Node 9    -5.452578846841681
+    Node 10    -3.9388408015616685
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -8.695342744944533
+    Attrib 288.24899    9.149297900183717
+    Attrib 427.62112    -35.89184130267207
+    Attrib 670.98114    52.529875532220075
+    Attrib K/Rb    11.41316502988578
+    Attrib K/Na    0.6060033133218712
+    Attrib Ti/K    1.219996012968545
+    Attrib Ca/Ti    1.354211130024595
+    Attrib Mg/Ti    -0.6593110597598705
+    Attrib Ca/H    2.8564026004312635
+    Attrib Mg/H    -29.522213364637018
+    Attrib O/Mn    -19.279808136455866
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    5.220704517550068
+    Attrib 288.24899    -4.832624910010885
+    Attrib 427.62112    2.9361547258384304
+    Attrib 670.98114    4.362459118172803
+    Attrib K/Rb    -4.902360961504809
+    Attrib K/Na    -5.932631337860951
+    Attrib Ti/K    -7.2672830090457445
+    Attrib Ca/Ti    -3.9799113670318125
+    Attrib Mg/Ti    14.41098917009568
+    Attrib Ca/H    -4.844014289137726
+    Attrib Mg/H    4.32333778611249
+    Attrib O/Mn    13.875697994021543
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    12.641354441150376
+    Attrib 288.24899    7.177549996186845
+    Attrib 427.62112    4.085292377557424
+    Attrib 670.98114    -2.4536573462571813
+    Attrib K/Rb    16.63635524904958
+    Attrib K/Na    27.18541492186943
+    Attrib Ti/K    -12.413793772507216
+    Attrib Ca/Ti    4.773363847979237
+    Attrib Mg/Ti    10.998726708968576
+    Attrib Ca/H    9.945897338991992
+    Attrib Mg/H    -5.117232359921744
+    Attrib O/Mn    -20.518334806686177
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    0.8199084364652534
+    Attrib 288.24899    -26.864569617551354
+    Attrib 427.62112    28.9044137077615
+    Attrib 670.98114    13.78550452977358
+    Attrib K/Rb    -3.481876167399883
+    Attrib K/Na    -22.222705930650587
+    Attrib Ti/K    19.57772253986653
+    Attrib Ca/Ti    -19.755407359603687
+    Attrib Mg/Ti    -3.9582882526253376
+    Attrib Ca/H    6.893378878298939
+    Attrib Mg/H    7.15845398775916
+    Attrib O/Mn    -0.039811775713823175
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    13.15684666343674
+    Attrib 288.24899    0.5120601234819775
+    Attrib 427.62112    -5.1145574266409275
+    Attrib 670.98114    76.08274537003541
+    Attrib K/Rb    -16.17273217184632
+    Attrib K/Na    41.69190495047202
+    Attrib Ti/K    -26.932036875609025
+    Attrib Ca/Ti    -10.843670214931734
+    Attrib Mg/Ti    -25.400508241681017
+    Attrib Ca/H    -1.6816162866004816
+    Attrib Mg/H    -1.9783926168893073
+    Attrib O/Mn    -20.20668889240549
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -11.591810556956258
+    Attrib 288.24899    -0.24405909231739603
+    Attrib 427.62112    6.070492871495993
+    Attrib 670.98114    2.100259252166314
+    Attrib K/Rb    18.982251436213293
+    Attrib K/Na    8.508099255615216
+    Attrib Ti/K    32.25237361441676
+    Attrib Ca/Ti    -11.017712542789049
+    Attrib Mg/Ti    -23.387306394723637
+    Attrib Ca/H    15.7958575104464
+    Attrib Mg/H    -26.62363682114603
+    Attrib O/Mn    -21.58874054727033
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -8.371030186166937
+    Attrib 288.24899    12.72918392438436
+    Attrib 427.62112    14.94412594339378
+    Attrib 670.98114    -63.19375371381503
+    Attrib K/Rb    9.69371022155057
+    Attrib K/Na    -85.03278897017726
+    Attrib Ti/K    13.68803922322474
+    Attrib Ca/Ti    23.087064244644147
+    Attrib Mg/Ti    21.970435668002395
+    Attrib Ca/H    20.73046126741155
+    Attrib Mg/H    -6.0806582365794855
+    Attrib O/Mn    38.95934528825447
+Class Shoreline
+    Input
+    Node 0
+Class Dunes
+    Input
+    Node 1
+Class Sediment Deposit
+    Input
+    Node 2
+Class Beach
+    Input
+    Node 3
+
+
+Time taken to build model: 6.97 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5457               71.0362 %
+Incorrectly Classified Instances      2225               28.9638 %
+Kappa statistic                          0.5975
+Mean absolute error                      0.2019
+Root mean squared error                  0.3252
+Relative absolute error                 55.3053 %
+Root relative squared error             76.1178 %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.796    0.100    0.713      0.796    0.752      0.671    0.922     0.769     Shoreline
+                 0.540    0.107    0.599      0.540    0.568      0.449    0.830     0.586     Dunes
+                 0.459    0.042    0.688      0.459    0.551      0.494    0.799     0.591     Sediment Deposit
+                 0.879    0.150    0.770      0.879    0.821      0.712    0.923     0.866     Beach
+Weighted Avg.    0.710    0.110    0.703      0.710    0.701      0.605    0.880     0.732     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1456  242   56   75 |    a = Shoreline
+  355  952  130  326 |    b = Dunes
+  144  228  596  331 |    c = Sediment Deposit
+   88  166   84 2453 |    d = Beach
+

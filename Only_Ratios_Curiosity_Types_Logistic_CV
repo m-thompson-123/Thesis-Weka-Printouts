@@ -1,0 +1,89 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     Medium All Sites Combined Data Only Ratios for Type-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   12
+              288.24899
+              427.62112
+              670.98114
+              K/Rb
+              K/Na
+              Ti/K
+              Ca/Ti
+              Mg/Ti
+              Ca/H
+              Mg/H
+              O/Mn
+              Type
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                             Class
+Variable                 Shoreline                  Dunes       Sediment Deposit
+================================================================================
+288.24899                   1.4552                 5.9326                 6.6931
+427.62112                   9.7354                 7.1915                 7.0594
+670.98114                  -0.4729               -50.4323                -1.3737
+K/Rb                       30.5893                16.6702                16.9885
+K/Na                      -51.9952               -53.2571               -20.7418
+Ti/K                       57.0893                34.7324                33.5202
+Ca/Ti                      -6.2393                 2.7152                 6.4172
+Mg/Ti                      18.6505                   7.62                14.7046
+Ca/H                       34.4373                24.1786                 27.544
+Mg/H                      -24.0106               -12.2288               -15.3441
+O/Mn                       33.6208                15.3889                 9.2915
+Intercept                   -8.564                 -4.486                -8.6991
+
+
+Odds Ratios...
+                             Class
+Variable                 Shoreline                  Dunes       Sediment Deposit
+================================================================================
+288.24899                   4.2853               377.1412               806.8221
+427.62112               16905.3193              1328.1129              1163.7408
+670.98114                   0.6232                      0                 0.2532
+K/Rb         1.9265030841259727E13          17368751.9284          23879526.0991
+K/Na                             0                      0                      0
+Ti/K          6.216666834428231E24  1.2135792627551965E15  3.6109929924849475E14
+Ca/Ti                        0.002                15.1074               612.2616
+Mg/Ti               125837062.5833              2038.6121           2432859.6546
+Ca/H          9.034769777022778E14  3.1669165824000637E10   9.166819919698478E11
+Mg/H                             0                      0                      0
+O/Mn          3.993422231149354E14           4823153.5325             10845.3118
+
+
+Time taken to build model: 0.39 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4840               63.0044 %
+Incorrectly Classified Instances      2842               36.9956 %
+Kappa statistic                          0.4808
+Mean absolute error                      0.2548
+Root mean squared error                  0.3537
+Relative absolute error                 69.8058 %
+Root relative squared error             82.7889 %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.577    0.104    0.634      0.577    0.604      0.489    0.868     0.652     Shoreline
+                 0.462    0.145    0.486      0.462    0.474      0.323    0.782     0.473     Dunes
+                 0.362    0.047    0.609      0.362    0.454      0.392    0.768     0.488     Sediment Deposit
+                 0.895    0.219    0.700      0.895    0.786      0.653    0.904     0.815     Beach
+Weighted Avg.    0.630    0.146    0.620      0.630    0.615      0.494    0.844     0.642     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1056  534   85  154 |    a = Shoreline
+  394  815  112  442 |    b = Dunes
+  152  204  470  473 |    c = Sediment Deposit
+   64  123  105 2499 |    d = Beach
+

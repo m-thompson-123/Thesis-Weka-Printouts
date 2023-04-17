@@ -1,0 +1,189 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     Medium All Sites Combined Data Only Ratios for Type-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   12
+              288.24899
+              427.62112
+              670.98114
+              K/Rb
+              K/Na
+              Ti/K
+              Ca/Ti
+              Mg/Ti
+              Ca/H
+              Mg/H
+              O/Mn
+              Type
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Shoreline, Dunes
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.6028 * (normalized) 288.24899
+ +      -2.7043 * (normalized) 427.62112
+ +      -5.7324 * (normalized) 670.98114
+ +      -8.7097 * (normalized) K/Rb
+ +       2.0514 * (normalized) K/Na
+ +     -12.8686 * (normalized) Ti/K
+ +       0.8197 * (normalized) Ca/Ti
+ +      -0.7634 * (normalized) Mg/Ti
+ +      -2.4252 * (normalized) Ca/H
+ +       5.7421 * (normalized) Mg/H
+ +      -2.3789 * (normalized) O/Mn
+ +       1.8206
+
+Number of kernel evaluations: 177950 (65.293% cached)
+
+Classifier for classes: Shoreline, Sediment Deposit
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.8518 * (normalized) 288.24899
+ +      -1.1801 * (normalized) 427.62112
+ +      -0.2258 * (normalized) 670.98114
+ +      -3.937  * (normalized) K/Rb
+ +       8.3324 * (normalized) K/Na
+ +     -14.7474 * (normalized) Ti/K
+ +       5.669  * (normalized) Ca/Ti
+ +       0.6196 * (normalized) Mg/Ti
+ +      -4.4176 * (normalized) Ca/H
+ +       6.741  * (normalized) Mg/H
+ +      -7.2715 * (normalized) O/Mn
+ -       0.3963
+
+Number of kernel evaluations: 151621 (66.025% cached)
+
+Classifier for classes: Shoreline, Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.9202 * (normalized) 288.24899
+ +      -2.8631 * (normalized) 427.62112
+ +       0.1963 * (normalized) 670.98114
+ +      -7.6413 * (normalized) K/Rb
+ +      14.1632 * (normalized) K/Na
+ +     -20.6324 * (normalized) Ti/K
+ +      -1.4152 * (normalized) Ca/Ti
+ +       0.9671 * (normalized) Mg/Ti
+ +      -8.3939 * (normalized) Ca/H
+ +       7.3752 * (normalized) Mg/H
+ +      -6.407  * (normalized) O/Mn
+ +       2.6107
+
+Number of kernel evaluations: 348879 (64.242% cached)
+
+Classifier for classes: Dunes, Sediment Deposit
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         2.1081 * (normalized) 288.24899
+ +       0.7979 * (normalized) 427.62112
+ +      12.7343 * (normalized) 670.98114
+ +       2.6909 * (normalized) K/Rb
+ +       5.9206 * (normalized) K/Na
+ +      -2.1259 * (normalized) Ti/K
+ +       2.9657 * (normalized) Ca/Ti
+ +       2.9952 * (normalized) Mg/Ti
+ +       0.301  * (normalized) Ca/H
+ +      -2.3034 * (normalized) Mg/H
+ +      -1.8402 * (normalized) O/Mn
+ -       2.5831
+
+Number of kernel evaluations: 130707 (62.452% cached)
+
+Classifier for classes: Dunes, Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -3.651  * (normalized) 288.24899
+ +      -3.7564 * (normalized) 427.62112
+ +      10.7142 * (normalized) 670.98114
+ +       0.5387 * (normalized) K/Rb
+ +      14.6842 * (normalized) K/Na
+ +      -9.2527 * (normalized) Ti/K
+ +      -2.9446 * (normalized) Ca/Ti
+ +       1.8791 * (normalized) Mg/Ti
+ +      -9.1761 * (normalized) Ca/H
+ +       3.084  * (normalized) Mg/H
+ +      -3.5125 * (normalized) O/Mn
+ +       1.8765
+
+Number of kernel evaluations: 168397 (62.929% cached)
+
+Classifier for classes: Sediment Deposit, Beach
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -3.5759 * (normalized) 288.24899
+ +      -4.6173 * (normalized) 427.62112
+ +       1.536  * (normalized) 670.98114
+ +      -2.898  * (normalized) K/Rb
+ +       4.77   * (normalized) K/Na
+ +      -4.819  * (normalized) Ti/K
+ +      -5.2537 * (normalized) Ca/Ti
+ +      -1.7247 * (normalized) Mg/Ti
+ +      -6.9951 * (normalized) Ca/H
+ +       5.7047 * (normalized) Mg/H
+ +      -0.4677 * (normalized) O/Mn
+ +       3.3092
+
+Number of kernel evaluations: 193613 (65.197% cached)
+
+
+
+Time taken to build model: 0.4 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         903               58.7891 %
+Incorrectly Classified Instances       633               41.2109 %
+Kappa statistic                          0.423 
+Mean absolute error                      0.3041
+Root mean squared error                  0.3885
+Relative absolute error                 83.0212 %
+Root relative squared error             90.5197 %
+Total Number of Instances             1536     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.496    0.092    0.636      0.496    0.557      0.442    0.841     0.572     Shoreline
+                 0.428    0.158    0.456      0.428    0.442      0.277    0.658     0.345     Dunes
+                 0.268    0.046    0.557      0.268    0.362      0.304    0.683     0.333     Sediment Deposit
+                 0.930    0.280    0.633      0.930    0.753      0.616    0.834     0.621     Beach
+Weighted Avg.    0.588    0.164    0.579      0.588    0.562      0.438    0.767     0.493     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   <-- classified as
+ 187 111  28  51 |   a = Shoreline
+  72 155  23 112 |   b = Dunes
+  23  56  73 120 |   c = Sediment Deposit
+  12  18   7 488 |   d = Beach
+

@@ -1,0 +1,127 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibLINEAR -S 7 -C 1.0 -E 0.001 -B 1.0 -P -L 0.1 -I 1000
+Relation:     Medium All Sites Combined Data Fixed-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   13
+              ﻿279.64499
+              288.24899
+              294.96301
+              334.991
+              393.50943
+              427.62112
+              589.16156
+              656.41418
+              670.98114
+              766.65668
+              777.5863
+              795.21838
+              Type
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+LibLINEAR wrapper
+
+Model bias=1.0 nr_class=4 nr_feature=13 solverType=L2R_LR_DUAL
+
+Model for class Shoreline
+
+-        6.62 * ﻿279.64499
++        1.7  * 288.24899
++        2.41 * 294.96301
++       10.3  * 334.991
++        4.29 * 393.50943
++        5.78 * 427.62112
++        4.82 * 589.16156
++        2.96 * 656.41418
++        1.22 * 670.98114
+-        3.81 * 766.65668
+-        6.23 * 777.5863
+-        3.59 * 795.21838
+-        0.42 * 1.0
+
+Model for class Dunes
+
+         0.33 * ﻿279.64499
++        3.9  * 288.24899
+-        1.08 * 294.96301
+-        3.01 * 334.991
++        3.29 * 393.50943
++        0.73 * 427.62112
++        0.09 * 589.16156
++        0.65 * 656.41418
+-        8.65 * 670.98114
+-        6.61 * 766.65668
++        2.78 * 777.5863
+-        5.14 * 795.21838
+-        1.37 * 1.0
+
+Model for class Sediment Deposit
+
+         0.83 * ﻿279.64499
+-        0.33 * 288.24899
+-        1.97 * 294.96301
+-        2.73 * 334.991
++        2.44 * 393.50943
+-        0.31 * 427.62112
++        1.6  * 589.16156
++        0.88 * 656.41418
++        0.5  * 670.98114
++        4.91 * 766.65668
++        1.19 * 777.5863
++        3.51 * 795.21838
+-        4.7  * 1.0
+
+Model for class Beach
+
+         5.9  * ﻿279.64499
+-        4.82 * 288.24899
+-        0.14 * 294.96301
+-        4.5  * 334.991
+-        9.19 * 393.50943
+-        7.73 * 427.62112
+-        6.98 * 589.16156
+-        3.86 * 656.41418
++        1.54 * 670.98114
++        4.81 * 766.65668
++        1.38 * 777.5863
++        6.4  * 795.21838
++        0.93 * 1.0
+
+
+
+Time taken to build model: 0.19 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.02 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         890               57.9427 %
+Incorrectly Classified Instances       646               42.0573 %
+Kappa statistic                          0.4118
+Mean absolute error                      0.2922
+Root mean squared error                  0.372 
+Relative absolute error                 79.7546 %
+Root relative squared error             86.6584 %
+Total Number of Instances             1536     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.629    0.116    0.637      0.629    0.633      0.514    0.859     0.687     Shoreline
+                 0.301    0.106    0.466      0.301    0.366      0.230    0.719     0.440     Dunes
+                 0.360    0.050    0.609      0.360    0.453      0.387    0.785     0.528     Sediment Deposit
+                 0.850    0.319    0.580      0.850    0.689      0.503    0.862     0.755     Beach
+Weighted Avg.    0.579    0.172    0.572      0.579    0.557      0.421    0.814     0.624     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   <-- classified as
+ 237  60  24  56 |   a = Shoreline
+  82 109  25 146 |   b = Dunes
+  29  24  98 121 |   c = Sediment Deposit
+  24  41  14 446 |   d = Beach
+

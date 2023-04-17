@@ -1,0 +1,119 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibLINEAR -S 7 -C 1.0 -E 0.001 -B 1.0 -L 0.1 -I 1000
+Relation:     Medium All Sites Combined Data Only Ratios for Type-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   12
+              288.24899
+              427.62112
+              670.98114
+              K/Rb
+              K/Na
+              Ti/K
+              Ca/Ti
+              Mg/Ti
+              Ca/H
+              Mg/H
+              O/Mn
+              Type
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+LibLINEAR wrapper
+
+Model bias=1.0 nr_class=4 nr_feature=12 solverType=L2R_LR_DUAL
+
+Model for class Shoreline
+
+-        2.06 * 288.24899
++        3.76 * 427.62112
++        0.9  * 670.98114
++        6.51 * K/Rb
+-        7.84 * K/Na
++       12.57 * Ti/K
+-        1.78 * Ca/Ti
+-        1.33 * Mg/Ti
++        6.61 * Ca/H
+-        7.57 * Mg/H
++        4.22 * O/Mn
+-        2.22 * 1.0
+
+Model for class Dunes
+
+         1.93 * 288.24899
+-        0.48 * 427.62112
+-        9.22 * 670.98114
+-        4.54 * K/Rb
+-        6.85 * K/Na
++        0.25 * Ti/K
++        0.32 * Ca/Ti
+-        2.51 * Mg/Ti
++        3.28 * Ca/H
+-        0.3  * Mg/H
++        0.36 * O/Mn
+-        0.51 * 1.0
+
+Model for class Sediment Deposit
+
+         3.86 * 288.24899
++        1.57 * 427.62112
++        1.14 * 670.98114
++        0.58 * K/Rb
++        2.91 * K/Na
+-        4.38 * Ti/K
++        4.6  * Ca/Ti
++        1.66 * Mg/Ti
++        3.73 * Ca/H
+-        0.86 * Mg/H
+-        2.08 * O/Mn
+-        3.94 * 1.0
+
+Model for class Beach
+
+-        2.31 * 288.24899
+-        5.56 * 427.62112
++        1.9  * 670.98114
+-        4.5  * K/Rb
++       10.43 * K/Na
+-       14.79 * Ti/K
+-        3.53 * Ca/Ti
++        0.23 * Mg/Ti
+-       12.27 * Ca/H
++        8.39 * Mg/H
+-        3.61 * O/Mn
++        2.18 * 1.0
+
+
+
+Time taken to build model: 0.14 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4478               58.2921 %
+Incorrectly Classified Instances      3204               41.7079 %
+Kappa statistic                          0.3989
+Mean absolute error                      0.2085
+Root mean squared error                  0.4567
+Relative absolute error                 57.1291 %
+Root relative squared error            106.8925 %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.553    0.083    0.674      0.553    0.608      0.504    0.735     0.479     Shoreline
+                 0.237    0.085    0.453      0.237    0.311      0.196    0.576     0.282     Dunes
+                 0.293    0.043    0.580      0.293    0.390      0.335    0.625     0.290     Sediment Deposit
+                 0.956    0.396    0.580      0.956    0.722      0.550    0.780     0.570     Beach
+Weighted Avg.    0.583    0.190    0.573      0.583    0.544      0.422    0.696     0.435     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1011  297  101  420 |    a = Shoreline
+  320  418  135  890 |    b = Dunes
+  129  164  381  625 |    c = Sediment Deposit
+   39   44   40 2668 |    d = Beach
+

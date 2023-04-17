@@ -1,0 +1,122 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.LibLINEAR -S 7 -C 1.0 -E 0.001 -B 1.0 -L 0.1 -I 1000
+Relation:     Medium All Sites Combined Data Only Ratios for Type-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   12
+              288.24899
+              427.62112
+              670.98114
+              K/Rb
+              K/Na
+              Ti/K
+              Ca/Ti
+              Mg/Ti
+              Ca/H
+              Mg/H
+              O/Mn
+              Type
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+LibLINEAR wrapper
+
+Model bias=1.0 nr_class=4 nr_feature=12 solverType=L2R_LR_DUAL
+
+Model for class Shoreline
+
+-        2.06 * 288.24899
++        3.76 * 427.62112
++        0.9  * 670.98114
++        6.51 * K/Rb
+-        7.84 * K/Na
++       12.57 * Ti/K
+-        1.78 * Ca/Ti
+-        1.33 * Mg/Ti
++        6.61 * Ca/H
+-        7.57 * Mg/H
++        4.22 * O/Mn
+-        2.22 * 1.0
+
+Model for class Dunes
+
+         1.93 * 288.24899
+-        0.48 * 427.62112
+-        9.22 * 670.98114
+-        4.54 * K/Rb
+-        6.85 * K/Na
++        0.25 * Ti/K
++        0.32 * Ca/Ti
+-        2.51 * Mg/Ti
++        3.28 * Ca/H
+-        0.3  * Mg/H
++        0.36 * O/Mn
+-        0.51 * 1.0
+
+Model for class Sediment Deposit
+
+         3.86 * 288.24899
++        1.57 * 427.62112
++        1.14 * 670.98114
++        0.58 * K/Rb
++        2.91 * K/Na
+-        4.38 * Ti/K
++        4.6  * Ca/Ti
++        1.66 * Mg/Ti
++        3.73 * Ca/H
+-        0.86 * Mg/H
+-        2.08 * O/Mn
+-        3.94 * 1.0
+
+Model for class Beach
+
+-        2.31 * 288.24899
+-        5.56 * 427.62112
++        1.9  * 670.98114
+-        4.5  * K/Rb
++       10.43 * K/Na
+-       14.79 * Ti/K
+-        3.53 * Ca/Ti
++        0.23 * Mg/Ti
+-       12.27 * Ca/H
++        8.39 * Mg/H
+-        3.61 * O/Mn
++        2.18 * 1.0
+
+
+
+Time taken to build model: 0.08 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances         866               56.3802 %
+Incorrectly Classified Instances       670               43.6198 %
+Kappa statistic                          0.3806
+Mean absolute error                      0.2181
+Root mean squared error                  0.467 
+Relative absolute error                 59.5336 %
+Root relative squared error            108.7991 %
+Total Number of Instances             1536     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.541    0.081    0.685      0.541    0.604      0.501    0.730     0.483     Shoreline
+                 0.232    0.093    0.435      0.232    0.303      0.178    0.570     0.282     Dunes
+                 0.272    0.045    0.565      0.272    0.367      0.310    0.613     0.283     Sediment Deposit
+                 0.960    0.406    0.551      0.960    0.700      0.536    0.777     0.543     Beach
+Weighted Avg.    0.564    0.188    0.559      0.564    0.524      0.403    0.688     0.421     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   <-- classified as
+ 204  59  22  92 |   a = Shoreline
+  66  84  30 182 |   b = Dunes
+  24  38  74 136 |   c = Sediment Deposit
+   4  12   5 504 |   d = Beach
+

@@ -1,0 +1,2370 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     Medium Reduced Rock Data No Unknowns-weka.filters.unsupervised.attribute.Remove-R1,3-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    470
+Attributes:   71
+              Area
+              263.1
+              279.5333333
+              288
+              288.1333333
+              308.2
+              309.3
+              313.0666667
+              316.2333333
+              334.2333333
+              335
+              365
+              368
+              371
+              371.3666667
+              373
+              373.5
+              375
+              379.5333333
+              380
+              380.1666667
+              388
+              389.3666667
+              390.5333333
+              393
+              396
+              397.7
+              401.8
+              403
+              406
+              408.4666667
+              420.5333333
+              421.3666667
+              422
+              425.5
+              427.1
+              428.5666667
+              428.9
+              430
+              432
+              432.5
+              443.7
+              445
+              445.3666667
+              453
+              453.6
+              455
+              457.3333333
+              466.6
+              468
+              474
+              475.4
+              476
+              476.2666667
+              482.5
+              483.8
+              498.1333333
+              501.8
+              507.9333333
+              516
+              518
+              527
+              531.8666667
+              534.4
+              566.5
+              567.0666667
+              588
+              610.3
+              670
+              670.8
+              704.6666667
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: DRC, Keystone
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.1048 * (normalized) 263.1
+ +       0.6261 * (normalized) 279.5333333
+ +       0.3483 * (normalized) 288
+ +       0.1989 * (normalized) 288.1333333
+ +       0.0706 * (normalized) 308.2
+ +       0.1188 * (normalized) 309.3
+ +       0.3451 * (normalized) 313.0666667
+ +       0.1432 * (normalized) 316.2333333
+ +       0.1068 * (normalized) 334.2333333
+ +       0.0562 * (normalized) 335
+ +       0.1991 * (normalized) 365
+ +       0.2598 * (normalized) 368
+ +       0.2051 * (normalized) 371
+ +       0.141  * (normalized) 371.3666667
+ +       0.1316 * (normalized) 373
+ +       0.6409 * (normalized) 373.5
+ +       0.2673 * (normalized) 375
+ +       0.1453 * (normalized) 379.5333333
+ +       0.1569 * (normalized) 380
+ +       0.1356 * (normalized) 380.1666667
+ +       0.0337 * (normalized) 388
+ +       0.1202 * (normalized) 389.3666667
+ +       0.0517 * (normalized) 390.5333333
+ +       0.4019 * (normalized) 393
+ +       0.0839 * (normalized) 396
+ +       0.2539 * (normalized) 397.7
+ +       0.1216 * (normalized) 401.8
+ +       0.309  * (normalized) 403
+ +      -0.0195 * (normalized) 406
+ +       0.1333 * (normalized) 408.4666667
+ +       0.1148 * (normalized) 420.5333333
+ +       0.1916 * (normalized) 421.3666667
+ +       0.1965 * (normalized) 422
+ +       0.069  * (normalized) 425.5
+ +       0.3672 * (normalized) 427.1
+ +      -0.0391 * (normalized) 428.5666667
+ +       0.0307 * (normalized) 428.9
+ +      -0.0255 * (normalized) 430
+ +       0.0708 * (normalized) 432
+ +       0.2857 * (normalized) 432.5
+ +       0.0848 * (normalized) 443.7
+ +      -0.0007 * (normalized) 445
+ +       0.0498 * (normalized) 445.3666667
+ +      -0.1014 * (normalized) 453
+ +      -0.1857 * (normalized) 453.6
+ +      -0.0222 * (normalized) 455
+ +       0.063  * (normalized) 457.3333333
+ +       0.1298 * (normalized) 466.6
+ +       0.5411 * (normalized) 468
+ +       0.2303 * (normalized) 474
+ +       0.2653 * (normalized) 475.4
+ +      -0.1563 * (normalized) 476
+ +       0.2826 * (normalized) 476.2666667
+ +       0.238  * (normalized) 482.5
+ +       0.157  * (normalized) 483.8
+ +      -0.0798 * (normalized) 498.1333333
+ +       0.0515 * (normalized) 501.8
+ +       0.0579 * (normalized) 507.9333333
+ +       0.0998 * (normalized) 516
+ +       0.0179 * (normalized) 518
+ +       0.4187 * (normalized) 527
+ +       0.0588 * (normalized) 531.8666667
+ +       0.1822 * (normalized) 534.4
+ +       0.0905 * (normalized) 566.5
+ +       0.0201 * (normalized) 567.0666667
+ +      -0.0329 * (normalized) 588
+ +       0.0527 * (normalized) 610.3
+ +       0.1712 * (normalized) 670
+ +       0.4989 * (normalized) 670.8
+ +       0.192  * (normalized) 704.6666667
+ -       1.427 
+
+Number of kernel evaluations: 835 (71.424% cached)
+
+Classifier for classes: DRC, Pringle
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.9944 * (normalized) 263.1
+ +       0.9986 * (normalized) 279.5333333
+ +       0.4266 * (normalized) 288
+ +       0.1465 * (normalized) 288.1333333
+ +       0.085  * (normalized) 308.2
+ +       0.1282 * (normalized) 309.3
+ +       0.2429 * (normalized) 313.0666667
+ +       0.1018 * (normalized) 316.2333333
+ +       0.076  * (normalized) 334.2333333
+ +       0.0416 * (normalized) 335
+ +       0.2343 * (normalized) 365
+ +       0.445  * (normalized) 368
+ +       0.1968 * (normalized) 371
+ +       0.0605 * (normalized) 371.3666667
+ +      -0.0761 * (normalized) 373
+ +       0.9033 * (normalized) 373.5
+ +       0.4455 * (normalized) 375
+ +       0.2271 * (normalized) 379.5333333
+ +       0.1998 * (normalized) 380
+ +       0.0941 * (normalized) 380.1666667
+ +      -0.0767 * (normalized) 388
+ +       0.0657 * (normalized) 389.3666667
+ +      -0.0133 * (normalized) 390.5333333
+ +       0.1972 * (normalized) 393
+ +       0.0812 * (normalized) 396
+ +       0.163  * (normalized) 397.7
+ +       0.1535 * (normalized) 401.8
+ +       0.4405 * (normalized) 403
+ +      -0.106  * (normalized) 406
+ +       0.0775 * (normalized) 408.4666667
+ +       0.0052 * (normalized) 420.5333333
+ +       0.071  * (normalized) 421.3666667
+ +       0.2576 * (normalized) 422
+ +      -0.0042 * (normalized) 425.5
+ +       0.737  * (normalized) 427.1
+ +      -0.1738 * (normalized) 428.5666667
+ +      -0.0034 * (normalized) 428.9
+ +      -0.114  * (normalized) 430
+ +      -0.0334 * (normalized) 432
+ +       0.4717 * (normalized) 432.5
+ +       0.0119 * (normalized) 443.7
+ +      -0.0466 * (normalized) 445
+ +       0.0448 * (normalized) 445.3666667
+ +      -0.2882 * (normalized) 453
+ +      -0.352  * (normalized) 453.6
+ +      -0.0645 * (normalized) 455
+ +      -0.0748 * (normalized) 457.3333333
+ +       0.042  * (normalized) 466.6
+ +      -0.319  * (normalized) 468
+ +      -0.0755 * (normalized) 474
+ +       0.3979 * (normalized) 475.4
+ +      -0.3087 * (normalized) 476
+ +       0.3566 * (normalized) 476.2666667
+ +       0.3382 * (normalized) 482.5
+ +      -0.1264 * (normalized) 483.8
+ +      -0.1411 * (normalized) 498.1333333
+ +      -0.0489 * (normalized) 501.8
+ +      -0.0442 * (normalized) 507.9333333
+ +       0.0226 * (normalized) 516
+ +      -0.0766 * (normalized) 518
+ +       0.7448 * (normalized) 527
+ +       0.0178 * (normalized) 531.8666667
+ +       0.2119 * (normalized) 534.4
+ +       0.0441 * (normalized) 566.5
+ +      -0.0434 * (normalized) 567.0666667
+ +      -0.2106 * (normalized) 588
+ +       0.441  * (normalized) 610.3
+ +       0.2601 * (normalized) 670
+ +       1.0749 * (normalized) 670.8
+ +       0.0853 * (normalized) 704.6666667
+ -       1.2003
+
+Number of kernel evaluations: 874 (70.847% cached)
+
+Classifier for classes: DRC, Custer
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8614 * (normalized) 263.1
+ +       0.4277 * (normalized) 279.5333333
+ +       0.5504 * (normalized) 288
+ +       0.2896 * (normalized) 288.1333333
+ +       0.2596 * (normalized) 308.2
+ +       0.4976 * (normalized) 309.3
+ +       1.3982 * (normalized) 313.0666667
+ +       0.4608 * (normalized) 316.2333333
+ +       0.3251 * (normalized) 334.2333333
+ +       0.2028 * (normalized) 335
+ +       0.4425 * (normalized) 365
+ +       0.4    * (normalized) 368
+ +       0.2911 * (normalized) 371
+ +       0.3633 * (normalized) 371.3666667
+ +      -0.0471 * (normalized) 373
+ +       0.7454 * (normalized) 373.5
+ +       0.3367 * (normalized) 375
+ +       0.3291 * (normalized) 379.5333333
+ +       0.3477 * (normalized) 380
+ +       0.4765 * (normalized) 380.1666667
+ +       0.0841 * (normalized) 388
+ +       0.4409 * (normalized) 389.3666667
+ +       0.0252 * (normalized) 390.5333333
+ +       0.0601 * (normalized) 393
+ +       0.1688 * (normalized) 396
+ +       0.225  * (normalized) 397.7
+ +      -0.1961 * (normalized) 401.8
+ +       0.1459 * (normalized) 403
+ +       0.0126 * (normalized) 406
+ +       0.3426 * (normalized) 408.4666667
+ +       0.542  * (normalized) 420.5333333
+ +       0.2806 * (normalized) 421.3666667
+ +       0.2793 * (normalized) 422
+ +       0.3597 * (normalized) 425.5
+ +       0.5736 * (normalized) 427.1
+ +       0.0343 * (normalized) 428.5666667
+ +       0.0174 * (normalized) 428.9
+ +       0.1248 * (normalized) 430
+ +       0.0636 * (normalized) 432
+ +       0.4594 * (normalized) 432.5
+ +       0.2125 * (normalized) 443.7
+ +      -0.0372 * (normalized) 445
+ +      -0.1303 * (normalized) 445.3666667
+ +      -0.2324 * (normalized) 453
+ +      -0.3513 * (normalized) 453.6
+ +      -0.0333 * (normalized) 455
+ +       0.2503 * (normalized) 457.3333333
+ +       0.4204 * (normalized) 466.6
+ +      -0.2812 * (normalized) 468
+ +      -0.1724 * (normalized) 474
+ +      -0.1859 * (normalized) 475.4
+ +      -0.294  * (normalized) 476
+ +      -0.2527 * (normalized) 476.2666667
+ +       0.0939 * (normalized) 482.5
+ +      -0.119  * (normalized) 483.8
+ +      -0.1036 * (normalized) 498.1333333
+ +      -0.2381 * (normalized) 501.8
+ +      -0.0466 * (normalized) 507.9333333
+ +       0.0234 * (normalized) 516
+ +      -0.1523 * (normalized) 518
+ +       0.122  * (normalized) 527
+ +       0.0465 * (normalized) 531.8666667
+ +       0.3624 * (normalized) 534.4
+ +       0.0324 * (normalized) 566.5
+ +      -0.1125 * (normalized) 567.0666667
+ +      -0.409  * (normalized) 588
+ +      -0.0341 * (normalized) 610.3
+ +      -0.1814 * (normalized) 670
+ +       0.0795 * (normalized) 670.8
+ +       0.3751 * (normalized) 704.6666667
+ -       1.1366
+
+Number of kernel evaluations: 775 (60.439% cached)
+
+Classifier for classes: DRC, New Mexico
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1551 * (normalized) 263.1
+ +       0.0847 * (normalized) 279.5333333
+ +       0.2248 * (normalized) 288
+ +       0.0998 * (normalized) 288.1333333
+ +       0.1357 * (normalized) 308.2
+ +       0.1411 * (normalized) 309.3
+ +       0.2153 * (normalized) 313.0666667
+ +       0.1145 * (normalized) 316.2333333
+ +       0.096  * (normalized) 334.2333333
+ +       0.073  * (normalized) 335
+ +       0.2284 * (normalized) 365
+ +       0.1527 * (normalized) 368
+ +       0.207  * (normalized) 371
+ +       0.2272 * (normalized) 371.3666667
+ +       0.1299 * (normalized) 373
+ +       0.1149 * (normalized) 373.5
+ +       0.1019 * (normalized) 375
+ +       0.1642 * (normalized) 379.5333333
+ +       0.2104 * (normalized) 380
+ +       0.2233 * (normalized) 380.1666667
+ +       0.1505 * (normalized) 388
+ +       0.2266 * (normalized) 389.3666667
+ +       0.0898 * (normalized) 390.5333333
+ +       0.0669 * (normalized) 393
+ +       0.097  * (normalized) 396
+ +       0.1836 * (normalized) 397.7
+ +       0.2082 * (normalized) 401.8
+ +       0.2521 * (normalized) 403
+ +       0.1849 * (normalized) 406
+ +       0.2027 * (normalized) 408.4666667
+ +       0.2355 * (normalized) 420.5333333
+ +       0.206  * (normalized) 421.3666667
+ +       0.2017 * (normalized) 422
+ +       0.2109 * (normalized) 425.5
+ +       0.103  * (normalized) 427.1
+ +       0.0896 * (normalized) 428.5666667
+ +       0.0926 * (normalized) 428.9
+ +       0.1125 * (normalized) 430
+ +       0.1376 * (normalized) 432
+ +       0.0958 * (normalized) 432.5
+ +       0.2078 * (normalized) 443.7
+ +       0.0565 * (normalized) 445
+ +       0.0524 * (normalized) 445.3666667
+ +       0.131  * (normalized) 453
+ +      -0.0215 * (normalized) 453.6
+ +       0.0397 * (normalized) 455
+ +       0.2391 * (normalized) 457.3333333
+ +       0.2368 * (normalized) 466.6
+ +       0.1224 * (normalized) 468
+ +       0.1666 * (normalized) 474
+ +       0.2214 * (normalized) 475.4
+ +      -0.0021 * (normalized) 476
+ +       0.2094 * (normalized) 476.2666667
+ +       0.2361 * (normalized) 482.5
+ +       0.1728 * (normalized) 483.8
+ +       0.041  * (normalized) 498.1333333
+ +       0.1418 * (normalized) 501.8
+ +       0.1571 * (normalized) 507.9333333
+ +       0.1929 * (normalized) 516
+ +       0.1671 * (normalized) 518
+ +       0.1215 * (normalized) 527
+ +       0.1919 * (normalized) 531.8666667
+ +       0.2517 * (normalized) 534.4
+ +       0.185  * (normalized) 566.5
+ +       0.1307 * (normalized) 567.0666667
+ +       0.0104 * (normalized) 588
+ +       0.0051 * (normalized) 610.3
+ +       0.0557 * (normalized) 670
+ +       0.001  * (normalized) 670.8
+ +       0.1517 * (normalized) 704.6666667
+ -       1.4711
+
+Number of kernel evaluations: 39 (67.5% cached)
+
+Classifier for classes: DRC, Colorado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6598 * (normalized) 263.1
+ +       0.5724 * (normalized) 279.5333333
+ +       0.2821 * (normalized) 288
+ +       0.7787 * (normalized) 288.1333333
+ +       0.8088 * (normalized) 308.2
+ +       0.8584 * (normalized) 309.3
+ +       0.6214 * (normalized) 313.0666667
+ +       0.1291 * (normalized) 316.2333333
+ +       0.0839 * (normalized) 334.2333333
+ +       0.0549 * (normalized) 335
+ +       0.2929 * (normalized) 365
+ +       0.3828 * (normalized) 368
+ +       0.2747 * (normalized) 371
+ +       0.2861 * (normalized) 371.3666667
+ +       0.2484 * (normalized) 373
+ +       0.4177 * (normalized) 373.5
+ +       0.254  * (normalized) 375
+ +       0.2702 * (normalized) 379.5333333
+ +       0.2783 * (normalized) 380
+ +       0.2925 * (normalized) 380.1666667
+ +       0.2127 * (normalized) 388
+ +       0.3186 * (normalized) 389.3666667
+ +       0.7001 * (normalized) 390.5333333
+ +       0.1948 * (normalized) 393
+ +       0.9215 * (normalized) 396
+ +       0.3364 * (normalized) 397.7
+ +       0.2054 * (normalized) 401.8
+ +       0.2621 * (normalized) 403
+ +       0.1136 * (normalized) 406
+ +       0.2492 * (normalized) 408.4666667
+ +       0.2407 * (normalized) 420.5333333
+ +       0.4299 * (normalized) 421.3666667
+ +       0.4038 * (normalized) 422
+ +       0.1916 * (normalized) 425.5
+ +       0.2645 * (normalized) 427.1
+ +       0.0319 * (normalized) 428.5666667
+ +       0.1283 * (normalized) 428.9
+ +       0.0547 * (normalized) 430
+ +       0.2021 * (normalized) 432
+ +       0.2184 * (normalized) 432.5
+ +       0.1885 * (normalized) 443.7
+ +       0.0282 * (normalized) 445
+ +       0.0956 * (normalized) 445.3666667
+ +      -0.036  * (normalized) 453
+ +      -0.1672 * (normalized) 453.6
+ +       0.055  * (normalized) 455
+ +       0.1805 * (normalized) 457.3333333
+ +       0.2257 * (normalized) 466.6
+ +       0.0442 * (normalized) 468
+ +       0.0332 * (normalized) 474
+ +       0.1131 * (normalized) 475.4
+ +      -0.0963 * (normalized) 476
+ +       0.096  * (normalized) 476.2666667
+ +       0.1764 * (normalized) 482.5
+ +       0.0846 * (normalized) 483.8
+ +      -0.0492 * (normalized) 498.1333333
+ +      -0.0494 * (normalized) 501.8
+ +       0.0096 * (normalized) 507.9333333
+ +       0.0736 * (normalized) 516
+ +       0.0036 * (normalized) 518
+ +       0.2137 * (normalized) 527
+ +       0.0504 * (normalized) 531.8666667
+ +       0.1586 * (normalized) 534.4
+ +       0.0308 * (normalized) 566.5
+ +      -0.012  * (normalized) 567.0666667
+ +      -0.1067 * (normalized) 588
+ +       0.0033 * (normalized) 610.3
+ +      -0.2342 * (normalized) 670
+ +       0.0163 * (normalized) 670.8
+ +      -0.0576 * (normalized) 704.6666667
+ -       1.3834
+
+Number of kernel evaluations: 644 (71.902% cached)
+
+Classifier for classes: DRC, Bolivia
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6194 * (normalized) 263.1
+ +       0.8876 * (normalized) 279.5333333
+ +      -0.0075 * (normalized) 288
+ +       0.3842 * (normalized) 288.1333333
+ +       0.5257 * (normalized) 308.2
+ +       0.4829 * (normalized) 309.3
+ +       0.1295 * (normalized) 313.0666667
+ +       0.5444 * (normalized) 316.2333333
+ +       0.5969 * (normalized) 334.2333333
+ +       0.6872 * (normalized) 335
+ +       0.0217 * (normalized) 365
+ +       0.3426 * (normalized) 368
+ +       0.0877 * (normalized) 371
+ +      -0.0477 * (normalized) 371.3666667
+ +       0.2377 * (normalized) 373
+ +       0.6311 * (normalized) 373.5
+ +       0.2396 * (normalized) 375
+ +       0.075  * (normalized) 379.5333333
+ +       0.0243 * (normalized) 380
+ +      -0.0514 * (normalized) 380.1666667
+ +       0.0959 * (normalized) 388
+ +      -0.0386 * (normalized) 389.3666667
+ +       0.3128 * (normalized) 390.5333333
+ +       0.1553 * (normalized) 393
+ +       0.4968 * (normalized) 396
+ +       0.0578 * (normalized) 397.7
+ +      -0.0901 * (normalized) 401.8
+ +      -0.0359 * (normalized) 403
+ +      -0.1064 * (normalized) 406
+ +      -0.0505 * (normalized) 408.4666667
+ +      -0.1026 * (normalized) 420.5333333
+ +      -0.0727 * (normalized) 421.3666667
+ +       0.0805 * (normalized) 422
+ +      -0.0114 * (normalized) 425.5
+ +       0.4253 * (normalized) 427.1
+ +       0.1838 * (normalized) 428.5666667
+ +       0.3236 * (normalized) 428.9
+ +       0.6351 * (normalized) 430
+ +       0.2028 * (normalized) 432
+ +       0.3374 * (normalized) 432.5
+ +      -0.0614 * (normalized) 443.7
+ +       0.1977 * (normalized) 445
+ +       0.3079 * (normalized) 445.3666667
+ +      -0.0767 * (normalized) 453
+ +       0.3426 * (normalized) 453.6
+ +       0.2904 * (normalized) 455
+ +      -0.1903 * (normalized) 457.3333333
+ +      -0.0914 * (normalized) 466.6
+ +      -0.5212 * (normalized) 468
+ +      -0.1857 * (normalized) 474
+ +      -0.1258 * (normalized) 475.4
+ +      -0.0232 * (normalized) 476
+ +      -0.1548 * (normalized) 476.2666667
+ +      -0.0404 * (normalized) 482.5
+ +      -0.1477 * (normalized) 483.8
+ +       0.5404 * (normalized) 498.1333333
+ +      -0.3549 * (normalized) 501.8
+ +      -0.2366 * (normalized) 507.9333333
+ +      -0.1989 * (normalized) 516
+ +      -0.172  * (normalized) 518
+ +       0.1759 * (normalized) 527
+ +      -0.2006 * (normalized) 531.8666667
+ +      -0.1556 * (normalized) 534.4
+ +      -0.1998 * (normalized) 566.5
+ +      -0.2105 * (normalized) 567.0666667
+ +      -0.2016 * (normalized) 588
+ +      -0.003  * (normalized) 610.3
+ +      -0.1572 * (normalized) 670
+ +       0.2479 * (normalized) 670.8
+ +      -0.1744 * (normalized) 704.6666667
+ -       0.9979
+
+Number of kernel evaluations: 974 (61.938% cached)
+
+Classifier for classes: DRC, Maine
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.2549 * (normalized) 263.1
+ +       0.2085 * (normalized) 279.5333333
+ +       0.0977 * (normalized) 288
+ +       0.5248 * (normalized) 288.1333333
+ +       0.4791 * (normalized) 308.2
+ +       0.5099 * (normalized) 309.3
+ +       0.164  * (normalized) 313.0666667
+ +       0.044  * (normalized) 316.2333333
+ +       0.0401 * (normalized) 334.2333333
+ +       0.0269 * (normalized) 335
+ +       0.1487 * (normalized) 365
+ +       0.12   * (normalized) 368
+ +       0.1042 * (normalized) 371
+ +       0.1183 * (normalized) 371.3666667
+ +       0.012  * (normalized) 373
+ +       0.1487 * (normalized) 373.5
+ +       0.0832 * (normalized) 375
+ +       0.1252 * (normalized) 379.5333333
+ +       0.143  * (normalized) 380
+ +       0.1281 * (normalized) 380.1666667
+ +       0.0627 * (normalized) 388
+ +       0.1324 * (normalized) 389.3666667
+ +       0.4456 * (normalized) 390.5333333
+ +       0.3061 * (normalized) 393
+ +       0.7491 * (normalized) 396
+ +       0.1528 * (normalized) 397.7
+ +       0.0621 * (normalized) 401.8
+ +       0.0882 * (normalized) 403
+ +       0.0852 * (normalized) 406
+ +       0.13   * (normalized) 408.4666667
+ +       0.1374 * (normalized) 420.5333333
+ +       0.1399 * (normalized) 421.3666667
+ +       0.1374 * (normalized) 422
+ +       0.1344 * (normalized) 425.5
+ +       0.1129 * (normalized) 427.1
+ +       0.0249 * (normalized) 428.5666667
+ +       0.0332 * (normalized) 428.9
+ +       0.0185 * (normalized) 430
+ +       0.0836 * (normalized) 432
+ +       0.0885 * (normalized) 432.5
+ +       0.1151 * (normalized) 443.7
+ +       0.0063 * (normalized) 445
+ +       0.005  * (normalized) 445.3666667
+ +       0.0308 * (normalized) 453
+ +      -0.0942 * (normalized) 453.6
+ +       0.0098 * (normalized) 455
+ +       0.1093 * (normalized) 457.3333333
+ +       0.1526 * (normalized) 466.6
+ +       0.0499 * (normalized) 468
+ +       0.0579 * (normalized) 474
+ +       0.0919 * (normalized) 475.4
+ +      -0.0501 * (normalized) 476
+ +       0.0572 * (normalized) 476.2666667
+ +       0.0891 * (normalized) 482.5
+ +       0.092  * (normalized) 483.8
+ +      -0.0146 * (normalized) 498.1333333
+ +       0.0526 * (normalized) 501.8
+ +       0.0499 * (normalized) 507.9333333
+ +       0.1097 * (normalized) 516
+ +       0.0701 * (normalized) 518
+ +       0.1438 * (normalized) 527
+ +       0.0987 * (normalized) 531.8666667
+ +       0.1543 * (normalized) 534.4
+ +       0.1159 * (normalized) 566.5
+ +       0.1008 * (normalized) 567.0666667
+ +       0.2071 * (normalized) 588
+ +       0.4563 * (normalized) 610.3
+ +       0.0725 * (normalized) 670
+ +       0.4921 * (normalized) 670.8
+ +       0.0941 * (normalized) 704.6666667
+ -       1.3022
+
+Number of kernel evaluations: 1193 (67.956% cached)
+
+Classifier for classes: Keystone, Pringle
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5155 * (normalized) 263.1
+ +      -0.1924 * (normalized) 279.5333333
+ +      -0.5624 * (normalized) 288
+ +      -0.5029 * (normalized) 288.1333333
+ +       0.0345 * (normalized) 308.2
+ +       0.367  * (normalized) 309.3
+ +      -0.3139 * (normalized) 313.0666667
+ +       0.1405 * (normalized) 316.2333333
+ +       0.2537 * (normalized) 334.2333333
+ +       0.1935 * (normalized) 335
+ +       0.8229 * (normalized) 365
+ +      -0.6238 * (normalized) 368
+ +       0.3903 * (normalized) 371
+ +       0.8427 * (normalized) 371.3666667
+ +      -0.4429 * (normalized) 373
+ +      -1.2667 * (normalized) 373.5
+ +      -0.7239 * (normalized) 375
+ +      -0.1236 * (normalized) 379.5333333
+ +       0.8644 * (normalized) 380
+ +       0.7917 * (normalized) 380.1666667
+ +       0.3409 * (normalized) 388
+ +       0.3782 * (normalized) 389.3666667
+ +       0.0084 * (normalized) 390.5333333
+ +      -0.3749 * (normalized) 393
+ +       0.4874 * (normalized) 396
+ +       0.4913 * (normalized) 397.7
+ +       0.7203 * (normalized) 401.8
+ +       0.1874 * (normalized) 403
+ +       0.639  * (normalized) 406
+ +       0.1566 * (normalized) 408.4666667
+ +      -1.1261 * (normalized) 420.5333333
+ +       0.378  * (normalized) 421.3666667
+ +      -0.7267 * (normalized) 422
+ +       0.8014 * (normalized) 425.5
+ +      -1.59   * (normalized) 427.1
+ +      -0.0261 * (normalized) 428.5666667
+ +       0.3064 * (normalized) 428.9
+ +       0.4841 * (normalized) 430
+ +      -0.0216 * (normalized) 432
+ +      -0.8856 * (normalized) 432.5
+ +       0.9571 * (normalized) 443.7
+ +       0.4529 * (normalized) 445
+ +       0.4185 * (normalized) 445.3666667
+ +      -2.3729 * (normalized) 453
+ +       0.4964 * (normalized) 453.6
+ +       0.3572 * (normalized) 455
+ +      -1.1286 * (normalized) 457.3333333
+ +       0.6055 * (normalized) 466.6
+ +      -1.3755 * (normalized) 468
+ +      -2.7389 * (normalized) 474
+ +       1.235  * (normalized) 475.4
+ +       0.1448 * (normalized) 476
+ +       0.5968 * (normalized) 476.2666667
+ +      -0.3451 * (normalized) 482.5
+ +       0.0931 * (normalized) 483.8
+ +       0.7274 * (normalized) 498.1333333
+ +      -0.0285 * (normalized) 501.8
+ +      -0.2289 * (normalized) 507.9333333
+ +       0.214  * (normalized) 516
+ +       0.1466 * (normalized) 518
+ +      -0.4294 * (normalized) 527
+ +       0.2533 * (normalized) 531.8666667
+ +       0.1547 * (normalized) 534.4
+ +      -0.2453 * (normalized) 566.5
+ +       1.1437 * (normalized) 567.0666667
+ +       0.0497 * (normalized) 588
+ +      -0.0589 * (normalized) 610.3
+ +       0.8579 * (normalized) 670
+ +      -1.6985 * (normalized) 670.8
+ +      -0.4605 * (normalized) 704.6666667
+ +       1.1663
+
+Number of kernel evaluations: 5980 (81.499% cached)
+
+Classifier for classes: Keystone, Custer
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.3189 * (normalized) 263.1
+ +      -1.2538 * (normalized) 279.5333333
+ +       0.5595 * (normalized) 288
+ +      -0.2486 * (normalized) 288.1333333
+ +      -0.6659 * (normalized) 308.2
+ +      -0.3047 * (normalized) 309.3
+ +       0.8461 * (normalized) 313.0666667
+ +       0.3238 * (normalized) 316.2333333
+ +      -0.0913 * (normalized) 334.2333333
+ +      -0.1069 * (normalized) 335
+ +       0.8486 * (normalized) 365
+ +      -0.5711 * (normalized) 368
+ +       0.3149 * (normalized) 371
+ +      -0.0746 * (normalized) 371.3666667
+ +       0.2068 * (normalized) 373
+ +      -1.104  * (normalized) 373.5
+ +       0.9322 * (normalized) 375
+ +       0.1186 * (normalized) 379.5333333
+ +      -0.1989 * (normalized) 380
+ +       0.4013 * (normalized) 380.1666667
+ +       0.9622 * (normalized) 388
+ +       0.1205 * (normalized) 389.3666667
+ +      -0.0916 * (normalized) 390.5333333
+ +      -1.0265 * (normalized) 393
+ +       0.2507 * (normalized) 396
+ +      -0.4267 * (normalized) 397.7
+ +       0.7705 * (normalized) 401.8
+ +       0.5721 * (normalized) 403
+ +       1.4965 * (normalized) 406
+ +       0.4854 * (normalized) 408.4666667
+ +      -0.0343 * (normalized) 420.5333333
+ +       0.8951 * (normalized) 421.3666667
+ +       1.068  * (normalized) 422
+ +       0.2187 * (normalized) 425.5
+ +      -2.1141 * (normalized) 427.1
+ +       0.1236 * (normalized) 428.5666667
+ +      -0.3228 * (normalized) 428.9
+ +       0.4638 * (normalized) 430
+ +       0.6471 * (normalized) 432
+ +      -1.1692 * (normalized) 432.5
+ +       0.08   * (normalized) 443.7
+ +       0.4191 * (normalized) 445
+ +      -0.177  * (normalized) 445.3666667
+ +      -0.0388 * (normalized) 453
+ +       0.4756 * (normalized) 453.6
+ +       0.2972 * (normalized) 455
+ +      -1.1624 * (normalized) 457.3333333
+ +      -0.2296 * (normalized) 466.6
+ +       0.972  * (normalized) 468
+ +      -1.1501 * (normalized) 474
+ +       1.1522 * (normalized) 475.4
+ +       0.943  * (normalized) 476
+ +      -0.5435 * (normalized) 476.2666667
+ +      -1.0511 * (normalized) 482.5
+ +      -0.6109 * (normalized) 483.8
+ +      -0.2737 * (normalized) 498.1333333
+ +       0.8706 * (normalized) 501.8
+ +      -0.2957 * (normalized) 507.9333333
+ +      -0.9315 * (normalized) 516
+ +      -0.4856 * (normalized) 518
+ +      -1.3177 * (normalized) 527
+ +      -0.6328 * (normalized) 531.8666667
+ +      -1.5005 * (normalized) 534.4
+ +      -0.9526 * (normalized) 566.5
+ +      -0.2101 * (normalized) 567.0666667
+ +       0.5796 * (normalized) 588
+ +      -0.7469 * (normalized) 610.3
+ +       1.7268 * (normalized) 670
+ +      -2.8824 * (normalized) 670.8
+ +       0.9708 * (normalized) 704.6666667
+ +       1.0363
+
+Number of kernel evaluations: 7409 (86.194% cached)
+
+Classifier for classes: Keystone, New Mexico
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.123  * (normalized) 263.1
+ +       0.1752 * (normalized) 279.5333333
+ +       0.4374 * (normalized) 288
+ +       0.6313 * (normalized) 288.1333333
+ +      -0.0621 * (normalized) 308.2
+ +       0.0512 * (normalized) 309.3
+ +       0.42   * (normalized) 313.0666667
+ +       0.5882 * (normalized) 316.2333333
+ +       0.4828 * (normalized) 334.2333333
+ +       0.5718 * (normalized) 335
+ +       0.358  * (normalized) 365
+ +      -0.6808 * (normalized) 368
+ +       0.5727 * (normalized) 371
+ +       0.2075 * (normalized) 371.3666667
+ +       0.8041 * (normalized) 373
+ +      -1.2854 * (normalized) 373.5
+ +      -0.9421 * (normalized) 375
+ +      -0.3014 * (normalized) 379.5333333
+ +       0.1952 * (normalized) 380
+ +       0.5131 * (normalized) 380.1666667
+ +       0.0455 * (normalized) 388
+ +       0.2633 * (normalized) 389.3666667
+ +       0.5831 * (normalized) 390.5333333
+ +       0.3121 * (normalized) 393
+ +       0.0868 * (normalized) 396
+ +       0.1832 * (normalized) 397.7
+ +       0.7412 * (normalized) 401.8
+ +       0.7012 * (normalized) 403
+ +       0.13   * (normalized) 406
+ +      -0.0121 * (normalized) 408.4666667
+ +      -0.1879 * (normalized) 420.5333333
+ +       0.2785 * (normalized) 421.3666667
+ +      -0.3175 * (normalized) 422
+ +       0.1875 * (normalized) 425.5
+ +      -1.8932 * (normalized) 427.1
+ +       0.4997 * (normalized) 428.5666667
+ +       0.7005 * (normalized) 428.9
+ +       1.0068 * (normalized) 430
+ +       0.3605 * (normalized) 432
+ +      -0.8936 * (normalized) 432.5
+ +       0.3347 * (normalized) 443.7
+ +       0.611  * (normalized) 445
+ +       0.7328 * (normalized) 445.3666667
+ +      -0.8197 * (normalized) 453
+ +       1.0517 * (normalized) 453.6
+ +       0.4418 * (normalized) 455
+ +      -0.3217 * (normalized) 457.3333333
+ +       0.5373 * (normalized) 466.6
+ +      -0.1213 * (normalized) 468
+ +      -0.8781 * (normalized) 474
+ +       0.7543 * (normalized) 475.4
+ +       0.3021 * (normalized) 476
+ +       0.1455 * (normalized) 476.2666667
+ +      -0.3353 * (normalized) 482.5
+ +      -0.114  * (normalized) 483.8
+ +       1.0417 * (normalized) 498.1333333
+ +      -0.3998 * (normalized) 501.8
+ +      -0.5056 * (normalized) 507.9333333
+ +      -0.062  * (normalized) 516
+ +      -0.0621 * (normalized) 518
+ +      -0.7665 * (normalized) 527
+ +      -0.213  * (normalized) 531.8666667
+ +       0.001  * (normalized) 534.4
+ +      -0.3579 * (normalized) 566.5
+ +       0.1835 * (normalized) 567.0666667
+ +       0.1556 * (normalized) 588
+ +      -0.2153 * (normalized) 610.3
+ +       0.1563 * (normalized) 670
+ +      -1.133  * (normalized) 670.8
+ +      -0.0678 * (normalized) 704.6666667
+ -       0.4158
+
+Number of kernel evaluations: 2408 (79.982% cached)
+
+Classifier for classes: Keystone, Colorado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.1807 * (normalized) 263.1
+ +      -0.4165 * (normalized) 279.5333333
+ +      -0.1956 * (normalized) 288
+ +       0.0133 * (normalized) 288.1333333
+ +       0.4582 * (normalized) 308.2
+ +       0.484  * (normalized) 309.3
+ +       0.2468 * (normalized) 313.0666667
+ +      -0.0025 * (normalized) 316.2333333
+ +       0.0436 * (normalized) 334.2333333
+ +       0.0593 * (normalized) 335
+ +       0.5017 * (normalized) 365
+ +       0.1103 * (normalized) 368
+ +       0.231  * (normalized) 371
+ +       0.3228 * (normalized) 371.3666667
+ +       0.3587 * (normalized) 373
+ +      -0.6412 * (normalized) 373.5
+ +      -0.3036 * (normalized) 375
+ +       0.1887 * (normalized) 379.5333333
+ +       0.4545 * (normalized) 380
+ +       0.5074 * (normalized) 380.1666667
+ +       0.3294 * (normalized) 388
+ +       0.3771 * (normalized) 389.3666667
+ +       0.5565 * (normalized) 390.5333333
+ +      -0.2656 * (normalized) 393
+ +       1.043  * (normalized) 396
+ +       0.2723 * (normalized) 397.7
+ +       0.2435 * (normalized) 401.8
+ +      -0.1308 * (normalized) 403
+ +       0.1279 * (normalized) 406
+ +       0.1776 * (normalized) 408.4666667
+ +      -0.2029 * (normalized) 420.5333333
+ +       0.7592 * (normalized) 421.3666667
+ +       0.0979 * (normalized) 422
+ +       0.2629 * (normalized) 425.5
+ +      -0.5076 * (normalized) 427.1
+ +       0.1018 * (normalized) 428.5666667
+ +       0.1095 * (normalized) 428.9
+ +       0.302  * (normalized) 430
+ +       0.1029 * (normalized) 432
+ +      -0.1793 * (normalized) 432.5
+ +       0.1948 * (normalized) 443.7
+ +       0.1762 * (normalized) 445
+ +      -0.007  * (normalized) 445.3666667
+ +      -0.7194 * (normalized) 453
+ +       0.2156 * (normalized) 453.6
+ +       0.335  * (normalized) 455
+ +      -0.2169 * (normalized) 457.3333333
+ +       0.334  * (normalized) 466.6
+ +      -0.7077 * (normalized) 468
+ +      -1.2707 * (normalized) 474
+ +      -0.0635 * (normalized) 475.4
+ +       0.0677 * (normalized) 476
+ +      -0.492  * (normalized) 476.2666667
+ +      -0.8326 * (normalized) 482.5
+ +      -0.2919 * (normalized) 483.8
+ +       0.2393 * (normalized) 498.1333333
+ +      -0.2856 * (normalized) 501.8
+ +      -0.4494 * (normalized) 507.9333333
+ +      -0.1803 * (normalized) 516
+ +      -0.1879 * (normalized) 518
+ +      -0.7505 * (normalized) 527
+ +      -0.3461 * (normalized) 531.8666667
+ +      -0.2175 * (normalized) 534.4
+ +      -0.5457 * (normalized) 566.5
+ +      -0.07   * (normalized) 567.0666667
+ +      -0.2524 * (normalized) 588
+ +      -0.2707 * (normalized) 610.3
+ +      -0.2707 * (normalized) 670
+ +      -1.1357 * (normalized) 670.8
+ +      -0.2015 * (normalized) 704.6666667
+ +       0.867 
+
+Number of kernel evaluations: 1355 (82.077% cached)
+
+Classifier for classes: Keystone, Bolivia
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.1822 * (normalized) 263.1
+ +       0.2036 * (normalized) 279.5333333
+ +      -0.4454 * (normalized) 288
+ +       0.0845 * (normalized) 288.1333333
+ +       0.4292 * (normalized) 308.2
+ +       0.3627 * (normalized) 309.3
+ +      -0.1755 * (normalized) 313.0666667
+ +       0.2357 * (normalized) 316.2333333
+ +       0.3441 * (normalized) 334.2333333
+ +       0.4429 * (normalized) 335
+ +      -0.1618 * (normalized) 365
+ +      -0.0576 * (normalized) 368
+ +      -0.1085 * (normalized) 371
+ +      -0.1339 * (normalized) 371.3666667
+ +       0.0781 * (normalized) 373
+ +      -0.3441 * (normalized) 373.5
+ +      -0.0976 * (normalized) 375
+ +      -0.0968 * (normalized) 379.5333333
+ +      -0.134  * (normalized) 380
+ +      -0.1487 * (normalized) 380.1666667
+ +       0.0862 * (normalized) 388
+ +      -0.0906 * (normalized) 389.3666667
+ +       0.115  * (normalized) 390.5333333
+ +      -0.1978 * (normalized) 393
+ +       0.3476 * (normalized) 396
+ +      -0.221  * (normalized) 397.7
+ +      -0.1949 * (normalized) 401.8
+ +      -0.3958 * (normalized) 403
+ +      -0.0451 * (normalized) 406
+ +      -0.1504 * (normalized) 408.4666667
+ +      -0.2048 * (normalized) 420.5333333
+ +      -0.2023 * (normalized) 421.3666667
+ +      -0.2384 * (normalized) 422
+ +      -0.0275 * (normalized) 425.5
+ +      -0.2175 * (normalized) 427.1
+ +       0.2047 * (normalized) 428.5666667
+ +       0.2252 * (normalized) 428.9
+ +       0.4243 * (normalized) 430
+ +       0.1137 * (normalized) 432
+ +      -0.0894 * (normalized) 432.5
+ +      -0.0881 * (normalized) 443.7
+ +       0.1898 * (normalized) 445
+ +       0.1616 * (normalized) 445.3666667
+ +       0.0065 * (normalized) 453
+ +       0.391  * (normalized) 453.6
+ +       0.3259 * (normalized) 455
+ +      -0.1333 * (normalized) 457.3333333
+ +      -0.1136 * (normalized) 466.6
+ +      -1.0294 * (normalized) 468
+ +      -0.2998 * (normalized) 474
+ +      -0.4475 * (normalized) 475.4
+ +       0.2317 * (normalized) 476
+ +      -0.4375 * (normalized) 476.2666667
+ +      -0.3329 * (normalized) 482.5
+ +      -0.1013 * (normalized) 483.8
+ +       0.4154 * (normalized) 498.1333333
+ +      -0.2759 * (normalized) 501.8
+ +      -0.1885 * (normalized) 507.9333333
+ +      -0.1534 * (normalized) 516
+ +      -0.0494 * (normalized) 518
+ +      -0.464  * (normalized) 527
+ +      -0.1682 * (normalized) 531.8666667
+ +      -0.2195 * (normalized) 534.4
+ +      -0.1534 * (normalized) 566.5
+ +      -0.0804 * (normalized) 567.0666667
+ +       0.0284 * (normalized) 588
+ +      -0.1574 * (normalized) 610.3
+ +      -0.2184 * (normalized) 670
+ +      -0.5779 * (normalized) 670.8
+ +      -0.0872 * (normalized) 704.6666667
+ +       1.0205
+
+Number of kernel evaluations: 316 (91.347% cached)
+
+Classifier for classes: Keystone, Maine
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0493 * (normalized) 263.1
+ +       0.1165 * (normalized) 279.5333333
+ +       0.0627 * (normalized) 288
+ +       0.2822 * (normalized) 288.1333333
+ +       0.7604 * (normalized) 308.2
+ +       0.6093 * (normalized) 309.3
+ +      -0.5777 * (normalized) 313.0666667
+ +       0.081  * (normalized) 316.2333333
+ +      -0.0873 * (normalized) 334.2333333
+ +       0.082  * (normalized) 335
+ +       0.7821 * (normalized) 365
+ +       0.0291 * (normalized) 368
+ +       0.2593 * (normalized) 371
+ +      -0.1864 * (normalized) 371.3666667
+ +       0.5152 * (normalized) 373
+ +      -0.5208 * (normalized) 373.5
+ +      -0.5878 * (normalized) 375
+ +       0.1429 * (normalized) 379.5333333
+ +       0.5776 * (normalized) 380
+ +       0.4979 * (normalized) 380.1666667
+ +      -0.3874 * (normalized) 388
+ +       0.1241 * (normalized) 389.3666667
+ +       0.7347 * (normalized) 390.5333333
+ +      -0.5554 * (normalized) 393
+ +       1.717  * (normalized) 396
+ +      -0.0052 * (normalized) 397.7
+ +      -0.0503 * (normalized) 401.8
+ +       0.1184 * (normalized) 403
+ +      -0.1132 * (normalized) 406
+ +       0.0547 * (normalized) 408.4666667
+ +      -0.3007 * (normalized) 420.5333333
+ +       0.2411 * (normalized) 421.3666667
+ +      -0.499  * (normalized) 422
+ +       0.2649 * (normalized) 425.5
+ +      -0.6435 * (normalized) 427.1
+ +       0.6651 * (normalized) 428.5666667
+ +       0.1745 * (normalized) 428.9
+ +       0.7947 * (normalized) 430
+ +       0.1963 * (normalized) 432
+ +       0.0573 * (normalized) 432.5
+ +      -0.029  * (normalized) 443.7
+ +       0.496  * (normalized) 445
+ +      -0.0519 * (normalized) 445.3666667
+ +      -0.8095 * (normalized) 453
+ +       1.0421 * (normalized) 453.6
+ +       0.4158 * (normalized) 455
+ +      -0.9247 * (normalized) 457.3333333
+ +       0.5779 * (normalized) 466.6
+ +      -0.054  * (normalized) 468
+ +      -1.1405 * (normalized) 474
+ +       0.5297 * (normalized) 475.4
+ +       0.4804 * (normalized) 476
+ +      -0.4849 * (normalized) 476.2666667
+ +      -0.7621 * (normalized) 482.5
+ +      -0.2958 * (normalized) 483.8
+ +       1.3118 * (normalized) 498.1333333
+ +      -0.1937 * (normalized) 501.8
+ +      -0.8989 * (normalized) 507.9333333
+ +      -0.0662 * (normalized) 516
+ +       0.1562 * (normalized) 518
+ +      -0.645  * (normalized) 527
+ +      -0.1019 * (normalized) 531.8666667
+ +      -0.3176 * (normalized) 534.4
+ +      -0.172  * (normalized) 566.5
+ +       0.9343 * (normalized) 567.0666667
+ +       0.897  * (normalized) 588
+ +      -0.0755 * (normalized) 610.3
+ +       1.2008 * (normalized) 670
+ +       0.1708 * (normalized) 670.8
+ +       0.3684 * (normalized) 704.6666667
+ -       1.0639
+
+Number of kernel evaluations: 3472 (83.417% cached)
+
+Classifier for classes: Pringle, Custer
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.9499 * (normalized) 263.1
+ +      -1.1904 * (normalized) 279.5333333
+ +       1.1585 * (normalized) 288
+ +       0.4933 * (normalized) 288.1333333
+ +       0.3438 * (normalized) 308.2
+ +       0.1631 * (normalized) 309.3
+ +       0.9237 * (normalized) 313.0666667
+ +       0.3917 * (normalized) 316.2333333
+ +      -0.0648 * (normalized) 334.2333333
+ +      -0.0322 * (normalized) 335
+ +       0.0295 * (normalized) 365
+ +       0.3195 * (normalized) 368
+ +      -0.4393 * (normalized) 371
+ +      -1.0915 * (normalized) 371.3666667
+ +       0.8486 * (normalized) 373
+ +      -0.3025 * (normalized) 373.5
+ +       0.3942 * (normalized) 375
+ +       0.0552 * (normalized) 379.5333333
+ +      -0.1177 * (normalized) 380
+ +      -0.1128 * (normalized) 380.1666667
+ +      -0.0175 * (normalized) 388
+ +      -0.3802 * (normalized) 389.3666667
+ +       0.2202 * (normalized) 390.5333333
+ +      -0.6288 * (normalized) 393
+ +       0.1781 * (normalized) 396
+ +      -0.834  * (normalized) 397.7
+ +      -0.5324 * (normalized) 401.8
+ +       0.0788 * (normalized) 403
+ +      -0.2867 * (normalized) 406
+ +      -0.1691 * (normalized) 408.4666667
+ +       0.9309 * (normalized) 420.5333333
+ +       0.2217 * (normalized) 421.3666667
+ +       1.2631 * (normalized) 422
+ +      -0.7245 * (normalized) 425.5
+ +      -0.4081 * (normalized) 427.1
+ +       0.4302 * (normalized) 428.5666667
+ +      -0.5061 * (normalized) 428.9
+ +       0.0339 * (normalized) 430
+ +       0.4806 * (normalized) 432
+ +      -0.0408 * (normalized) 432.5
+ +      -1.0093 * (normalized) 443.7
+ +       0.1379 * (normalized) 445
+ +      -0.5825 * (normalized) 445.3666667
+ +       2.0246 * (normalized) 453
+ +       0.1815 * (normalized) 453.6
+ +       0.0607 * (normalized) 455
+ +      -0.0904 * (normalized) 457.3333333
+ +      -0.3442 * (normalized) 466.6
+ +       1.565  * (normalized) 468
+ +       1.6244 * (normalized) 474
+ +      -0.257  * (normalized) 475.4
+ +       0.5996 * (normalized) 476
+ +      -1.3502 * (normalized) 476.2666667
+ +      -0.4233 * (normalized) 482.5
+ +      -0.5163 * (normalized) 483.8
+ +      -0.2097 * (normalized) 498.1333333
+ +      -0.0703 * (normalized) 501.8
+ +      -0.6473 * (normalized) 507.9333333
+ +      -0.6436 * (normalized) 516
+ +      -0.3233 * (normalized) 518
+ +      -1.2583 * (normalized) 527
+ +      -0.5626 * (normalized) 531.8666667
+ +      -0.888  * (normalized) 534.4
+ +      -0.1711 * (normalized) 566.5
+ +      -0.5685 * (normalized) 567.0666667
+ +       0.4586 * (normalized) 588
+ +      -0.7622 * (normalized) 610.3
+ +       0.8285 * (normalized) 670
+ +      -1.1645 * (normalized) 670.8
+ +       1.4792 * (normalized) 704.6666667
+ +       0.908 
+
+Number of kernel evaluations: 4545 (83.444% cached)
+
+Classifier for classes: Pringle, New Mexico
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.8102 * (normalized) 263.1
+ +       0.1709 * (normalized) 279.5333333
+ +       0.817  * (normalized) 288
+ +       1.2331 * (normalized) 288.1333333
+ +       0.7877 * (normalized) 308.2
+ +       0.6236 * (normalized) 309.3
+ +       0.6626 * (normalized) 313.0666667
+ +       0.7526 * (normalized) 316.2333333
+ +       0.4544 * (normalized) 334.2333333
+ +       0.6637 * (normalized) 335
+ +      -0.1477 * (normalized) 365
+ +      -0.3278 * (normalized) 368
+ +       0.2574 * (normalized) 371
+ +      -0.214  * (normalized) 371.3666667
+ +       1.0379 * (normalized) 373
+ +      -0.932  * (normalized) 373.5
+ +      -0.616  * (normalized) 375
+ +      -0.6331 * (normalized) 379.5333333
+ +      -0.3426 * (normalized) 380
+ +      -0.2119 * (normalized) 380.1666667
+ +       0.129  * (normalized) 388
+ +      -0.1963 * (normalized) 389.3666667
+ +       0.8911 * (normalized) 390.5333333
+ +       0.2778 * (normalized) 393
+ +       0.3288 * (normalized) 396
+ +      -0.2128 * (normalized) 397.7
+ +       0.1711 * (normalized) 401.8
+ +       0.169  * (normalized) 403
+ +      -0.2358 * (normalized) 406
+ +      -0.4972 * (normalized) 408.4666667
+ +      -0.3058 * (normalized) 420.5333333
+ +      -0.3738 * (normalized) 421.3666667
+ +       0.1399 * (normalized) 422
+ +      -0.5813 * (normalized) 425.5
+ +      -1.4468 * (normalized) 427.1
+ +       0.4504 * (normalized) 428.5666667
+ +       0.6261 * (normalized) 428.9
+ +       0.9443 * (normalized) 430
+ +       0.463  * (normalized) 432
+ +      -0.7506 * (normalized) 432.5
+ +      -0.4539 * (normalized) 443.7
+ +       0.4754 * (normalized) 445
+ +       0.6607 * (normalized) 445.3666667
+ +       0.236  * (normalized) 453
+ +       1.3087 * (normalized) 453.6
+ +       0.5075 * (normalized) 455
+ +      -0.1102 * (normalized) 457.3333333
+ +      -0.0528 * (normalized) 466.6
+ +       0.3715 * (normalized) 468
+ +       0.102  * (normalized) 474
+ +      -0.0012 * (normalized) 475.4
+ +       0.6748 * (normalized) 476
+ +      -0.0899 * (normalized) 476.2666667
+ +      -0.0168 * (normalized) 482.5
+ +       0.0331 * (normalized) 483.8
+ +       1.2692 * (normalized) 498.1333333
+ +      -0.4749 * (normalized) 501.8
+ +      -0.2177 * (normalized) 507.9333333
+ +      -0.112  * (normalized) 516
+ +      -0.0226 * (normalized) 518
+ +      -0.5273 * (normalized) 527
+ +      -0.2146 * (normalized) 531.8666667
+ +      -0.192  * (normalized) 534.4
+ +      -0.2091 * (normalized) 566.5
+ +      -0.1304 * (normalized) 567.0666667
+ +       0.5892 * (normalized) 588
+ +      -0.208  * (normalized) 610.3
+ +       0.3149 * (normalized) 670
+ +      -0.7752 * (normalized) 670.8
+ +       0.3049 * (normalized) 704.6666667
+ -       0.1173
+
+Number of kernel evaluations: 1527 (91.737% cached)
+
+Classifier for classes: Pringle, Colorado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.3758 * (normalized) 263.1
+ +      -0.2356 * (normalized) 279.5333333
+ +      -0.1731 * (normalized) 288
+ +       0.6585 * (normalized) 288.1333333
+ +       0.6306 * (normalized) 308.2
+ +       0.7002 * (normalized) 309.3
+ +       0.5591 * (normalized) 313.0666667
+ +       0.0575 * (normalized) 316.2333333
+ +       0.0067 * (normalized) 334.2333333
+ +       0.0272 * (normalized) 335
+ +       0.1247 * (normalized) 365
+ +       0.084  * (normalized) 368
+ +      -0.044  * (normalized) 371
+ +       0.0044 * (normalized) 371.3666667
+ +       0.5308 * (normalized) 373
+ +      -0.48   * (normalized) 373.5
+ +      -0.2442 * (normalized) 375
+ +      -0.0592 * (normalized) 379.5333333
+ +       0.0628 * (normalized) 380
+ +       0.134  * (normalized) 380.1666667
+ +       0.2045 * (normalized) 388
+ +       0.1582 * (normalized) 389.3666667
+ +       0.8427 * (normalized) 390.5333333
+ +      -0.3242 * (normalized) 393
+ +       0.9624 * (normalized) 396
+ +       0.0418 * (normalized) 397.7
+ +      -0.1406 * (normalized) 401.8
+ +      -0.2909 * (normalized) 403
+ +      -0.1715 * (normalized) 406
+ +      -0.0004 * (normalized) 408.4666667
+ +       0.0202 * (normalized) 420.5333333
+ +       0.6064 * (normalized) 421.3666667
+ +       0.2659 * (normalized) 422
+ +      -0.0792 * (normalized) 425.5
+ +      -0.5036 * (normalized) 427.1
+ +       0.1351 * (normalized) 428.5666667
+ +      -0.0042 * (normalized) 428.9
+ +       0.1861 * (normalized) 430
+ +       0.2356 * (normalized) 432
+ +      -0.1784 * (normalized) 432.5
+ +      -0.1439 * (normalized) 443.7
+ +       0.0848 * (normalized) 445
+ +      -0.1242 * (normalized) 445.3666667
+ +      -0.0534 * (normalized) 453
+ +       0.2281 * (normalized) 453.6
+ +       0.299  * (normalized) 455
+ +       0.0408 * (normalized) 457.3333333
+ +       0.2015 * (normalized) 466.6
+ +       0.4789 * (normalized) 468
+ +      -0.2327 * (normalized) 474
+ +      -0.4026 * (normalized) 475.4
+ +       0.1854 * (normalized) 476
+ +      -0.5055 * (normalized) 476.2666667
+ +      -0.4976 * (normalized) 482.5
+ +       0.0069 * (normalized) 483.8
+ +       0.1979 * (normalized) 498.1333333
+ +      -0.2984 * (normalized) 501.8
+ +      -0.2283 * (normalized) 507.9333333
+ +      -0.1195 * (normalized) 516
+ +      -0.1703 * (normalized) 518
+ +      -0.7824 * (normalized) 527
+ +      -0.2935 * (normalized) 531.8666667
+ +      -0.1518 * (normalized) 534.4
+ +      -0.3323 * (normalized) 566.5
+ +      -0.1797 * (normalized) 567.0666667
+ +       0.0093 * (normalized) 588
+ +      -0.4349 * (normalized) 610.3
+ +      -0.5188 * (normalized) 670
+ +      -0.8319 * (normalized) 670.8
+ +      -0.2632 * (normalized) 704.6666667
+ +       0.284 
+
+Number of kernel evaluations: 973 (88.527% cached)
+
+Classifier for classes: Pringle, Bolivia
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.4841 * (normalized) 263.1
+ +       0.0412 * (normalized) 279.5333333
+ +      -0.3988 * (normalized) 288
+ +       0.4302 * (normalized) 288.1333333
+ +       0.7312 * (normalized) 308.2
+ +       0.6739 * (normalized) 309.3
+ +      -0.01   * (normalized) 313.0666667
+ +       0.4247 * (normalized) 316.2333333
+ +       0.5296 * (normalized) 334.2333333
+ +       0.6752 * (normalized) 335
+ +      -0.1973 * (normalized) 365
+ +      -0.2169 * (normalized) 368
+ +      -0.1434 * (normalized) 371
+ +      -0.0847 * (normalized) 371.3666667
+ +       0.2286 * (normalized) 373
+ +      -0.4112 * (normalized) 373.5
+ +      -0.3061 * (normalized) 375
+ +      -0.1845 * (normalized) 379.5333333
+ +      -0.175  * (normalized) 380
+ +      -0.133  * (normalized) 380.1666667
+ +       0.1447 * (normalized) 388
+ +      -0.0774 * (normalized) 389.3666667
+ +       0.3273 * (normalized) 390.5333333
+ +      -0.0673 * (normalized) 393
+ +       0.4422 * (normalized) 396
+ +      -0.1317 * (normalized) 397.7
+ +      -0.3774 * (normalized) 401.8
+ +      -0.661  * (normalized) 403
+ +      -0.0315 * (normalized) 406
+ +      -0.1391 * (normalized) 408.4666667
+ +      -0.0986 * (normalized) 420.5333333
+ +      -0.1729 * (normalized) 421.3666667
+ +      -0.2757 * (normalized) 422
+ +       0.0058 * (normalized) 425.5
+ +      -0.4579 * (normalized) 427.1
+ +       0.3374 * (normalized) 428.5666667
+ +       0.2926 * (normalized) 428.9
+ +       0.7235 * (normalized) 430
+ +       0.1686 * (normalized) 432
+ +      -0.2161 * (normalized) 432.5
+ +      -0.0937 * (normalized) 443.7
+ +       0.2236 * (normalized) 445
+ +       0.2052 * (normalized) 445.3666667
+ +       0.1176 * (normalized) 453
+ +       0.6381 * (normalized) 453.6
+ +       0.3689 * (normalized) 455
+ +      -0.0849 * (normalized) 457.3333333
+ +      -0.0711 * (normalized) 466.6
+ +      -0.2015 * (normalized) 468
+ +      -0.1801 * (normalized) 474
+ +      -0.6428 * (normalized) 475.4
+ +       0.2488 * (normalized) 476
+ +      -0.6283 * (normalized) 476.2666667
+ +      -0.4195 * (normalized) 482.5
+ +      -0.0174 * (normalized) 483.8
+ +       0.6249 * (normalized) 498.1333333
+ +      -0.2967 * (normalized) 501.8
+ +      -0.1772 * (normalized) 507.9333333
+ +      -0.1592 * (normalized) 516
+ +       0.0008 * (normalized) 518
+ +      -0.5567 * (normalized) 527
+ +      -0.16   * (normalized) 531.8666667
+ +      -0.2362 * (normalized) 534.4
+ +      -0.1565 * (normalized) 566.5
+ +      -0.1073 * (normalized) 567.0666667
+ +       0.0093 * (normalized) 588
+ +      -0.5729 * (normalized) 610.3
+ +      -0.5727 * (normalized) 670
+ +      -1.141  * (normalized) 670.8
+ +      -0.1439 * (normalized) 704.6666667
+ +       0.713 
+
+Number of kernel evaluations: 522 (65.06% cached)
+
+Classifier for classes: Pringle, Maine
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0577 * (normalized) 263.1
+ +      -0.1355 * (normalized) 279.5333333
+ +      -0.0959 * (normalized) 288
+ +       0.5994 * (normalized) 288.1333333
+ +       0.5358 * (normalized) 308.2
+ +       0.2692 * (normalized) 309.3
+ +      -0.6254 * (normalized) 313.0666667
+ +      -0.2334 * (normalized) 316.2333333
+ +      -0.4148 * (normalized) 334.2333333
+ +      -0.1485 * (normalized) 335
+ +       0.6865 * (normalized) 365
+ +       0.4732 * (normalized) 368
+ +       0.2546 * (normalized) 371
+ +      -0.62   * (normalized) 371.3666667
+ +       0.8856 * (normalized) 373
+ +      -0.2874 * (normalized) 373.5
+ +      -0.3061 * (normalized) 375
+ +       0.446  * (normalized) 379.5333333
+ +       0.3956 * (normalized) 380
+ +       0.3981 * (normalized) 380.1666667
+ +      -0.6778 * (normalized) 388
+ +       0.0983 * (normalized) 389.3666667
+ +       0.8372 * (normalized) 390.5333333
+ +      -0.8814 * (normalized) 393
+ +       1.7184 * (normalized) 396
+ +      -0.1874 * (normalized) 397.7
+ +      -0.2167 * (normalized) 401.8
+ +       0.1757 * (normalized) 403
+ +      -0.4061 * (normalized) 406
+ +       0.2094 * (normalized) 408.4666667
+ +       0.2756 * (normalized) 420.5333333
+ +       0.3064 * (normalized) 421.3666667
+ +      -0.0766 * (normalized) 422
+ +       0.1006 * (normalized) 425.5
+ +      -0.0919 * (normalized) 427.1
+ +       0.7813 * (normalized) 428.5666667
+ +      -0.0671 * (normalized) 428.9
+ +       0.554  * (normalized) 430
+ +       0.235  * (normalized) 432
+ +       0.4187 * (normalized) 432.5
+ +      -0.3275 * (normalized) 443.7
+ +       0.3666 * (normalized) 445
+ +      -0.3477 * (normalized) 445.3666667
+ +       0.2304 * (normalized) 453
+ +       0.7237 * (normalized) 453.6
+ +       0.2349 * (normalized) 455
+ +      -0.5433 * (normalized) 457.3333333
+ +       0.5948 * (normalized) 466.6
+ +      -0.0343 * (normalized) 468
+ +       0.0975 * (normalized) 474
+ +       0.0339 * (normalized) 475.4
+ +       0.3622 * (normalized) 476
+ +      -0.9505 * (normalized) 476.2666667
+ +      -0.7881 * (normalized) 482.5
+ +      -0.4269 * (normalized) 483.8
+ +       0.8491 * (normalized) 498.1333333
+ +      -0.3488 * (normalized) 501.8
+ +      -0.9185 * (normalized) 507.9333333
+ +      -0.1218 * (normalized) 516
+ +       0.0314 * (normalized) 518
+ +      -0.8751 * (normalized) 527
+ +      -0.245  * (normalized) 531.8666667
+ +      -0.1777 * (normalized) 534.4
+ +       0.0673 * (normalized) 566.5
+ +       0.5646 * (normalized) 567.0666667
+ +       0.8497 * (normalized) 588
+ +       0.2919 * (normalized) 610.3
+ +       1.023  * (normalized) 670
+ +       1.3337 * (normalized) 670.8
+ +       0.5753 * (normalized) 704.6666667
+ -       1.8362
+
+Number of kernel evaluations: 2278 (88.332% cached)
+
+Classifier for classes: Custer, New Mexico
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.4227 * (normalized) 263.1
+ +       0.5552 * (normalized) 279.5333333
+ +       0.1471 * (normalized) 288
+ +       0.9314 * (normalized) 288.1333333
+ +       0.5225 * (normalized) 308.2
+ +       0.6018 * (normalized) 309.3
+ +       0.3834 * (normalized) 313.0666667
+ +       0.5826 * (normalized) 316.2333333
+ +       0.5101 * (normalized) 334.2333333
+ +       0.6847 * (normalized) 335
+ +      -0.1836 * (normalized) 365
+ +      -0.7358 * (normalized) 368
+ +       0.6763 * (normalized) 371
+ +       0.5376 * (normalized) 371.3666667
+ +       0.837  * (normalized) 373
+ +      -1.1593 * (normalized) 373.5
+ +      -0.5981 * (normalized) 375
+ +      -0.35   * (normalized) 379.5333333
+ +      -0.1906 * (normalized) 380
+ +       0.1025 * (normalized) 380.1666667
+ +       0.4283 * (normalized) 388
+ +       0.2435 * (normalized) 389.3666667
+ +       0.8305 * (normalized) 390.5333333
+ +       0.6525 * (normalized) 393
+ +       0.2255 * (normalized) 396
+ +       0.2957 * (normalized) 397.7
+ +       0.5733 * (normalized) 401.8
+ +       0.1385 * (normalized) 403
+ +       0.4617 * (normalized) 406
+ +      -0.1201 * (normalized) 408.4666667
+ +      -0.5219 * (normalized) 420.5333333
+ +      -0.1197 * (normalized) 421.3666667
+ +      -0.6433 * (normalized) 422
+ +       0.0599 * (normalized) 425.5
+ +      -1.7138 * (normalized) 427.1
+ +       0.3868 * (normalized) 428.5666667
+ +       0.9804 * (normalized) 428.9
+ +       1.2139 * (normalized) 430
+ +       0.2294 * (normalized) 432
+ +      -1.1005 * (normalized) 432.5
+ +       0.3604 * (normalized) 443.7
+ +       0.4481 * (normalized) 445
+ +       1.008  * (normalized) 445.3666667
+ +      -0.7831 * (normalized) 453
+ +       1.4506 * (normalized) 453.6
+ +       0.4612 * (normalized) 455
+ +       0.094  * (normalized) 457.3333333
+ +       0.172  * (normalized) 466.6
+ +      -0.3695 * (normalized) 468
+ +      -0.5656 * (normalized) 474
+ +       0.0329 * (normalized) 475.4
+ +       0.3179 * (normalized) 476
+ +       0.5367 * (normalized) 476.2666667
+ +       0.0877 * (normalized) 482.5
+ +       0.3473 * (normalized) 483.8
+ +       1.3924 * (normalized) 498.1333333
+ +      -0.3927 * (normalized) 501.8
+ +       0.2    * (normalized) 507.9333333
+ +       0.0615 * (normalized) 516
+ +       0.0577 * (normalized) 518
+ +      -0.2889 * (normalized) 527
+ +      -0.0255 * (normalized) 531.8666667
+ +       0.0551 * (normalized) 534.4
+ +      -0.1703 * (normalized) 566.5
+ +       0.0384 * (normalized) 567.0666667
+ +       0.254  * (normalized) 588
+ +       0.0129 * (normalized) 610.3
+ +      -0.3074 * (normalized) 670
+ +      -0.5036 * (normalized) 670.8
+ +      -0.4383 * (normalized) 704.6666667
+ -       0.9597
+
+Number of kernel evaluations: 2375 (91.359% cached)
+
+Classifier for classes: Custer, Colorado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4155 * (normalized) 263.1
+ +       0.4255 * (normalized) 279.5333333
+ +      -0.6601 * (normalized) 288
+ +       0.8692 * (normalized) 288.1333333
+ +       0.9235 * (normalized) 308.2
+ +       0.8219 * (normalized) 309.3
+ +      -0.1776 * (normalized) 313.0666667
+ +      -0.2948 * (normalized) 316.2333333
+ +      -0.1686 * (normalized) 334.2333333
+ +      -0.0796 * (normalized) 335
+ +      -0.0138 * (normalized) 365
+ +       0.1532 * (normalized) 368
+ +       0.1423 * (normalized) 371
+ +       0.1022 * (normalized) 371.3666667
+ +       0.4807 * (normalized) 373
+ +      -0.111  * (normalized) 373.5
+ +      -0.1076 * (normalized) 375
+ +       0.0044 * (normalized) 379.5333333
+ +       0.0582 * (normalized) 380
+ +       0.0334 * (normalized) 380.1666667
+ +       0.0688 * (normalized) 388
+ +       0.1667 * (normalized) 389.3666667
+ +       1.1591 * (normalized) 390.5333333
+ +       0.2386 * (normalized) 393
+ +       1.4092 * (normalized) 396
+ +       0.2346 * (normalized) 397.7
+ +       0.3641 * (normalized) 401.8
+ +       0.2518 * (normalized) 403
+ +      -0.1317 * (normalized) 406
+ +      -0.0664 * (normalized) 408.4666667
+ +      -0.3402 * (normalized) 420.5333333
+ +       0.52   * (normalized) 421.3666667
+ +       0.0052 * (normalized) 422
+ +      -0.1341 * (normalized) 425.5
+ +      -0.2632 * (normalized) 427.1
+ +      -0.0908 * (normalized) 428.5666667
+ +       0.2315 * (normalized) 428.9
+ +       0.1029 * (normalized) 430
+ +       0.0389 * (normalized) 432
+ +      -0.0863 * (normalized) 432.5
+ +       0.0182 * (normalized) 443.7
+ +       0.0881 * (normalized) 445
+ +       0.3006 * (normalized) 445.3666667
+ +      -0.5664 * (normalized) 453
+ +       0.1473 * (normalized) 453.6
+ +       0.2245 * (normalized) 455
+ +      -0.0311 * (normalized) 457.3333333
+ +       0.0471 * (normalized) 466.6
+ +      -0.0964 * (normalized) 468
+ +      -0.4246 * (normalized) 474
+ +       0.2098 * (normalized) 475.4
+ +      -0.0356 * (normalized) 476
+ +       0.2157 * (normalized) 476.2666667
+ +      -0.1277 * (normalized) 482.5
+ +      -0.0265 * (normalized) 483.8
+ +       0.1928 * (normalized) 498.1333333
+ +      -0.2267 * (normalized) 501.8
+ +      -0.1242 * (normalized) 507.9333333
+ +      -0.0602 * (normalized) 516
+ +      -0.0717 * (normalized) 518
+ +       0.1775 * (normalized) 527
+ +      -0.2315 * (normalized) 531.8666667
+ +      -0.0623 * (normalized) 534.4
+ +      -0.3387 * (normalized) 566.5
+ +      -0.2178 * (normalized) 567.0666667
+ +       0.0062 * (normalized) 588
+ +       0.0396 * (normalized) 610.3
+ +      -0.3548 * (normalized) 670
+ +       0.1306 * (normalized) 670.8
+ +      -0.5808 * (normalized) 704.6666667
+ -       0.9626
+
+Number of kernel evaluations: 1840 (85.887% cached)
+
+Classifier for classes: Custer, Bolivia
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.3362 * (normalized) 263.1
+ +       0.7719 * (normalized) 279.5333333
+ +      -0.2089 * (normalized) 288
+ +       0.2545 * (normalized) 288.1333333
+ +       0.4589 * (normalized) 308.2
+ +       0.3316 * (normalized) 309.3
+ +      -0.4907 * (normalized) 313.0666667
+ +       0.3837 * (normalized) 316.2333333
+ +       0.4906 * (normalized) 334.2333333
+ +       0.6626 * (normalized) 335
+ +      -0.2007 * (normalized) 365
+ +       0.1732 * (normalized) 368
+ +      -0.046  * (normalized) 371
+ +      -0.2605 * (normalized) 371.3666667
+ +       0.3867 * (normalized) 373
+ +       0.3476 * (normalized) 373.5
+ +      -0.0151 * (normalized) 375
+ +      -0.0795 * (normalized) 379.5333333
+ +      -0.153  * (normalized) 380
+ +      -0.2885 * (normalized) 380.1666667
+ +       0.0223 * (normalized) 388
+ +      -0.2293 * (normalized) 389.3666667
+ +       0.3519 * (normalized) 390.5333333
+ +       0.1486 * (normalized) 393
+ +       0.4348 * (normalized) 396
+ +      -0.0693 * (normalized) 397.7
+ +      -0.0304 * (normalized) 401.8
+ +      -0.1224 * (normalized) 403
+ +      -0.182  * (normalized) 406
+ +      -0.2586 * (normalized) 408.4666667
+ +      -0.404  * (normalized) 420.5333333
+ +      -0.2589 * (normalized) 421.3666667
+ +      -0.168  * (normalized) 422
+ +      -0.1852 * (normalized) 425.5
+ +       0.2622 * (normalized) 427.1
+ +       0.3148 * (normalized) 428.5666667
+ +       0.4521 * (normalized) 428.9
+ +       0.7912 * (normalized) 430
+ +       0.1615 * (normalized) 432
+ +       0.2855 * (normalized) 432.5
+ +      -0.1826 * (normalized) 443.7
+ +       0.3426 * (normalized) 445
+ +       0.4929 * (normalized) 445.3666667
+ +      -0.0498 * (normalized) 453
+ +       0.7261 * (normalized) 453.6
+ +       0.3928 * (normalized) 455
+ +      -0.3541 * (normalized) 457.3333333
+ +      -0.2679 * (normalized) 466.6
+ +      -0.3917 * (normalized) 468
+ +      -0.2483 * (normalized) 474
+ +      -0.0951 * (normalized) 475.4
+ +       0.1849 * (normalized) 476
+ +      -0.0962 * (normalized) 476.2666667
+ +      -0.0984 * (normalized) 482.5
+ +      -0.1276 * (normalized) 483.8
+ +       0.7276 * (normalized) 498.1333333
+ +      -0.3269 * (normalized) 501.8
+ +      -0.3297 * (normalized) 507.9333333
+ +      -0.2934 * (normalized) 516
+ +      -0.1336 * (normalized) 518
+ +       0.105  * (normalized) 527
+ +      -0.2866 * (normalized) 531.8666667
+ +      -0.3491 * (normalized) 534.4
+ +      -0.2383 * (normalized) 566.5
+ +      -0.1475 * (normalized) 567.0666667
+ +       0.0204 * (normalized) 588
+ +       0.0075 * (normalized) 610.3
+ +       0.0377 * (normalized) 670
+ +       0.2123 * (normalized) 670.8
+ +      -0.3533 * (normalized) 704.6666667
+ -       0.8895
+
+Number of kernel evaluations: 440 (73.203% cached)
+
+Classifier for classes: Custer, Maine
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2273 * (normalized) 263.1
+ +      -0.0167 * (normalized) 279.5333333
+ +      -0.5151 * (normalized) 288
+ +       0.4287 * (normalized) 288.1333333
+ +       0.6301 * (normalized) 308.2
+ +       0.2236 * (normalized) 309.3
+ +      -1.1896 * (normalized) 313.0666667
+ +      -0.379  * (normalized) 316.2333333
+ +      -0.3264 * (normalized) 334.2333333
+ +      -0.138  * (normalized) 335
+ +       0.229  * (normalized) 365
+ +      -0.0016 * (normalized) 368
+ +       0.3294 * (normalized) 371
+ +       0.1507 * (normalized) 371.3666667
+ +       0.1981 * (normalized) 373
+ +      -0.2161 * (normalized) 373.5
+ +      -0.0535 * (normalized) 375
+ +       0.1256 * (normalized) 379.5333333
+ +       0.1992 * (normalized) 380
+ +       0.1054 * (normalized) 380.1666667
+ +       0.1136 * (normalized) 388
+ +       0.0768 * (normalized) 389.3666667
+ +       0.6487 * (normalized) 390.5333333
+ +      -0.0254 * (normalized) 393
+ +       1.373  * (normalized) 396
+ +       0.2206 * (normalized) 397.7
+ +      -0.2992 * (normalized) 401.8
+ +      -0.4913 * (normalized) 403
+ +       0.1604 * (normalized) 406
+ +       0.0125 * (normalized) 408.4666667
+ +      -0.4547 * (normalized) 420.5333333
+ +      -0.2265 * (normalized) 421.3666667
+ +      -0.4936 * (normalized) 422
+ +       0.1752 * (normalized) 425.5
+ +      -0.2777 * (normalized) 427.1
+ +       0.1473 * (normalized) 428.5666667
+ +       0.1563 * (normalized) 428.9
+ +       0.3036 * (normalized) 430
+ +      -0.0469 * (normalized) 432
+ +      -0.0893 * (normalized) 432.5
+ +       0.0449 * (normalized) 443.7
+ +       0.1089 * (normalized) 445
+ +      -0.004  * (normalized) 445.3666667
+ +      -0.4226 * (normalized) 453
+ +       0.5094 * (normalized) 453.6
+ +       0.1498 * (normalized) 455
+ +      -0.3657 * (normalized) 457.3333333
+ +       0.2347 * (normalized) 466.6
+ +      -0.1927 * (normalized) 468
+ +      -0.3284 * (normalized) 474
+ +      -0.3712 * (normalized) 475.4
+ +       0.1998 * (normalized) 476
+ +      -0.3125 * (normalized) 476.2666667
+ +      -0.3341 * (normalized) 482.5
+ +       0.369  * (normalized) 483.8
+ +       0.6558 * (normalized) 498.1333333
+ +       0.134  * (normalized) 501.8
+ +       0.1576 * (normalized) 507.9333333
+ +       0.3622 * (normalized) 516
+ +       0.412  * (normalized) 518
+ +       0.1936 * (normalized) 527
+ +       0.4038 * (normalized) 531.8666667
+ +       0.1445 * (normalized) 534.4
+ +       0.3921 * (normalized) 566.5
+ +       0.7684 * (normalized) 567.0666667
+ +       0.8086 * (normalized) 588
+ +       0.5153 * (normalized) 610.3
+ +       0.6512 * (normalized) 670
+ +       1.4512 * (normalized) 670.8
+ +       0.2255 * (normalized) 704.6666667
+ -       1.8247
+
+Number of kernel evaluations: 2548 (80.356% cached)
+
+Classifier for classes: New Mexico, Colorado
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0727 * (normalized) 263.1
+ +      -0.4807 * (normalized) 279.5333333
+ +      -1.0095 * (normalized) 288
+ +      -0.4316 * (normalized) 288.1333333
+ +      -0.3329 * (normalized) 308.2
+ +      -0.3431 * (normalized) 309.3
+ +      -0.8941 * (normalized) 313.0666667
+ +      -0.6988 * (normalized) 316.2333333
+ +      -0.5164 * (normalized) 334.2333333
+ +      -0.512  * (normalized) 335
+ +       0.3153 * (normalized) 365
+ +       0.5993 * (normalized) 368
+ +      -0.0094 * (normalized) 371
+ +       0.0127 * (normalized) 371.3666667
+ +      -0.21   * (normalized) 373
+ +       0.6475 * (normalized) 373.5
+ +       0.4326 * (normalized) 375
+ +       0.4144 * (normalized) 379.5333333
+ +       0.3641 * (normalized) 380
+ +       0.1148 * (normalized) 380.1666667
+ +      -0.0433 * (normalized) 388
+ +       0.0851 * (normalized) 389.3666667
+ +      -0.0588 * (normalized) 390.5333333
+ +      -0.3265 * (normalized) 393
+ +       0.2935 * (normalized) 396
+ +       0.1673 * (normalized) 397.7
+ +      -0.2666 * (normalized) 401.8
+ +      -0.3562 * (normalized) 403
+ +      -0.1296 * (normalized) 406
+ +       0.1956 * (normalized) 408.4666667
+ +      -0.0236 * (normalized) 420.5333333
+ +       0.5807 * (normalized) 421.3666667
+ +       0.2448 * (normalized) 422
+ +       0.1582 * (normalized) 425.5
+ +       1.0142 * (normalized) 427.1
+ +      -0.2763 * (normalized) 428.5666667
+ +      -0.429  * (normalized) 428.9
+ +      -0.5077 * (normalized) 430
+ +      -0.1923 * (normalized) 432
+ +       0.6802 * (normalized) 432.5
+ +       0.0015 * (normalized) 443.7
+ +      -0.268  * (normalized) 445
+ +      -0.5475 * (normalized) 445.3666667
+ +      -0.2897 * (normalized) 453
+ +      -0.6415 * (normalized) 453.6
+ +      -0.0936 * (normalized) 455
+ +      -0.2074 * (normalized) 457.3333333
+ +       0.0202 * (normalized) 466.6
+ +       0.1208 * (normalized) 468
+ +      -0.4518 * (normalized) 474
+ +      -0.3366 * (normalized) 475.4
+ +      -0.2752 * (normalized) 476
+ +      -0.4645 * (normalized) 476.2666667
+ +      -0.5804 * (normalized) 482.5
+ +      -0.1939 * (normalized) 483.8
+ +      -0.5837 * (normalized) 498.1333333
+ +      -0.0839 * (normalized) 501.8
+ +      -0.3011 * (normalized) 507.9333333
+ +      -0.1784 * (normalized) 516
+ +      -0.2661 * (normalized) 518
+ +      -0.0153 * (normalized) 527
+ +      -0.2945 * (normalized) 531.8666667
+ +      -0.2813 * (normalized) 534.4
+ +      -0.2968 * (normalized) 566.5
+ +      -0.1572 * (normalized) 567.0666667
+ +      -0.2893 * (normalized) 588
+ +      -0.0175 * (normalized) 610.3
+ +      -0.3555 * (normalized) 670
+ +       0.2205 * (normalized) 670.8
+ +      -0.3906 * (normalized) 704.6666667
+ +       1.8621
+
+Number of kernel evaluations: 374 (79.417% cached)
+
+Classifier for classes: New Mexico, Bolivia
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.0745 * (normalized) 263.1
+ +       0.0495 * (normalized) 279.5333333
+ +      -0.2331 * (normalized) 288
+ +      -0.0504 * (normalized) 288.1333333
+ +      -0.0147 * (normalized) 308.2
+ +      -0.0669 * (normalized) 309.3
+ +      -0.2032 * (normalized) 313.0666667
+ +       0.1011 * (normalized) 316.2333333
+ +       0.1169 * (normalized) 334.2333333
+ +       0.1366 * (normalized) 335
+ +      -0.2152 * (normalized) 365
+ +       0.0456 * (normalized) 368
+ +      -0.1559 * (normalized) 371
+ +      -0.2521 * (normalized) 371.3666667
+ +       0.0075 * (normalized) 373
+ +       0.0909 * (normalized) 373.5
+ +       0.0058 * (normalized) 375
+ +      -0.1213 * (normalized) 379.5333333
+ +      -0.1871 * (normalized) 380
+ +      -0.2512 * (normalized) 380.1666667
+ +      -0.0135 * (normalized) 388
+ +      -0.2208 * (normalized) 389.3666667
+ +       0.0082 * (normalized) 390.5333333
+ +      -0.0202 * (normalized) 393
+ +      -0.0891 * (normalized) 396
+ +      -0.1709 * (normalized) 397.7
+ +      -0.1878 * (normalized) 401.8
+ +      -0.241  * (normalized) 403
+ +      -0.2153 * (normalized) 406
+ +      -0.2419 * (normalized) 408.4666667
+ +      -0.3059 * (normalized) 420.5333333
+ +      -0.2716 * (normalized) 421.3666667
+ +      -0.1702 * (normalized) 422
+ +      -0.2302 * (normalized) 425.5
+ +       0.0959 * (normalized) 427.1
+ +       0.0878 * (normalized) 428.5666667
+ +       0.0794 * (normalized) 428.9
+ +       0.1274 * (normalized) 430
+ +       0.0275 * (normalized) 432
+ +       0.1118 * (normalized) 432.5
+ +      -0.223  * (normalized) 443.7
+ +       0.1507 * (normalized) 445
+ +       0.1459 * (normalized) 445.3666667
+ +      -0.0585 * (normalized) 453
+ +       0.2164 * (normalized) 453.6
+ +       0.1734 * (normalized) 455
+ +      -0.2788 * (normalized) 457.3333333
+ +      -0.2784 * (normalized) 466.6
+ +      -0.2648 * (normalized) 468
+ +      -0.2648 * (normalized) 474
+ +      -0.2671 * (normalized) 475.4
+ +       0.1279 * (normalized) 476
+ +      -0.2441 * (normalized) 476.2666667
+ +      -0.2352 * (normalized) 482.5
+ +      -0.2057 * (normalized) 483.8
+ +       0.2029 * (normalized) 498.1333333
+ +      -0.2455 * (normalized) 501.8
+ +      -0.26   * (normalized) 507.9333333
+ +      -0.2875 * (normalized) 516
+ +      -0.2507 * (normalized) 518
+ +      -0.0262 * (normalized) 527
+ +      -0.2894 * (normalized) 531.8666667
+ +      -0.3344 * (normalized) 534.4
+ +      -0.2545 * (normalized) 566.5
+ +      -0.204  * (normalized) 567.0666667
+ +      -0.0247 * (normalized) 588
+ +      -0.0119 * (normalized) 610.3
+ +      -0.0256 * (normalized) 670
+ +       0.0376 * (normalized) 670.8
+ +      -0.208  * (normalized) 704.6666667
+ +       1.0034
+
+Number of kernel evaluations: 225 (75.193% cached)
+
+Classifier for classes: New Mexico, Maine
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.8459 * (normalized) 263.1
+ +      -0.1009 * (normalized) 279.5333333
+ +      -0.2787 * (normalized) 288
+ +       0.0635 * (normalized) 288.1333333
+ +       0.1597 * (normalized) 308.2
+ +       0.2819 * (normalized) 309.3
+ +      -0.2836 * (normalized) 313.0666667
+ +      -0.3157 * (normalized) 316.2333333
+ +      -0.2886 * (normalized) 334.2333333
+ +      -0.3632 * (normalized) 335
+ +       0.3199 * (normalized) 365
+ +       0.3942 * (normalized) 368
+ +      -0.0467 * (normalized) 371
+ +      -0.1497 * (normalized) 371.3666667
+ +      -0.3145 * (normalized) 373
+ +       0.7414 * (normalized) 373.5
+ +       0.377  * (normalized) 375
+ +       0.4952 * (normalized) 379.5333333
+ +       0.2548 * (normalized) 380
+ +       0.2052 * (normalized) 380.1666667
+ +      -0.4024 * (normalized) 388
+ +       0.1906 * (normalized) 389.3666667
+ +       0.2103 * (normalized) 390.5333333
+ +      -0.1699 * (normalized) 393
+ +       1.1255 * (normalized) 396
+ +       0.0064 * (normalized) 397.7
+ +      -0.7956 * (normalized) 401.8
+ +      -0.7059 * (normalized) 403
+ +      -0.0787 * (normalized) 406
+ +       0.1858 * (normalized) 408.4666667
+ +       0.0566 * (normalized) 420.5333333
+ +       0.2712 * (normalized) 421.3666667
+ +      -0.3246 * (normalized) 422
+ +       0.3163 * (normalized) 425.5
+ +       1.1015 * (normalized) 427.1
+ +      -0.0447 * (normalized) 428.5666667
+ +      -0.3357 * (normalized) 428.9
+ +      -0.277  * (normalized) 430
+ +      -0.2636 * (normalized) 432
+ +       0.8184 * (normalized) 432.5
+ +       0.0159 * (normalized) 443.7
+ +      -0.2837 * (normalized) 445
+ +      -0.5672 * (normalized) 445.3666667
+ +      -0.4306 * (normalized) 453
+ +      -0.4415 * (normalized) 453.6
+ +      -0.217  * (normalized) 455
+ +      -0.1931 * (normalized) 457.3333333
+ +       0.3908 * (normalized) 466.6
+ +       0.0407 * (normalized) 468
+ +      -0.4897 * (normalized) 474
+ +      -0.7269 * (normalized) 475.4
+ +      -0.2179 * (normalized) 476
+ +      -0.9707 * (normalized) 476.2666667
+ +      -0.8759 * (normalized) 482.5
+ +       0.0071 * (normalized) 483.8
+ +      -0.3146 * (normalized) 498.1333333
+ +       0.2324 * (normalized) 501.8
+ +       0.0238 * (normalized) 507.9333333
+ +       0.2286 * (normalized) 516
+ +       0.2231 * (normalized) 518
+ +       0.4929 * (normalized) 527
+ +       0.2549 * (normalized) 531.8666667
+ +       0.2183 * (normalized) 534.4
+ +       0.2506 * (normalized) 566.5
+ +       0.5885 * (normalized) 567.0666667
+ +       0.2525 * (normalized) 588
+ +       0.5753 * (normalized) 610.3
+ +       0.2497 * (normalized) 670
+ +       1.1088 * (normalized) 670.8
+ +       0.0147 * (normalized) 704.6666667
+ -       1.0396
+
+Number of kernel evaluations: 867 (87.695% cached)
+
+Classifier for classes: Colorado, Bolivia
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0362 * (normalized) 263.1
+ +       0.729  * (normalized) 279.5333333
+ +      -0.2377 * (normalized) 288
+ +      -0.7287 * (normalized) 288.1333333
+ +      -0.4634 * (normalized) 308.2
+ +      -0.586  * (normalized) 309.3
+ +      -0.6591 * (normalized) 313.0666667
+ +       0.3378 * (normalized) 316.2333333
+ +       0.4518 * (normalized) 334.2333333
+ +       0.5871 * (normalized) 335
+ +      -0.2707 * (normalized) 365
+ +      -0.0827 * (normalized) 368
+ +      -0.1802 * (normalized) 371
+ +      -0.3489 * (normalized) 371.3666667
+ +       0.0032 * (normalized) 373
+ +       0.0525 * (normalized) 373.5
+ +      -0.0933 * (normalized) 375
+ +      -0.1841 * (normalized) 379.5333333
+ +      -0.2493 * (normalized) 380
+ +      -0.3547 * (normalized) 380.1666667
+ +      -0.1209 * (normalized) 388
+ +      -0.3466 * (normalized) 389.3666667
+ +      -1.0279 * (normalized) 390.5333333
+ +       0.0438 * (normalized) 393
+ +      -1.1333 * (normalized) 396
+ +      -0.2933 * (normalized) 397.7
+ +      -0.2802 * (normalized) 401.8
+ +      -0.4041 * (normalized) 403
+ +      -0.2261 * (normalized) 406
+ +      -0.3098 * (normalized) 408.4666667
+ +      -0.355  * (normalized) 420.5333333
+ +      -0.5002 * (normalized) 421.3666667
+ +      -0.3461 * (normalized) 422
+ +      -0.1944 * (normalized) 425.5
+ +       0.0547 * (normalized) 427.1
+ +       0.1455 * (normalized) 428.5666667
+ +       0.1941 * (normalized) 428.9
+ +       0.4087 * (normalized) 430
+ +      -0.0266 * (normalized) 432
+ +       0.0532 * (normalized) 432.5
+ +      -0.2617 * (normalized) 443.7
+ +       0.1699 * (normalized) 445
+ +       0.1862 * (normalized) 445.3666667
+ +      -0.0504 * (normalized) 453
+ +       0.4456 * (normalized) 453.6
+ +       0.1937 * (normalized) 455
+ +      -0.3671 * (normalized) 457.3333333
+ +      -0.3169 * (normalized) 466.6
+ +      -0.417  * (normalized) 468
+ +      -0.2328 * (normalized) 474
+ +      -0.2325 * (normalized) 475.4
+ +       0.1226 * (normalized) 476
+ +      -0.2455 * (normalized) 476.2666667
+ +      -0.203  * (normalized) 482.5
+ +      -0.2048 * (normalized) 483.8
+ +       0.4767 * (normalized) 498.1333333
+ +      -0.2307 * (normalized) 501.8
+ +      -0.2595 * (normalized) 507.9333333
+ +      -0.2659 * (normalized) 516
+ +      -0.0723 * (normalized) 518
+ +      -0.0104 * (normalized) 527
+ +      -0.2532 * (normalized) 531.8666667
+ +      -0.3104 * (normalized) 534.4
+ +      -0.2053 * (normalized) 566.5
+ +      -0.1613 * (normalized) 567.0666667
+ +      -0.1179 * (normalized) 588
+ +      -0.0012 * (normalized) 610.3
+ +       0.1123 * (normalized) 670
+ +       0.331  * (normalized) 670.8
+ +      -0.073  * (normalized) 704.6666667
+ +       1.039 
+
+Number of kernel evaluations: 235 (88.718% cached)
+
+Classifier for classes: Colorado, Maine
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.6924 * (normalized) 263.1
+ +       0.1277 * (normalized) 279.5333333
+ +       0.2982 * (normalized) 288
+ +       0.5849 * (normalized) 288.1333333
+ +       0.1309 * (normalized) 308.2
+ +       0.3324 * (normalized) 309.3
+ +       0.0143 * (normalized) 313.0666667
+ +       0.1821 * (normalized) 316.2333333
+ +       0.09   * (normalized) 334.2333333
+ +       0.064  * (normalized) 335
+ +       0.1515 * (normalized) 365
+ +      -0.1647 * (normalized) 368
+ +      -0.0023 * (normalized) 371
+ +      -0.0919 * (normalized) 371.3666667
+ +      -0.2575 * (normalized) 373
+ +      -0.0091 * (normalized) 373.5
+ +      -0.0899 * (normalized) 375
+ +       0.0366 * (normalized) 379.5333333
+ +       0.0517 * (normalized) 380
+ +      -0.0056 * (normalized) 380.1666667
+ +      -0.2147 * (normalized) 388
+ +      -0.0258 * (normalized) 389.3666667
+ +       0.1476 * (normalized) 390.5333333
+ +       0.1671 * (normalized) 393
+ +       0.489  * (normalized) 396
+ +      -0.0782 * (normalized) 397.7
+ +      -0.5021 * (normalized) 401.8
+ +      -0.5314 * (normalized) 403
+ +      -0.0131 * (normalized) 406
+ +      -0.022  * (normalized) 408.4666667
+ +      -0.0263 * (normalized) 420.5333333
+ +      -0.1709 * (normalized) 421.3666667
+ +      -0.411  * (normalized) 422
+ +       0.1128 * (normalized) 425.5
+ +       0.0125 * (normalized) 427.1
+ +       0.0434 * (normalized) 428.5666667
+ +      -0.0457 * (normalized) 428.9
+ +       0.0151 * (normalized) 430
+ +      -0.1259 * (normalized) 432
+ +       0.0491 * (normalized) 432.5
+ +      -0.0075 * (normalized) 443.7
+ +      -0.0765 * (normalized) 445
+ +      -0.1254 * (normalized) 445.3666667
+ +      -0.0909 * (normalized) 453
+ +       0.0182 * (normalized) 453.6
+ +      -0.1164 * (normalized) 455
+ +      -0.0565 * (normalized) 457.3333333
+ +       0.2623 * (normalized) 466.6
+ +       0.0188 * (normalized) 468
+ +       0.0314 * (normalized) 474
+ +      -0.298  * (normalized) 475.4
+ +       0.0558 * (normalized) 476
+ +      -0.3634 * (normalized) 476.2666667
+ +      -0.1811 * (normalized) 482.5
+ +       0.2473 * (normalized) 483.8
+ +       0.1361 * (normalized) 498.1333333
+ +       0.3057 * (normalized) 501.8
+ +       0.2006 * (normalized) 507.9333333
+ +       0.3807 * (normalized) 516
+ +       0.4156 * (normalized) 518
+ +       0.3442 * (normalized) 527
+ +       0.4678 * (normalized) 531.8666667
+ +       0.3515 * (normalized) 534.4
+ +       0.5579 * (normalized) 566.5
+ +       0.6981 * (normalized) 567.0666667
+ +       0.6498 * (normalized) 588
+ +       1.211  * (normalized) 610.3
+ +       1.2195 * (normalized) 670
+ +       1.4715 * (normalized) 670.8
+ +       0.8614 * (normalized) 704.6666667
+ -       2.2715
+
+Number of kernel evaluations: 724 (80.326% cached)
+
+Classifier for classes: Bolivia, Maine
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.0417 * (normalized) 263.1
+ +      -0.4928 * (normalized) 279.5333333
+ +       0.1151 * (normalized) 288
+ +       0.5212 * (normalized) 288.1333333
+ +       0.2237 * (normalized) 308.2
+ +       0.2947 * (normalized) 309.3
+ +       0.158  * (normalized) 313.0666667
+ +      -0.1885 * (normalized) 316.2333333
+ +      -0.2349 * (normalized) 334.2333333
+ +      -0.314  * (normalized) 335
+ +       0.1217 * (normalized) 365
+ +      -0.018  * (normalized) 368
+ +       0.0749 * (normalized) 371
+ +       0.1259 * (normalized) 371.3666667
+ +      -0.0496 * (normalized) 373
+ +      -0.1231 * (normalized) 373.5
+ +      -0.0267 * (normalized) 375
+ +       0.0823 * (normalized) 379.5333333
+ +       0.1085 * (normalized) 380
+ +       0.1378 * (normalized) 380.1666667
+ +       0.0414 * (normalized) 388
+ +       0.1312 * (normalized) 389.3666667
+ +       0.5723 * (normalized) 390.5333333
+ +       0.2127 * (normalized) 393
+ +       0.8036 * (normalized) 396
+ +       0.1059 * (normalized) 397.7
+ +       0.0869 * (normalized) 401.8
+ +       0.1092 * (normalized) 403
+ +       0.1208 * (normalized) 406
+ +       0.1368 * (normalized) 408.4666667
+ +       0.1648 * (normalized) 420.5333333
+ +       0.1805 * (normalized) 421.3666667
+ +       0.0816 * (normalized) 422
+ +       0.1192 * (normalized) 425.5
+ +      -0.0741 * (normalized) 427.1
+ +      -0.0293 * (normalized) 428.5666667
+ +      -0.095  * (normalized) 428.9
+ +      -0.1745 * (normalized) 430
+ +       0.0086 * (normalized) 432
+ +      -0.0577 * (normalized) 432.5
+ +       0.1255 * (normalized) 443.7
+ +      -0.053  * (normalized) 445
+ +      -0.1002 * (normalized) 445.3666667
+ +       0.062  * (normalized) 453
+ +      -0.1682 * (normalized) 453.6
+ +      -0.0989 * (normalized) 455
+ +       0.1712 * (normalized) 457.3333333
+ +       0.1777 * (normalized) 466.6
+ +       0.2227 * (normalized) 468
+ +       0.1293 * (normalized) 474
+ +       0.1234 * (normalized) 475.4
+ +      -0.0161 * (normalized) 476
+ +       0.1055 * (normalized) 476.2666667
+ +       0.0992 * (normalized) 482.5
+ +       0.1435 * (normalized) 483.8
+ +      -0.1734 * (normalized) 498.1333333
+ +       0.1585 * (normalized) 501.8
+ +       0.1461 * (normalized) 507.9333333
+ +       0.174  * (normalized) 516
+ +       0.0708 * (normalized) 518
+ +       0.0142 * (normalized) 527
+ +       0.1736 * (normalized) 531.8666667
+ +       0.202  * (normalized) 534.4
+ +       0.1804 * (normalized) 566.5
+ +       0.1765 * (normalized) 567.0666667
+ +       0.3189 * (normalized) 588
+ +       0.7545 * (normalized) 610.3
+ +       0.2615 * (normalized) 670
+ +       0.6319 * (normalized) 670.8
+ +       0.1517 * (normalized) 704.6666667
+ -       1.1415
+
+Number of kernel evaluations: 513 (81.271% cached)
+
+
+
+Time taken to build model: 0.14 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          74               78.7234 %
+Incorrectly Classified Instances        20               21.2766 %
+Kappa statistic                          0.7302
+Mean absolute error                      0.1908
+Root mean squared error                  0.2967
+Relative absolute error                 94.4403 %
+Root relative squared error             93.5128 %
+Total Number of Instances               94     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.078    0.857      1.000    0.923      0.889    0.961     0.857     DRC
+                 0.833    0.066    0.750      0.833    0.789      0.738    0.951     0.770     Keystone
+                 0.667    0.061    0.615      0.667    0.640      0.586    0.899     0.510     Pringle
+                 0.500    0.064    0.615      0.500    0.552      0.475    0.752     0.413     Custer
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     New Mexico
+                 0.500    0.000    1.000      0.500    0.667      0.703    0.568     0.511     Colorado
+                 0.333    0.000    1.000      0.333    0.500      0.571    0.872     0.387     Bolivia
+                 0.800    0.000    1.000      0.800    0.889      0.884    0.983     0.896     Maine
+Weighted Avg.    0.787    0.056    0.792      0.787    0.778      0.740    0.908     0.707     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h   <-- classified as
+ 30  0  0  0  0  0  0  0 |  a = DRC
+  0 15  2  1  0  0  0  0 |  b = Keystone
+  0  1  8  3  0  0  0  0 |  c = Pringle
+  3  4  1  8  0  0  0  0 |  d = Custer
+  0  0  0  0  3  0  0  0 |  e = New Mexico
+  0  0  1  0  0  1  0  0 |  f = Colorado
+  2  0  0  0  0  0  1  0 |  g = Bolivia
+  0  0  1  1  0  0  0  8 |  h = Maine
+

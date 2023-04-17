@@ -1,0 +1,232 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a
+Relation:     Medium All Sites Combined Data-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   13
+              279.64499
+              288.24899
+              294.96301
+              334.991
+              393.50943
+              427.62112
+              589.16156
+              656.41418
+              670.98114
+              766.65668
+              777.5863
+              795.21838
+              Type
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -3.2071759540236897
+    Node 4    -1.957291916093807
+    Node 5    1.43694735295782
+    Node 6    4.749603033738947
+    Node 7    2.4503232998605737
+    Node 8    4.8437125549227655
+    Node 9    -0.4860895662991314
+    Node 10    -2.9326298346235546
+    Node 11    -0.97386099925816
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.0975415715086645
+    Node 4    1.071192334092057
+    Node 5    -0.2681772368979511
+    Node 6    -6.770524291968926
+    Node 7    2.2620934486649755
+    Node 8    -2.2726720515896237
+    Node 9    2.8700849599789815
+    Node 10    -4.366172132075729
+    Node 11    -1.3612224343523651
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.5689338905908303
+    Node 4    2.912998936010966
+    Node 5    2.935064634858281
+    Node 6    -0.6287230597366342
+    Node 7    -1.4806283330585945
+    Node 8    -3.5238595266045447
+    Node 9    -1.9815159398801034
+    Node 10    3.4894742539228853
+    Node 11    -1.5859236771613918
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    2.0140335584770783
+    Node 4    -4.674224966040236
+    Node 5    -7.492546787639441
+    Node 6    -4.3400074467015015
+    Node 7    -5.158956344663855
+    Node 8    -5.2293253499794
+    Node 9    -3.1418211870990396
+    Node 10    -0.5189967531548741
+    Node 11    2.893965878036312
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -45.47427565356204
+    Attrib 279.64499    -5.46147432199142
+    Attrib 288.24899    1.4266639834755552
+    Attrib 294.96301    -8.226560831495462
+    Attrib 334.991    -17.397653801913133
+    Attrib 393.50943    -4.743249363491161
+    Attrib 427.62112    1.9073644708847797
+    Attrib 589.16156    34.0342374581197
+    Attrib 656.41418    0.8396796605831691
+    Attrib 670.98114    -23.82507950319066
+    Attrib 766.65668    -29.123146163815
+    Attrib 777.5863    -3.746005457796302
+    Attrib 795.21838    18.811382022620005
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    5.931416827786701
+    Attrib 279.64499    14.317731510594747
+    Attrib 288.24899    -16.318997640499752
+    Attrib 294.96301    -1.43091554785098
+    Attrib 334.991    -10.664996898489
+    Attrib 393.50943    4.695431217930529
+    Attrib 427.62112    9.003752585770675
+    Attrib 589.16156    -5.5797869132604525
+    Attrib 656.41418    0.9667444919025571
+    Attrib 670.98114    -1.3674888017227775
+    Attrib 766.65668    23.767359367612716
+    Attrib 777.5863    -11.06192143858239
+    Attrib 795.21838    6.98636273163885
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    44.12830524984881
+    Attrib 279.64499    -10.67417237903762
+    Attrib 288.24899    1.6077654249220368
+    Attrib 294.96301    -1.3994276103832493
+    Attrib 334.991    21.487219231164065
+    Attrib 393.50943    0.22662715380501977
+    Attrib 427.62112    -17.453690943536255
+    Attrib 589.16156    18.771182680140253
+    Attrib 656.41418    4.7756331558699525
+    Attrib 670.98114    34.62384310176835
+    Attrib 766.65668    0.6428261869250128
+    Attrib 777.5863    -23.286317337753168
+    Attrib 795.21838    18.55847902331842
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    10.413728208684516
+    Attrib 279.64499    -27.27142486196136
+    Attrib 288.24899    19.412875226392565
+    Attrib 294.96301    19.285309381947382
+    Attrib 334.991    15.19508978702134
+    Attrib 393.50943    13.84505316014236
+    Attrib 427.62112    -12.425518293681693
+    Attrib 589.16156    6.971110108826466
+    Attrib 656.41418    12.43768024463238
+    Attrib 670.98114    -0.648430512026136
+    Attrib 766.65668    -21.244705887197224
+    Attrib 777.5863    -14.970758209627812
+    Attrib 795.21838    -1.7447421059597727
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -21.828249515579362
+    Attrib 279.64499    7.530192661041756
+    Attrib 288.24899    -18.738891433952016
+    Attrib 294.96301    -10.769435786180878
+    Attrib 334.991    11.524630327459562
+    Attrib 393.50943    3.8922839875362163
+    Attrib 427.62112    46.92409974958958
+    Attrib 589.16156    -3.301821634395544
+    Attrib 656.41418    -3.0200909531605187
+    Attrib 670.98114    0.37883882471349617
+    Attrib 766.65668    -39.82660154236942
+    Attrib 777.5863    -11.892524545484143
+    Attrib 795.21838    -1.7291624733789637
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -52.54901992823915
+    Attrib 279.64499    5.9066039322240815
+    Attrib 288.24899    11.703066042291763
+    Attrib 294.96301    2.7443426977897367
+    Attrib 334.991    4.473232558966071
+    Attrib 393.50943    6.914598963276922
+    Attrib 427.62112    8.215485912901656
+    Attrib 589.16156    16.684994287723665
+    Attrib 656.41418    -1.372573196468485
+    Attrib 670.98114    -66.35075938708574
+    Attrib 766.65668    -16.344605486249925
+    Attrib 777.5863    -4.648386965786116
+    Attrib 795.21838    -13.54004857693921
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -8.401575811533386
+    Attrib 279.64499    4.437048824112009
+    Attrib 288.24899    9.653483662189345
+    Attrib 294.96301    -6.495001165872302
+    Attrib 334.991    -4.641361509009298
+    Attrib 393.50943    5.531873333343413
+    Attrib 427.62112    2.333858142309283
+    Attrib 589.16156    1.0673612221099305
+    Attrib 656.41418    -16.45602024698752
+    Attrib 670.98114    8.082899220573376
+    Attrib 766.65668    6.180745063042367
+    Attrib 777.5863    -7.4957691632537
+    Attrib 795.21838    7.009164487864666
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    6.7404749656380885
+    Attrib 279.64499    -0.6066283798517909
+    Attrib 288.24899    0.7797639297317315
+    Attrib 294.96301    18.08935636473323
+    Attrib 334.991    3.6039996899384037
+    Attrib 393.50943    -53.07119497077725
+    Attrib 427.62112    2.7125811590174567
+    Attrib 589.16156    1.2125074564578142
+    Attrib 656.41418    -3.1061361032259405
+    Attrib 670.98114    34.098805479400944
+    Attrib 766.65668    -6.393632631565777
+    Attrib 777.5863    -9.14222770383393
+    Attrib 795.21838    19.044884529371203
+Class Shoreline
+    Input
+    Node 0
+Class Dunes
+    Input
+    Node 1
+Class Sediment Deposit
+    Input
+    Node 2
+Class Beach
+    Input
+    Node 3
+
+
+Time taken to build model: 16.24 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        5646               73.4965 %
+Incorrectly Classified Instances      2036               26.5035 %
+Kappa statistic                          0.6319
+Mean absolute error                      0.1851
+Root mean squared error                  0.3127
+Relative absolute error                 50.6949 %
+Root relative squared error             73.1954 %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.827    0.097    0.727      0.827    0.774      0.699    0.933     0.799     Shoreline
+                 0.585    0.090    0.659      0.585    0.620      0.517    0.856     0.636     Dunes
+                 0.468    0.042    0.694      0.468    0.559      0.502    0.808     0.597     Sediment Deposit
+                 0.894    0.136    0.789      0.894    0.838      0.740    0.939     0.893     Beach
+Weighted Avg.    0.735    0.100    0.728      0.735    0.726      0.639    0.896     0.761     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1512  195   55   67 |    a = Shoreline
+  302 1032  131  298 |    b = Dunes
+  182  207  608  302 |    c = Sediment Deposit
+   84  131   82 2494 |    d = Beach
+

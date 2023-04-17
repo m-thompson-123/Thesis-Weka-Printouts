@@ -1,0 +1,117 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Medium Reduced Rock Data No Unknowns-weka.filters.unsupervised.attribute.Remove-R2-3-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    470
+Attributes:   71
+              ﻿Binary Type
+              263.1
+              279.5333333
+              288
+              288.1333333
+              308.2
+              309.3
+              313.0666667
+              316.2333333
+              334.2333333
+              335
+              365
+              368
+              371
+              371.3666667
+              373
+              373.5
+              375
+              379.5333333
+              380
+              380.1666667
+              388
+              389.3666667
+              390.5333333
+              393
+              396
+              397.7
+              401.8
+              403
+              406
+              408.4666667
+              420.5333333
+              421.3666667
+              422
+              425.5
+              427.1
+              428.5666667
+              428.9
+              430
+              432
+              432.5
+              443.7
+              445
+              445.3666667
+              453
+              453.6
+              455
+              457.3333333
+              466.6
+              468
+              474
+              475.4
+              476
+              476.2666667
+              482.5
+              483.8
+              498.1333333
+              501.8
+              507.9333333
+              516
+              518
+              527
+              531.8666667
+              534.4
+              566.5
+              567.0666667
+              588
+              610.3
+              670
+              670.8
+              704.6666667
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 0.05 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          93               98.9362 %
+Incorrectly Classified Instances         1                1.0638 %
+Kappa statistic                          0.9757
+Mean absolute error                      0.0251
+Root mean squared error                  0.1008
+Relative absolute error                  5.7598 %
+Root relative squared error             21.6268 %
+Total Number of Instances               94     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.016    0.968      1.000    0.984      0.976    1.000     0.999     DRC
+                 0.984    0.000    1.000      0.984    0.992      0.976    1.000     1.000     Not DRC
+Weighted Avg.    0.989    0.005    0.990      0.989    0.989      0.976    1.000     0.999     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 30  0 |  a = DRC
+  1 63 |  b = Not DRC
+

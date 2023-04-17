@@ -1,0 +1,198 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     Medium Reduced Rock Data No Unknowns-weka.filters.unsupervised.attribute.Remove-R2-3-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    470
+Attributes:   71
+              ﻿Binary Type
+              263.1
+              279.5333333
+              288
+              288.1333333
+              308.2
+              309.3
+              313.0666667
+              316.2333333
+              334.2333333
+              335
+              365
+              368
+              371
+              371.3666667
+              373
+              373.5
+              375
+              379.5333333
+              380
+              380.1666667
+              388
+              389.3666667
+              390.5333333
+              393
+              396
+              397.7
+              401.8
+              403
+              406
+              408.4666667
+              420.5333333
+              421.3666667
+              422
+              425.5
+              427.1
+              428.5666667
+              428.9
+              430
+              432
+              432.5
+              443.7
+              445
+              445.3666667
+              453
+              453.6
+              455
+              457.3333333
+              466.6
+              468
+              474
+              475.4
+              476
+              476.2666667
+              482.5
+              483.8
+              498.1333333
+              501.8
+              507.9333333
+              516
+              518
+              527
+              531.8666667
+              534.4
+              566.5
+              567.0666667
+              588
+              610.3
+              670
+              670.8
+              704.6666667
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: DRC, Not DRC
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         1.7759 * (normalized) 263.1
+ +       1.2595 * (normalized) 279.5333333
+ +       0.4669 * (normalized) 288
+ +       0.6262 * (normalized) 288.1333333
+ +       0.6451 * (normalized) 308.2
+ +       0.7619 * (normalized) 309.3
+ +       0.8396 * (normalized) 313.0666667
+ +       0.4896 * (normalized) 316.2333333
+ +       0.4495 * (normalized) 334.2333333
+ +       0.4275 * (normalized) 335
+ +       0.4729 * (normalized) 365
+ +       0.7559 * (normalized) 368
+ +       0.3892 * (normalized) 371
+ +       0.2726 * (normalized) 371.3666667
+ +       0.0921 * (normalized) 373
+ +       1.2946 * (normalized) 373.5
+ +       0.5774 * (normalized) 375
+ +       0.4181 * (normalized) 379.5333333
+ +       0.3983 * (normalized) 380
+ +       0.3525 * (normalized) 380.1666667
+ +       0.1122 * (normalized) 388
+ +       0.355  * (normalized) 389.3666667
+ +       0.3729 * (normalized) 390.5333333
+ +       0.301  * (normalized) 393
+ +       0.7066 * (normalized) 396
+ +       0.3636 * (normalized) 397.7
+ +      -0.094  * (normalized) 401.8
+ +       0.2196 * (normalized) 403
+ +      -0.1376 * (normalized) 406
+ +       0.2451 * (normalized) 408.4666667
+ +       0.2932 * (normalized) 420.5333333
+ +       0.3    * (normalized) 421.3666667
+ +       0.4614 * (normalized) 422
+ +       0.2387 * (normalized) 425.5
+ +       0.9929 * (normalized) 427.1
+ +       0.026  * (normalized) 428.5666667
+ +       0.229  * (normalized) 428.9
+ +       0.3498 * (normalized) 430
+ +       0.2095 * (normalized) 432
+ +       0.7627 * (normalized) 432.5
+ +       0.168  * (normalized) 443.7
+ +       0.0831 * (normalized) 445
+ +       0.1666 * (normalized) 445.3666667
+ +      -0.4869 * (normalized) 453
+ +      -0.3113 * (normalized) 453.6
+ +       0.0984 * (normalized) 455
+ +      -0.0246 * (normalized) 457.3333333
+ +       0.3291 * (normalized) 466.6
+ +      -0.7984 * (normalized) 468
+ +      -0.3276 * (normalized) 474
+ +       0.0035 * (normalized) 475.4
+ +      -0.4579 * (normalized) 476
+ +      -0.0934 * (normalized) 476.2666667
+ +       0.2469 * (normalized) 482.5
+ +      -0.2342 * (normalized) 483.8
+ +       0.1211 * (normalized) 498.1333333
+ +      -0.4691 * (normalized) 501.8
+ +      -0.2865 * (normalized) 507.9333333
+ +      -0.1125 * (normalized) 516
+ +      -0.2752 * (normalized) 518
+ +       0.6206 * (normalized) 527
+ +      -0.1139 * (normalized) 531.8666667
+ +       0.2846 * (normalized) 534.4
+ +      -0.1119 * (normalized) 566.5
+ +      -0.2507 * (normalized) 567.0666667
+ +      -0.6114 * (normalized) 588
+ +       0.2066 * (normalized) 610.3
+ +      -0.2559 * (normalized) 670
+ +       0.755  * (normalized) 670.8
+ +       0.0112 * (normalized) 704.6666667
+ -       1.0798
+
+Number of kernel evaluations: 2849 (71.826% cached)
+
+
+
+Time taken to build model: 0.04 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.05 seconds
+
+=== Summary ===
+
+Correctly Classified Instances          89               94.6809 %
+Incorrectly Classified Instances         5                5.3191 %
+Kappa statistic                          0.8828
+Mean absolute error                      0.0532
+Root mean squared error                  0.2306
+Relative absolute error                 12.203  %
+Root relative squared error             49.4749 %
+Total Number of Instances               94     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.078    0.857      1.000    0.923      0.889    0.961     0.857     DRC
+                 0.922    0.000    1.000      0.922    0.959      0.889    0.961     0.975     Not DRC
+Weighted Avg.    0.947    0.025    0.954      0.947    0.948      0.889    0.961     0.937     
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 30  0 |  a = DRC
+  5 59 |  b = Not DRC
+

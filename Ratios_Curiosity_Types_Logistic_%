@@ -1,0 +1,119 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     Medium All Sites Combined Data with Ratios-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   21
+              279.64499
+              288.24899
+              294.96301
+              334.991
+              393.50943
+              427.62112
+              589.16156
+              656.41418
+              670.98114
+              766.65668
+              777.5863
+              795.21838
+              Type
+              K/Rb
+              K/Na
+              Ti/K
+              Ca/Ti
+              Mg/Ti
+              Ca/H
+              Mg/H
+              O/Mn
+Test mode:    split 80.0% train, remainder test
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                             Class
+Variable                 Shoreline                  Dunes       Sediment Deposit
+================================================================================
+279.64499                  -7.5853                -0.0978                -1.4374
+288.24899                   7.2444                 9.3217                 4.1982
+294.96301                   4.8821                 1.6958                -2.6723
+334.991                   -10.4477               -34.1471               -21.5548
+393.50943                   6.0214                 5.5909                -0.3431
+427.62112                  13.3945                 9.3416                  7.263
+589.16156                   20.013                13.6698                15.7923
+656.41418                   1.5004                 0.1811                  3.057
+670.98114                  -0.5336               -60.6376                -4.8766
+766.65668                 -16.8777                -9.2207               -12.2979
+777.5863                  -16.0563                 3.3693                 -3.415
+795.21838                   5.1153                -5.4867                10.6354
+K/Rb                       18.0771                13.6123                   20.8
+K/Na                       -2.4677               -12.9609                 0.6501
+Ti/K                       62.8866                58.2612                60.5472
+Ca/Ti                      -2.4331                 5.0989                 5.7751
+Mg/Ti                      20.0201                 -9.493                13.1316
+Ca/H                        20.657                13.2498                25.7871
+Mg/H                      -15.0861                -6.3497                -9.5955
+O/Mn                        0.0509                 0.0191                 0.0194
+Intercept                  -9.8593                -7.4758               -14.0168
+
+
+Odds Ratios...
+                             Class
+Variable                 Shoreline                  Dunes       Sediment Deposit
+================================================================================
+279.64499                   0.0005                 0.9068                 0.2375
+288.24899                 1400.304             11178.0423                66.5663
+294.96301                 131.9074                  5.451                 0.0691
+334.991                          0                      0                      0
+393.50943                 412.1608               267.9676                 0.7095
+427.62112              656392.1677             11402.4153               1426.492
+589.16156           491526664.7664            864381.0145           7219222.9537
+656.41418                   4.4834                 1.1985                21.2639
+670.98114                   0.5865                      0                 0.0076
+766.65668                        0                 0.0001                      0
+777.5863                         0                29.0578                 0.0329
+795.21838                 166.5515                 0.0041             41580.1206
+K/Rb                 70922443.4279            816139.8783        1079702165.9957
+K/Na                        0.0848                      0                 1.9157
+Ti/K         2.0478327855360036E27   2.006847831411524E25  1.9739159687268723E26
+Ca/Ti                       0.0878               163.8398               322.1623
+Mg/Ti                495011090.733                 0.0001            504615.7651
+Ca/H                935901979.7998            567963.9282  1.5819239755422314E11
+Mg/H                             0                 0.0017                 0.0001
+O/Mn                        1.0522                 1.0193                 1.0196
+
+
+Time taken to build model: 1.12 seconds
+
+=== Evaluation on test split ===
+
+Time taken to test model on test split: 0.01 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        1009               65.6901 %
+Incorrectly Classified Instances       527               34.3099 %
+Kappa statistic                          0.5251
+Mean absolute error                      0.2392
+Root mean squared error                  0.3463
+Relative absolute error                 65.2937 %
+Root relative squared error             80.6696 %
+Total Number of Instances             1536     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.684    0.100    0.690      0.684    0.687      0.586    0.883     0.725     Shoreline
+                 0.503    0.121    0.562      0.503    0.531      0.397    0.804     0.517     Dunes
+                 0.397    0.051    0.628      0.397    0.486      0.419    0.830     0.554     Sediment Deposit
+                 0.878    0.203    0.692      0.878    0.774      0.646    0.904     0.802     Beach
+Weighted Avg.    0.657    0.131    0.649      0.657    0.644      0.533    0.862     0.672     
+
+=== Confusion Matrix ===
+
+   a   b   c   d   <-- classified as
+ 258  71  18  30 |   a = Shoreline
+  73 182  26  81 |   b = Dunes
+  29  41 108  94 |   c = Sediment Deposit
+  14  30  20 461 |   d = Beach
+

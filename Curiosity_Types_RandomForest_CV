@@ -1,0 +1,60 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     Medium All Sites Combined Data Fixed-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   13
+              ﻿279.64499
+              288.24899
+              294.96301
+              334.991
+              393.50943
+              427.62112
+              589.16156
+              656.41418
+              670.98114
+              766.65668
+              777.5863
+              795.21838
+              Type
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 6.11 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        6219               80.9555 %
+Incorrectly Classified Instances      1463               19.0445 %
+Kappa statistic                          0.7368
+Mean absolute error                      0.1686
+Root mean squared error                  0.2667
+Relative absolute error                 46.1949 %
+Root relative squared error             62.4364 %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.857    0.060    0.817      0.857    0.837      0.784    0.973     0.918     Shoreline
+                 0.714    0.070    0.753      0.714    0.733      0.656    0.932     0.826     Dunes
+                 0.625    0.038    0.771      0.625    0.690      0.640    0.927     0.782     Sediment Deposit
+                 0.925    0.094    0.849      0.925    0.885      0.817    0.975     0.956     Beach
+Weighted Avg.    0.810    0.071    0.806      0.810    0.806      0.743    0.957     0.888     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+ 1567  147   62   53 |    a = Shoreline
+  181 1259  124  199 |    b = Dunes
+  133  148  812  206 |    c = Sediment Deposit
+   36  119   55 2581 |    d = Beach
+

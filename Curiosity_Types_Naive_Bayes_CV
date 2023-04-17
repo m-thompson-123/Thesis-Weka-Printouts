@@ -1,0 +1,134 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     Medium All Sites Combined Data-weka.filters.unsupervised.attribute.Remove-R13-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7682
+Attributes:   13
+              279.64499
+              288.24899
+              294.96301
+              334.991
+              393.50943
+              427.62112
+              589.16156
+              656.41418
+              670.98114
+              766.65668
+              777.5863
+              795.21838
+              Type
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                          Class
+Attribute             Shoreline            Dunes Sediment Deposit            Beach
+                         (0.24)           (0.23)           (0.17)           (0.36)
+===================================================================================
+279.64499
+  mean                    0.2706           0.3119           0.3808           0.3418
+  std. dev.               0.1639           0.1439           0.1665           0.0917
+  weight sum                1829             1763             1299             2791
+  precision               0.0005           0.0005           0.0005           0.0005
+
+288.24899
+  mean                    0.3657           0.4005           0.4643           0.3628
+  std. dev.               0.1727           0.1533           0.1922           0.1073
+  weight sum                1829             1763             1299             2791
+  precision               0.0005           0.0005           0.0005           0.0005
+
+294.96301
+  mean                    0.0649            0.058           0.0724           0.0678
+  std. dev.               0.0602           0.0333           0.0415           0.0416
+  weight sum                1829             1763             1299             2791
+  precision               0.0003           0.0003           0.0003           0.0003
+
+334.991
+  mean                    0.1187           0.0893            0.104           0.0806
+  std. dev.               0.0801           0.0419           0.0643           0.0309
+  weight sum                1829             1763             1299             2791
+  precision               0.0004           0.0004           0.0004           0.0004
+
+393.50943
+  mean                     0.167           0.1844           0.2199           0.1273
+  std. dev.               0.0911           0.1029           0.1213            0.082
+  weight sum                1829             1763             1299             2791
+  precision               0.0005           0.0005           0.0005           0.0005
+
+427.62112
+  mean                    0.2376           0.2015           0.2326           0.1693
+  std. dev.               0.1752           0.0911           0.1062           0.0608
+  weight sum                1829             1763             1299             2791
+  precision               0.0002           0.0002           0.0002           0.0002
+
+589.16156
+  mean                    0.1957           0.1986           0.2548            0.179
+  std. dev.               0.1096           0.0845           0.1162           0.0571
+  weight sum                1829             1763             1299             2791
+  precision               0.0005           0.0005           0.0005           0.0005
+
+656.41418
+  mean                    0.1053           0.1076           0.1104           0.0868
+  std. dev.               0.0976           0.0935           0.1135           0.0685
+  weight sum                1829             1763             1299             2791
+  precision               0.0001           0.0001           0.0001           0.0001
+
+670.98114
+  mean                    0.0312           0.0199           0.0384           0.0333
+  std. dev.               0.0667           0.0357           0.0293           0.0559
+  weight sum                1829             1763             1299             2791
+  precision               0.0001           0.0001           0.0001           0.0001
+
+766.65668
+  mean                    0.0992           0.1019           0.1628           0.1235
+  std. dev.               0.0626           0.0555           0.0939           0.0464
+  weight sum                1829             1763             1299             2791
+  precision               0.0004           0.0004           0.0004           0.0004
+
+777.5863
+  mean                    0.2956           0.3478           0.4433           0.3354
+  std. dev.               0.1341           0.1156           0.1548           0.0951
+  weight sum                1829             1763             1299             2791
+  precision               0.0005           0.0005           0.0005           0.0005
+
+795.21838
+  mean                    0.3206           0.3586           0.4713           0.3711
+  std. dev.               0.1406           0.1144           0.1501           0.0974
+  weight sum                1829             1763             1299             2791
+  precision               0.0001           0.0001           0.0001           0.0001
+
+
+
+Time taken to build model: 0.05 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        4141               53.9052 %
+Incorrectly Classified Instances      3541               46.0948 %
+Kappa statistic                          0.362 
+Mean absolute error                      0.2424
+Root mean squared error                  0.4095
+Relative absolute error                 66.3919 %
+Root relative squared error             95.8449 %
+Total Number of Instances             7682     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.406    0.082    0.607      0.406    0.487      0.377    0.842     0.582     Shoreline
+                 0.362    0.176    0.380      0.362    0.371      0.190    0.678     0.378     Dunes
+                 0.505    0.124    0.453      0.505    0.478      0.365    0.762     0.503     Sediment Deposit
+                 0.754    0.251    0.631      0.754    0.687      0.488    0.838     0.781     Beach
+Weighted Avg.    0.539    0.172    0.538      0.539    0.531      0.372    0.790     0.594     
+
+=== Confusion Matrix ===
+
+    a    b    c    d   <-- classified as
+  743  568  281  237 |    a = Shoreline
+  187  638  314  624 |    b = Dunes
+  111  164  656  368 |    c = Sediment Deposit
+  183  307  197 2104 |    d = Beach
+
